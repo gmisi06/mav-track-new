@@ -1,0 +1,5 @@
+export enum WheelchairBoarding {
+  NO_INFORMATION = 'NO_INFORMATION',
+  POSSIBLE = 'POSSIBLE',
+  NOT_POSSIBLE = 'NOT_POSSIBLE',
+}

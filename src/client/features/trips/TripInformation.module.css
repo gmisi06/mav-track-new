@@ -1,0 +1,81 @@
+.notSelected {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #0057be;
+  font-weight: bold;
+}
+
+.content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.delay {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f4f2f5;
+}
+
+.arrivalTitle {
+  text-align: right;
+}
+
+.lineTitle {
+  padding: 0 20px;
+}
+
+.departureTitle {
+  text-align: "left";
+}
+
+.arrivalRealtime {
+  text-align: right;
+  text-decoration: line-through;
+  font-size: 0.95em;
+}
+
+.lineRealtime {
+  position: relative;
+}
+
+.departureRealtime {
+  text-decoration: line-through;
+  font-size: 0.95em;
+}
+
+.arrivalTime {
+  text-align: right;
+}
+
+.departureTime {
+  text-align: left;
+}
+
+.lineDetails {
+  position: relative;
+}
+
+.departureDetails {
+  min-height: 25px;
+  padding: 10px;
+  color: #7a8796;
+}
+
+.services {
+  margin-bottom: 30px;
+}
+
+.serviceIcon {
+  width: 50px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.serviceStops {
+  color: #7a8796;
+}

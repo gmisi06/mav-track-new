@@ -1,0 +1,93 @@
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  background-color: #0057be;
+  z-index: -1;
+}
+
+.vehicle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.routeStopContainer {
+  position: relative;
+}
+
+.routeStopLine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 25px;
+  background-color: #0057be;
+  z-index: -1;
+}
+
+.routeStop {
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 4px solid #737373;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+
+.delayedTime {
+  color: #d92923;
+}
+
+.onTime {
+  color: #028602;
+}
+
+.routeShortNameContainer {
+  width: 35px;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.routeShortNameText {
+  z-index: 10;
+  position: relative;
+  height: 16px;
+  margin-top: 3px;
+  font-size: 1.1rem;
+}
+
+.routeShortNameBackground {
+  width: 34px;
+  height: 16px;
+  position: absolute;
+  z-index: -1;
+  top: 4;
+  left: 0;
+  border-radius: 2px;
+}
+
+.first {
+  top: 0;
+}
+
+.last {
+  top: -100%;
+}
+
+.notFirstOrLast {
+  top: -20%;
+}

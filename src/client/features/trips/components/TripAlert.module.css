@@ -1,0 +1,14 @@
+.alertTitle {
+  color: red;
+  font-size: 1.1em;
+}
+
+.bikesContainer {
+  background-color: #f4f2f5;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.bikesTitle {
+  font-size: 1.1em;
+}

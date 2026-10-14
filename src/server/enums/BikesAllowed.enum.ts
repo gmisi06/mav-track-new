@@ -1,0 +1,5 @@
+export enum BikesAllowed {
+  NO_INFORMATION = 'NO_INFORMATION',
+  ALLOWED = 'ALLOWED',
+  NOT_ALLOWED = 'NOT_ALLOWED',
+}

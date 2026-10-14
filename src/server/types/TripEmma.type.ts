@@ -1,0 +1,76 @@
+import { Alert } from './Alert.type';
+import { Pattern } from './Pattern.type';
+import { Route } from './Route.types';
+import { Stop } from './Stop.type';
+import { Stoptime } from './Stoptime.type';
+import { VehiclePositionEmma } from './VehiclePositionEmma.type';
+import { Geometry } from './Geometry.type';
+
+import { TripComfortLevel } from './TripComfortLevel.type';
+import { TripSalesService } from './TripSalesService.type';
+import { TripConnection } from './TripConnection.type';
+import { InfoService } from './InfoService.type';
+import { TripOccupancy } from './TripOccupancy.type';
+import { StringI18n } from './StringI18n.type';
+import { WheelchairBoarding } from '../enums/WheelchairBoarding.enum';
+import { BikesAllowed } from '@/server/enums/BikesAllowed.enum';
+
+export interface TripEmma {
+  id?: string;
+  gtfsId?: string;
+  route?: Route;
+  serviceId?: string;
+  activeDates?: string[];
+  tripShortName?: string;
+  tripHeadsign?: string;
+  routeShortName?: string;
+  directionId?: string;
+  blockId?: string;
+  shapeId?: string;
+  wheelchairAccessible?: WheelchairBoarding;
+  bikesAllowed?: BikesAllowed;
+  pattern?: Pattern;
+  stops?: Stop[];
+  semanticHash?: string;
+  stoptimes?: Stoptime[];
+  departureStoptime?: Stoptime;
+  arrivalStoptime?: Stoptime;
+  stoptimesForDate?: Stoptime[];
+  geometry?: number[][];
+  tripGeometry?: Geometry;
+  alerts?: Alert[];
+  occupancy?: TripOccupancy;
+  serviceDescriptions?: string[];
+  vehiclePositions?: VehiclePositionEmma[];
+  isThroughCoach?: boolean;
+  throughCoaches?: TripConnection[];
+  pullingTrips?: TripConnection[];
+  infoServices?: InfoService[];
+  salesServices?: TripSalesService[];
+  trackClosure?: boolean;
+  availableComfortLevels?: TripComfortLevel[];
+  tripJeBaseId?: number;
+  tripNumber?: string;
+  trainName?: string;
+  serviceDate?: string;
+  domestic?: boolean;
+  trainCategoryId?: string;
+  trainCategoryBaseId?: number;
+  trainCategoryShortName?: string;
+  trainCategoryName?: string;
+  trainCategoryNameI18n?: StringI18n[];
+  trainCategoryFontCharSet?: string;
+  trainCategoryFontCode?: number;
+  trainCategoryColor?: string;
+  trainCategoryTextColor?: string;
+  jePricingRouteId?: number;
+  domesticResTrainNumber?: string;
+  internationalResTrainNumber?: string;
+  jeTripVersionId?: number;
+  jeTripId?: number;
+
+  // Saját adattag
+  polyline?: string;
+  delay?: number;
+  nextStop?: Stop;
+}

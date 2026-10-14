@@ -1,0 +1,46 @@
+import { LocationType } from '@/server/enums/LocationType.enum';
+import { Stoptime } from './Stoptime.type';
+import { WheelchairBoarding } from '@/server/enums/WheelchairBoarding.enum';
+import { Mode } from '@/server/enums/Mode.enum';
+import { StopGeometries } from './StopGeometries.type';
+import { Route } from './Route.types';
+import { Cluster } from './Cluster.type';
+import { Pattern } from './Pattern.type';
+import { StopAtDistance } from './StopAtDistance.type';
+import { StoptimesInPattern } from './StoptimesInPattern.type';
+import { Alert } from './Alert.type';
+import { StationService } from './StationService.type';
+
+export interface Stop {
+  id?: string;
+  stationUicPricingCode?: string;
+  stationJeBaseId?: number;
+  stopTimesForPattern?: Stoptime[];
+  gtfsId?: string;
+  name?: string;
+  lat?: number;
+  lon?: number;
+  geometries?: StopGeometries;
+  code?: string;
+  desc?: string;
+  zoneId?: string;
+  url?: string;
+  locationType?: LocationType;
+  parentStation?: Stop;
+  wheelchairBoarding?: WheelchairBoarding;
+  direction?: string;
+  timezone?: string;
+  vehicleType?: number;
+  vehicleMode?: Mode;
+  platformCode?: string;
+  cluster?: Cluster;
+  stops?: Stop[];
+  routes?: Route[];
+  patterns?: Pattern[];
+  transfers?: StopAtDistance[];
+  stoptimesForServiceDate?: StoptimesInPattern[];
+  stoptimesForPatterns?: StoptimesInPattern[];
+  stoptimesWithoutPatterns?: Stoptime[];
+  alerts?: Alert[];
+  services?: StationService[];
+}

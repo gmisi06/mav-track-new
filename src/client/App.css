@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "MNR2007";
+  src: url("./shared/fonts/MNR2007.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSans3";
+  src: url("./shared/fonts/SourceSans3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arrows";
+  src: url("./shared/fonts/Arrows.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 1em;
+  font-family: SourceSans3, sans-serif !important;
+}
+
+.leaflet-container {
+  height: 100vh;
+  flex-grow: 1;
+  transition: width 0.3s ease;
+  z-index: 0;
+}
+
+.SourceSans3 {
+  font-family: SourceSans3, sans-serif !important;
+}
+
+.MNR2007 {
+  font-family: MNR2007, serif !important;
+}
+
+.Arrows {
+  font-family: Arrows, sans-serif !important;
+}
+
+.red {
+  background-color: red;
+}
+
+.leaflet-tooltip.tooltip {
+  opacity: 1 !important;
+  background-color: white;
+  color: black;
+  border-radius: 0;
+  padding: 6px 10px;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: absolute; /* vagy fixed, ha a teljes képernyőhöz viszonyítod */
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 600px;
+  min-width: 300px;
+  background: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  transform: translateX(100%);
+  z-index: 9;
+  overflow: auto;
+}
+
+.info-button {
+  color: black;
+  font-size: 1.1em;
+  padding: 10px;
+  background-color: #ffd400;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  background-color: #ffeb85;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar .header {
+  padding: 5px 0 0 0;
+  flex-shrink: 0; /* ne zsugorodjon */
+}
+
+.headSign {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: sticky;
+  gap: 10px;
+  top: 0;
+  /* padding: 10px 20px 30px 10px; */
+  /* background-color: white; */
+  z-index: 10;
+  font-size: 1.09em;
+}
+
+.tripLine {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.back {
+  color: #0057be;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.tripLine .point {
+  z-index: 2;
+}
+
+.tripLine .line {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  z-index: -1;
+}
+
+.tripInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.alerts {
+  margin: 20px 0;
+  background-color: #f4f2f5;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+table td,
+table th {
+  border: none;
+  padding: 0; /* ha még a térközt is nullázni akarod */
+}
+
+table th {
+  font-weight: normal;
+  font-style: italic;
+  color: #7a8796;
+  padding: 0 0 10px;
+}
+
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60vh;
+  background: #fff;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  touch-action: none;
+  z-index: 100;
+}
+
+.bottom-sheet-header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  touch-action: none;
+}
+
+.drag-handle {
+  width: 40px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #aaa;
+}
+
+.bottom-sheet-content {
+  padding: 0 1rem;
+  overflow-y: auto;
+  max-height: calc(60vh - 50px);
+}
+
+input {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #7a8796;
+  border-width: 2px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #0057be;
+}
+
+.list-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #7a8796;
+  border-width: 1px;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.list-item:hover,
+.list-item:focus {
+  border-color: #0057be;
+  background-color: #f4f2f5;
+  cursor: pointer;
+}

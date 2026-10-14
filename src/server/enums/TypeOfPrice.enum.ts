@@ -1,0 +1,6 @@
+export enum TypeOfPrice {
+  BASE_FARE = 'BASE_FARE',
+  SUPPLEMENT = 'SUPPLEMENT',
+  GLOBAL_PRICE = 'GLOBAL_PRICE',
+  OTHER = 'OTHER',
+}

@@ -1,0 +1,8276 @@
+[
+  {
+    "name": "Kyiv-Pas.",
+    "lat": 50.439444,
+    "lon": 30.488056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lviv",
+    "lat": 49.840278,
+    "lon": 23.994167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Slavsko",
+    "lat": 48.848611,
+    "lon": 23.444722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Stryi",
+    "lat": 49.259444,
+    "lon": 23.841389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mukachevo",
+    "lat": 48.429167,
+    "lon": 22.711667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Chop",
+    "lat": 48.4325,
+    "lon": 22.205556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Svaliava",
+    "lat": 48.551667,
+    "lon": 22.988056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rajka",
+    "lat": 47.995556,
+    "lon": 17.191389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vép",
+    "lat": 47.235833,
+    "lon": 16.7275,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szombathely",
+    "lat": 47.237778,
+    "lon": 16.6325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szombathely-Szőlős",
+    "lat": 47.206389,
+    "lon": 16.641667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ják-Balogunyom",
+    "lat": 47.161389,
+    "lon": 16.630556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egyházasrádóc",
+    "lat": 47.091389,
+    "lon": 16.62,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Körmend",
+    "lat": 47.016389,
+    "lon": 16.599167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csákánydoroszló",
+    "lat": 46.978333,
+    "lon": 16.499722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rátót",
+    "lat": 46.9675,
+    "lon": 16.433056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsórönök",
+    "lat": 46.964167,
+    "lon": 16.379444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentgotthárd",
+    "lat": 46.957222,
+    "lon": 16.263056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mosonszolnok",
+    "lat": 47.8525,
+    "lon": 17.160278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánossomorja",
+    "lat": 47.789167,
+    "lon": 17.1375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bősárkány",
+    "lat": 47.685556,
+    "lon": 17.234167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szil-Sopronnémeti",
+    "lat": 47.533333,
+    "lon": 17.209444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarkeresztúr-Zsebeháza",
+    "lat": 47.514167,
+    "lon": 17.176111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Páli-Vadosfa",
+    "lat": 47.4925,
+    "lon": 17.137778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Beled",
+    "lat": 47.466667,
+    "lon": 17.084444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dénesfa",
+    "lat": 47.448611,
+    "lon": 17.054722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csánig",
+    "lat": 47.430278,
+    "lon": 17.026111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Répcelak",
+    "lat": 47.418889,
+    "lon": 17.008889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vámoscsalád",
+    "lat": 47.385556,
+    "lon": 16.961667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vasegerszeg",
+    "lat": 47.375,
+    "lon": 16.928889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hegyfalu",
+    "lat": 47.357778,
+    "lon": 16.898333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pósfa",
+    "lat": 47.326944,
+    "lon": 16.855833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ölbő-Alsószeleste",
+    "lat": 47.300556,
+    "lon": 16.843056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ikrény",
+    "lat": 47.657778,
+    "lon": 17.524167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rábapatona",
+    "lat": 47.648889,
+    "lon": 17.461944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Enese",
+    "lat": 47.644167,
+    "lon": 17.425278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kóny",
+    "lat": 47.632222,
+    "lon": 17.357222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Farád",
+    "lat": 47.595278,
+    "lon": 17.195833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rábatamási",
+    "lat": 47.592778,
+    "lon": 17.161389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szárföld",
+    "lat": 47.589167,
+    "lon": 17.123889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Veszkény",
+    "lat": 47.586944,
+    "lon": 17.101389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kapuvár",
+    "lat": 47.581944,
+    "lon": 17.046944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vitnyéd-Csermajor",
+    "lat": 47.5825,
+    "lon": 16.987222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Petőháza",
+    "lat": 47.595278,
+    "lon": 16.893056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fertőszentmiklós",
+    "lat": 47.6,
+    "lon": 16.858889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pinnye",
+    "lat": 47.600278,
+    "lon": 16.768611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fertőboz",
+    "lat": 47.625,
+    "lon": 16.691667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sopron",
+    "lat": 47.677778,
+    "lon": 16.587222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fertőszéplak-Fertőd",
+    "lat": 47.618889,
+    "lon": 16.850833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kópháza",
+    "lat": 47.631389,
+    "lon": 16.6375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagycenk",
+    "lat": 47.601111,
+    "lon": 16.690278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sopronkövesd",
+    "lat": 47.548333,
+    "lon": 16.748056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lövő",
+    "lat": 47.509444,
+    "lon": 16.7775,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újkér",
+    "lat": 47.457778,
+    "lon": 16.786667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bük",
+    "lat": 47.388611,
+    "lon": 16.752222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Acsád",
+    "lat": 47.308333,
+    "lon": 16.734722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Salköveskút-Vassurány",
+    "lat": 47.291389,
+    "lon": 16.704167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sorkifalud",
+    "lat": 47.1375,
+    "lon": 16.719167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentléránt",
+    "lat": 47.12,
+    "lon": 16.735556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Püspökmolnári",
+    "lat": 47.086111,
+    "lon": 16.7675,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vasvár",
+    "lat": 47.056944,
+    "lon": 16.800278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pácsony",
+    "lat": 47.009722,
+    "lon": 16.833611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győrvár",
+    "lat": 46.99,
+    "lon": 16.840556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egervár-Vasboldogasszony",
+    "lat": 46.942222,
+    "lon": 16.862222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaszentlőrinc",
+    "lat": 46.913889,
+    "lon": 16.8775,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gencsapáti alsó",
+    "lat": 47.285833,
+    "lon": 16.6,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyöngyösfalu",
+    "lat": 47.316111,
+    "lon": 16.59,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lukácsháza",
+    "lat": 47.341111,
+    "lon": 16.580556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kőszeg",
+    "lat": 47.382222,
+    "lon": 16.556389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Horvátnádalja",
+    "lat": 47.005278,
+    "lon": 16.544444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hanságliget",
+    "lat": 47.72,
+    "lon": 17.215556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vica",
+    "lat": 47.477778,
+    "lon": 17.111944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tormásliget",
+    "lat": 47.430556,
+    "lon": 16.781667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gencsapáti felső",
+    "lat": 47.299722,
+    "lon": 16.593889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lukácsháza alsó",
+    "lat": 47.326389,
+    "lon": 16.586389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kőszegfalva",
+    "lat": 47.361667,
+    "lon": 16.567778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyöngyöshermán",
+    "lat": 47.202778,
+    "lon": 16.657222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Haris",
+    "lat": 46.964722,
+    "lon": 16.2825,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bezenye",
+    "lat": 47.973611,
+    "lon": 17.207222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kámon",
+    "lat": 47.254534,
+    "lon": 16.625769,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Warszawa Zachodnia",
+    "lat": 52.22,
+    "lon": 20.965278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Warszawa Centralna",
+    "lat": 52.228611,
+    "lon": 21.002778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Warszawa Wschodnia",
+    "lat": 52.251111,
+    "lon": 21.0525,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Opoczno Poludnie",
+    "lat": 51.361667,
+    "lon": 20.235556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wloszczowa Polnoc",
+    "lat": 50.850278,
+    "lon": 19.943056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Katowice",
+    "lat": 50.2575,
+    "lon": 19.017222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tychy",
+    "lat": 50.136944,
+    "lon": 18.964167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dabrowa Gornicza",
+    "lat": 50.330278,
+    "lon": 19.185278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sosnowiec Glowny",
+    "lat": 50.278889,
+    "lon": 19.126111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zawiercie",
+    "lat": 50.481111,
+    "lon": 19.423056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zebrzydowice",
+    "lat": 49.87,
+    "lon": 18.624722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pszczyna",
+    "lat": 49.975278,
+    "lon": 18.953333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bucureşti Nord",
+    "lat": 44.446389,
+    "lon": 26.074167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Videle",
+    "lat": 44.283889,
+    "lon": 25.5375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galateni",
+    "lat": 44.210556,
+    "lon": 25.370833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Olteni",
+    "lat": 44.190278,
+    "lon": 25.292222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rosiori Nord",
+    "lat": 44.122778,
+    "lon": 24.980278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Draganesti Olt",
+    "lat": 44.154444,
+    "lon": 24.544444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Caracal",
+    "lat": 44.119444,
+    "lon": 24.364444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Craiova",
+    "lat": 44.327778,
+    "lon": 23.817222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Filiasi",
+    "lat": 44.553056,
+    "lon": 23.510556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Strehaia Halta",
+    "lat": 44.611111,
+    "lon": 23.184722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balota",
+    "lat": 44.616667,
+    "lon": 22.8,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Drobeta Tr.Severin",
+    "lat": 44.621944,
+    "lon": 22.643889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orşova",
+    "lat": 44.73,
+    "lon": 22.416111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Băile Herculane",
+    "lat": 44.866667,
+    "lon": 22.383056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Caransebeş",
+    "lat": 45.42,
+    "lon": 22.195,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lugoj",
+    "lat": 45.68,
+    "lon": 21.896944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Timişoara Nord",
+    "lat": 45.750556,
+    "lon": 21.2075,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Codlea",
+    "lat": 45.693333,
+    "lon": 25.456667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fagaras",
+    "lat": 45.83,
+    "lon": 24.975833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sibiu",
+    "lat": 45.799722,
+    "lon": 24.161111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sebes Alba",
+    "lat": 45.963889,
+    "lon": 23.586111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vintu De Jos",
+    "lat": 45.989167,
+    "lon": 23.498056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orastie",
+    "lat": 45.861389,
+    "lon": 23.21,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Simeria",
+    "lat": 45.846389,
+    "lon": 23.014444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Deva",
+    "lat": 45.883889,
+    "lon": 22.909444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ilia",
+    "lat": 45.939722,
+    "lon": 22.657222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Savirsin",
+    "lat": 46.007778,
+    "lon": 22.2325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Radna",
+    "lat": 46.094722,
+    "lon": 21.696389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Arad",
+    "lat": 46.188889,
+    "lon": 21.324167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Curtici",
+    "lat": 46.340833,
+    "lon": 21.297778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alba Iulia",
+    "lat": 46.056111,
+    "lon": 23.576389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aradu Nou",
+    "lat": 46.143889,
+    "lon": 21.335,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ploieşti Vest",
+    "lat": 44.924444,
+    "lon": 25.994444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Campina",
+    "lat": 45.132222,
+    "lon": 25.711389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sinaia",
+    "lat": 45.353056,
+    "lon": 25.553611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Busteni",
+    "lat": 45.415833,
+    "lon": 25.537222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Azuga",
+    "lat": 45.445,
+    "lon": 25.5525,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Predeal",
+    "lat": 45.505,
+    "lon": 25.574722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Braşov",
+    "lat": 45.661944,
+    "lon": 25.613611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sighişoara",
+    "lat": 46.226111,
+    "lon": 24.795556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mediaş",
+    "lat": 46.160278,
+    "lon": 24.349444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Blaj",
+    "lat": 46.176111,
+    "lon": 23.909167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Teius",
+    "lat": 46.202778,
+    "lon": 23.690833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aiud",
+    "lat": 46.3125,
+    "lon": 23.735,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Războieni",
+    "lat": 46.411667,
+    "lon": 23.881389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Campia Turzii",
+    "lat": 46.546944,
+    "lon": 23.879167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Cluj Napoca",
+    "lat": 46.785,
+    "lon": 23.587222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Oradea",
+    "lat": 47.070556,
+    "lon": 21.935833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Episcopia Bihor",
+    "lat": 47.099722,
+    "lon": 21.876667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Salonta",
+    "lat": 46.806667,
+    "lon": 21.645278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sfântu Gheorghe",
+    "lat": 45.863056,
+    "lon": 25.81,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Băile Tuşnad",
+    "lat": 46.150833,
+    "lon": 25.860556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Miercurea Ciuc",
+    "lat": 46.359444,
+    "lon": 25.793611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Siculeni",
+    "lat": 46.428611,
+    "lon": 25.774722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Izvoru Oltului",
+    "lat": 46.567778,
+    "lon": 25.795278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gheorgheni",
+    "lat": 46.719167,
+    "lon": 25.573889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Toplita",
+    "lat": 46.923056,
+    "lon": 25.3425,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Deda",
+    "lat": 46.966667,
+    "lon": 24.916667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Saratel",
+    "lat": 47.06,
+    "lon": 24.403333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Beclean Pe Somes",
+    "lat": 47.176944,
+    "lon": 24.181944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dej Călători",
+    "lat": 47.141389,
+    "lon": 23.894167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jibou",
+    "lat": 47.251389,
+    "lon": 23.263889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baia Mare",
+    "lat": 47.6475,
+    "lon": 23.552778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Seini",
+    "lat": 47.737778,
+    "lon": 23.285,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Apa",
+    "lat": 47.768056,
+    "lon": 23.187778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mediesu Aurit",
+    "lat": 47.775278,
+    "lon": 23.120556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalau Nord",
+    "lat": 47.222222,
+    "lon": 23.041111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sarmasag",
+    "lat": 47.343056,
+    "lon": 22.829722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Valea lui Mihai",
+    "lat": 47.526667,
+    "lon": 22.133056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Curtuiuseni",
+    "lat": 47.558333,
+    "lon": 22.201389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Resighea",
+    "lat": 47.616667,
+    "lon": 22.283056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sanislau",
+    "lat": 47.632222,
+    "lon": 22.337778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Marna",
+    "lat": 47.661667,
+    "lon": 22.3875,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Carei",
+    "lat": 47.69,
+    "lon": 22.466111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Domanesti",
+    "lat": 47.696944,
+    "lon": 22.5925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Moftin",
+    "lat": 47.696944,
+    "lon": 22.643889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "General Gh. Avramescu",
+    "lat": 47.699722,
+    "lon": 22.679722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Satmarel",
+    "lat": 47.741944,
+    "lon": 22.795833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Satu Mare Sud",
+    "lat": 47.771944,
+    "lon": 22.870278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Satu Mare",
+    "lat": 47.795,
+    "lon": 22.891944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Brno hl. n.",
+    "lat": 49.189167,
+    "lon": 16.609722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Breclav",
+    "lat": 48.758056,
+    "lon": 16.896944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hranice Na Morave",
+    "lat": 49.564167,
+    "lon": 17.738889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hodonin",
+    "lat": 48.856667,
+    "lon": 17.123056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bohumin",
+    "lat": 49.899167,
+    "lon": 18.356944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ostrava Hl. N.",
+    "lat": 49.851389,
+    "lon": 18.266111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ostrava-Svinov",
+    "lat": 49.818056,
+    "lon": 18.208333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Prerov",
+    "lat": 49.444444,
+    "lon": 17.448333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Otrokovice",
+    "lat": 49.204167,
+    "lon": 17.53,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Stare Mesto U Uher. Hradiste",
+    "lat": 49.076111,
+    "lon": 17.422778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Usti Nad Labem hl. n.",
+    "lat": 50.660278,
+    "lon": 14.046944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kolin",
+    "lat": 50.024167,
+    "lon": 15.215833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pardubice hl. n.",
+    "lat": 50.031389,
+    "lon": 15.759167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Česká Trebová",
+    "lat": 49.895833,
+    "lon": 16.448889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Svitavy",
+    "lat": 49.758333,
+    "lon": 16.479167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Decin hl. n.",
+    "lat": 50.774167,
+    "lon": 14.201389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Praha hl. n.",
+    "lat": 50.081389,
+    "lon": 14.435278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Praha-Liben",
+    "lat": 50.099444,
+    "lon": 14.5075,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Praha-Holesovice",
+    "lat": 50.111111,
+    "lon": 14.441667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budapest-Déli",
+    "lat": 47.498889,
+    "lon": 19.025,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budapest-Kelenföld",
+    "lat": 47.464444,
+    "lon": 19.02,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budaörs",
+    "lat": 47.4475,
+    "lon": 18.965,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Biatorbágy",
+    "lat": 47.480278,
+    "lon": 18.834444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Herceghalom",
+    "lat": 47.493611,
+    "lon": 18.746111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bicske",
+    "lat": 47.484167,
+    "lon": 18.6175,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szár",
+    "lat": 47.485,
+    "lon": 18.5275,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szárliget",
+    "lat": 47.518333,
+    "lon": 18.495833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsógalla",
+    "lat": 47.563333,
+    "lon": 18.420278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tatabánya",
+    "lat": 47.585556,
+    "lon": 18.393056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vértesszőlős",
+    "lat": 47.619444,
+    "lon": 18.375278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tóvároskert",
+    "lat": 47.646111,
+    "lon": 18.348611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tata",
+    "lat": 47.665,
+    "lon": 18.3275,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Almásfüzitő",
+    "lat": 47.725278,
+    "lon": 18.262222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Almásfüzitő felső",
+    "lat": 47.731389,
+    "lon": 18.216389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szőny",
+    "lat": 47.735556,
+    "lon": 18.1775,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Komárom",
+    "lat": 47.749444,
+    "lon": 18.113611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ács",
+    "lat": 47.717222,
+    "lon": 18.004444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyszentjános",
+    "lat": 47.705556,
+    "lon": 17.871389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győrszentiván",
+    "lat": 47.688611,
+    "lon": 17.745556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győr-Gyárváros",
+    "lat": 47.684444,
+    "lon": 17.663889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győr",
+    "lat": 47.681944,
+    "lon": 17.634722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abda",
+    "lat": 47.690833,
+    "lon": 17.540556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Öttevény",
+    "lat": 47.719722,
+    "lon": 17.489167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lébény-Mosonszentmiklós",
+    "lat": 47.755278,
+    "lon": 17.426389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kimle-Károlyháza",
+    "lat": 47.803889,
+    "lon": 17.342778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mosonmagyaróvár",
+    "lat": 47.849722,
+    "lon": 17.267222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Levél",
+    "lat": 47.889722,
+    "lon": 17.1925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hegyeshalom",
+    "lat": 47.913889,
+    "lon": 17.145556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Óbuda",
+    "lat": 47.568611,
+    "lon": 19.033889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aranyvölgy",
+    "lat": 47.573795,
+    "lon": 19.017489,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Üröm",
+    "lat": 47.580556,
+    "lon": 19.002222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Solymár",
+    "lat": 47.596111,
+    "lon": 18.95,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szélhegy",
+    "lat": 47.601111,
+    "lon": 18.928056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vörösvárbánya",
+    "lat": 47.61,
+    "lon": 18.913611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pilisvörösvár",
+    "lat": 47.614444,
+    "lon": 18.902222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Klotildliget",
+    "lat": 47.637778,
+    "lon": 18.846389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Piliscsaba",
+    "lat": 47.638056,
+    "lon": 18.829722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magdolnavölgy",
+    "lat": 47.6475,
+    "lon": 18.818889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pilisjászfalu",
+    "lat": 47.656111,
+    "lon": 18.797778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Leányvár",
+    "lat": 47.685833,
+    "lon": 18.774722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dorog",
+    "lat": 47.723333,
+    "lon": 18.732778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Esztergom-Kertváros",
+    "lat": 47.743333,
+    "lon": 18.719167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Esztergom",
+    "lat": 47.7775,
+    "lon": 18.743611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunaalmás",
+    "lat": 47.733056,
+    "lon": 18.326389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Neszmély",
+    "lat": 47.734444,
+    "lon": 18.345278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Süttő",
+    "lat": 47.761111,
+    "lon": 18.455,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Piszke",
+    "lat": 47.752222,
+    "lon": 18.480278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lábatlan",
+    "lat": 47.751944,
+    "lon": 18.513333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Eternitgyár",
+    "lat": 47.756944,
+    "lon": 18.5325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyergesújfalu felső",
+    "lat": 47.762222,
+    "lon": 18.540556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyergesújfalu",
+    "lat": 47.761111,
+    "lon": 18.561667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tokod",
+    "lat": 47.735,
+    "lon": 18.675,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Környe",
+    "lat": 47.541667,
+    "lon": 18.330278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kecskéd alsó",
+    "lat": 47.519722,
+    "lon": 18.316667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Oroszlány",
+    "lat": 47.486944,
+    "lon": 18.308611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győrszabadhegy",
+    "lat": 47.663056,
+    "lon": 17.648056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ménfőcsanak felső",
+    "lat": 47.638333,
+    "lon": 17.615,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyömöre-Tét",
+    "lat": 47.501672,
+    "lon": 17.559596,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szerecseny",
+    "lat": 47.469167,
+    "lon": 17.5475,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gecse-Gyarmat",
+    "lat": 47.456111,
+    "lon": 17.515,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vaszar",
+    "lat": 47.4025,
+    "lon": 17.496389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pápa",
+    "lat": 47.340556,
+    "lon": 17.458889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőlak",
+    "lat": 47.324722,
+    "lon": 17.371389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mihályháza",
+    "lat": 47.318889,
+    "lon": 17.331667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vinár",
+    "lat": 47.306667,
+    "lon": 17.284722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Külsővat",
+    "lat": 47.279167,
+    "lon": 17.219722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Celldömölk",
+    "lat": 47.261389,
+    "lon": 17.151944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kemenesmihályfa",
+    "lat": 47.278056,
+    "lon": 17.111111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagysimonyi",
+    "lat": 47.265556,
+    "lon": 17.058889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ostffyasszonyfa",
+    "lat": 47.283889,
+    "lon": 17.023889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárvár",
+    "lat": 47.259167,
+    "lon": 16.928889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Porpác",
+    "lat": 47.238611,
+    "lon": 16.8325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csorna",
+    "lat": 47.601944,
+    "lon": 17.248889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyúl",
+    "lat": 47.587778,
+    "lon": 17.698056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pannonhalma",
+    "lat": 47.547778,
+    "lon": 17.740833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tarjánpuszta",
+    "lat": 47.504722,
+    "lon": 17.789167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Győrasszonyfa",
+    "lat": 47.4925,
+    "lon": 17.799167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Veszprémvarsány",
+    "lat": 47.443333,
+    "lon": 17.818333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bakonyszentlászló",
+    "lat": 47.395556,
+    "lon": 17.8175,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Porva-Csesznek",
+    "lat": 47.326944,
+    "lon": 17.841111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zirc",
+    "lat": 47.266667,
+    "lon": 17.878056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Eplény",
+    "lat": 47.192778,
+    "lon": 17.921667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Marcaltő",
+    "lat": 47.4275,
+    "lon": 17.348889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szany-Rábaszentandrás",
+    "lat": 47.460833,
+    "lon": 17.315278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egyed-Rábacsanak",
+    "lat": 47.521944,
+    "lon": 17.316389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rábapordány",
+    "lat": 47.557222,
+    "lon": 17.315,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dinnyés",
+    "lat": 47.179722,
+    "lon": 18.560833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Albertfalva",
+    "lat": 47.439444,
+    "lon": 19.035,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budafok",
+    "lat": 47.425833,
+    "lon": 19.041389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kastélypark",
+    "lat": 47.390278,
+    "lon": 18.988333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tétényliget",
+    "lat": 47.384722,
+    "lon": 18.955278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Érd alsó",
+    "lat": 47.379722,
+    "lon": 18.923056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tárnok",
+    "lat": 47.365556,
+    "lon": 18.873889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Martonvásár",
+    "lat": 47.321389,
+    "lon": 18.781667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baracska",
+    "lat": 47.297222,
+    "lon": 18.753333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pettend",
+    "lat": 47.26,
+    "lon": 18.708889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kápolnásnyék",
+    "lat": 47.245556,
+    "lon": 18.692222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Velence",
+    "lat": 47.226944,
+    "lon": 18.663889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Velencefürdő",
+    "lat": 47.218611,
+    "lon": 18.648056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gárdony",
+    "lat": 47.205833,
+    "lon": 18.624722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Agárd",
+    "lat": 47.198056,
+    "lon": 18.605833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Székesfehérvár",
+    "lat": 47.183611,
+    "lon": 18.424722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szabadbattyán",
+    "lat": 47.105278,
+    "lon": 18.388333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiscséripuszta",
+    "lat": 47.048056,
+    "lon": 18.355,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lepsény",
+    "lat": 46.9875,
+    "lon": 18.248056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonaliga",
+    "lat": 46.984444,
+    "lon": 18.171389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonvilágos",
+    "lat": 46.964167,
+    "lon": 18.157222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szabadisóstó",
+    "lat": 46.933889,
+    "lon": 18.118056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szabadifürdő",
+    "lat": 46.926111,
+    "lon": 18.103333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Siófok",
+    "lat": 46.907778,
+    "lon": 18.053889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszéplak felső",
+    "lat": 46.898056,
+    "lon": 18.018056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszéplak alsó",
+    "lat": 46.891944,
+    "lon": 17.993333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zamárdi felső",
+    "lat": 46.886111,
+    "lon": 17.969444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zamárdi",
+    "lat": 46.88,
+    "lon": 17.944722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szántód",
+    "lat": 46.861944,
+    "lon": 17.899167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonföldvár",
+    "lat": 46.853889,
+    "lon": 17.881389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszárszó",
+    "lat": 46.832222,
+    "lon": 17.830278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszemes",
+    "lat": 46.811944,
+    "lon": 17.776389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonlelle felső",
+    "lat": 46.793889,
+    "lon": 17.7175,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonlelle",
+    "lat": 46.7875,
+    "lon": 17.694167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fonyódliget",
+    "lat": 46.759167,
+    "lon": 17.592222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonboglár",
+    "lat": 46.776111,
+    "lon": 17.647222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfenyves alsó",
+    "lat": 46.708611,
+    "lon": 17.455278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fonyód",
+    "lat": 46.750278,
+    "lon": 17.558889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bélatelep",
+    "lat": 46.737778,
+    "lon": 17.535,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsóbélatelep",
+    "lat": 46.724167,
+    "lon": 17.516389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfenyves",
+    "lat": 46.713611,
+    "lon": 17.482778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máriahullámtelep",
+    "lat": 46.704722,
+    "lon": 17.435,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máriaszőlőtelep",
+    "lat": 46.702778,
+    "lon": 17.411911,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonmáriafürdő",
+    "lat": 46.704167,
+    "lon": 17.374722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonberény",
+    "lat": 46.713889,
+    "lon": 17.316944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszentgyörgy",
+    "lat": 46.692778,
+    "lon": 17.288889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vörs",
+    "lat": 46.663611,
+    "lon": 17.260278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaszentjakab",
+    "lat": 46.491667,
+    "lon": 17.135278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykanizsa",
+    "lat": 46.440833,
+    "lon": 16.986667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Murakeresztúr",
+    "lat": 46.363889,
+    "lon": 16.876944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalakomár",
+    "lat": 46.530278,
+    "lon": 17.188056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szárazrét",
+    "lat": 47.200833,
+    "lon": 18.381111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bodajk",
+    "lat": 47.318333,
+    "lon": 18.251944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csókakő",
+    "lat": 47.3275,
+    "lon": 18.240556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mór",
+    "lat": 47.369167,
+    "lon": 18.189167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bakonysárkány",
+    "lat": 47.443611,
+    "lon": 18.103611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisbér",
+    "lat": 47.494167,
+    "lon": 18.024722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyigmánd-Bábolna",
+    "lat": 47.630556,
+    "lon": 18.050833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szőny-Déli",
+    "lat": 47.735278,
+    "lon": 18.141944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Várpalota",
+    "lat": 47.194444,
+    "lon": 18.149167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pétfürdő",
+    "lat": 47.1675,
+    "lon": 18.121389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajmáskér",
+    "lat": 47.141111,
+    "lon": 18.009444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Veszprém",
+    "lat": 47.118889,
+    "lon": 17.91,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Herend",
+    "lat": 47.136944,
+    "lon": 17.760278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Városlőd",
+    "lat": 47.144167,
+    "lon": 17.652778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Városlőd-Kislőd",
+    "lat": 47.133889,
+    "lon": 17.631111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ajka",
+    "lat": 47.106667,
+    "lon": 17.573611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ajka-Gyártelep",
+    "lat": 47.0925,
+    "lon": 17.536667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Devecser",
+    "lat": 47.1125,
+    "lon": 17.435278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somlóvásárhely",
+    "lat": 47.124444,
+    "lon": 17.369167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tüskevár",
+    "lat": 47.128611,
+    "lon": 17.331389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Karakószörcsök",
+    "lat": 47.133611,
+    "lon": 17.287778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kerta",
+    "lat": 47.151944,
+    "lon": 17.237222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Boba",
+    "lat": 47.183333,
+    "lon": 17.191389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Börgönd",
+    "lat": 47.140278,
+    "lon": 18.515,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Belsőbáránd",
+    "lat": 47.102778,
+    "lon": 18.499722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zichyújfalu",
+    "lat": 47.124444,
+    "lon": 18.6725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Seregélyes",
+    "lat": 47.121111,
+    "lon": 18.580556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Polgárdi-Ipartelepek",
+    "lat": 47.079167,
+    "lon": 18.314444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Polgárdi",
+    "lat": 47.07,
+    "lon": 18.284167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Füle",
+    "lat": 47.05,
+    "lon": 18.255278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zánka-Erzsébettábor",
+    "lat": 46.8775,
+    "lon": 17.709167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csajág",
+    "lat": 47.033889,
+    "lon": 18.186389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonakarattya",
+    "lat": 47.017222,
+    "lon": 18.167778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csittényhegy",
+    "lat": 47.025278,
+    "lon": 18.1375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonkenese",
+    "lat": 47.0325,
+    "lon": 18.105556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfűzfő",
+    "lat": 47.060278,
+    "lon": 18.0425,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonalmádi",
+    "lat": 47.028333,
+    "lon": 18.015,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Káptalanfüred",
+    "lat": 47.008889,
+    "lon": 18.003889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsóörs",
+    "lat": 46.985278,
+    "lon": 17.974722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csopak",
+    "lat": 46.974722,
+    "lon": 17.931111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonarács",
+    "lat": 46.9625,
+    "lon": 17.8975,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfüred",
+    "lat": 46.955833,
+    "lon": 17.883056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aszófő",
+    "lat": 46.925556,
+    "lon": 17.8325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Örvényes",
+    "lat": 46.9125,
+    "lon": 17.818056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonudvari",
+    "lat": 46.904722,
+    "lon": 17.808056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fövenyes",
+    "lat": 46.893611,
+    "lon": 17.789444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonakali-Dörgicse",
+    "lat": 46.88,
+    "lon": 17.747778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zánka-Köveskál",
+    "lat": 46.872778,
+    "lon": 17.687778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonszepezd",
+    "lat": 46.851111,
+    "lon": 17.663056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szepezdfürdő",
+    "lat": 46.839722,
+    "lon": 17.649444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Révfülöp",
+    "lat": 46.829167,
+    "lon": 17.632222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonrendes",
+    "lat": 46.824722,
+    "lon": 17.582778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ábrahámhegy",
+    "lat": 46.815,
+    "lon": 17.572222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Badacsonyörs",
+    "lat": 46.805556,
+    "lon": 17.531667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Badacsonytomaj",
+    "lat": 46.804722,
+    "lon": 17.518056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Badacsony",
+    "lat": 46.788611,
+    "lon": 17.506389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Badacsonylábdihegy",
+    "lat": 46.793889,
+    "lon": 17.470833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Badacsonytördemic-Szigliget",
+    "lat": 46.809722,
+    "lon": 17.469167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nemesgulács-Kisapáti",
+    "lat": 46.836944,
+    "lon": 17.476389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tapolca",
+    "lat": 46.877778,
+    "lon": 17.428611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Uzsabánya alsó",
+    "lat": 46.898333,
+    "lon": 17.345278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Uzsa",
+    "lat": 46.920278,
+    "lon": 17.331667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sümegi Bazaltbánya",
+    "lat": 46.9525,
+    "lon": 17.2925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sümeg",
+    "lat": 46.981111,
+    "lon": 17.270833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gógánfa",
+    "lat": 47.021111,
+    "lon": 17.207778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ukk",
+    "lat": 47.041944,
+    "lon": 17.195833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nemeskeresztúr",
+    "lat": 47.093611,
+    "lon": 17.183611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánosháza",
+    "lat": 47.115833,
+    "lon": 17.171667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Keszthely",
+    "lat": 46.758333,
+    "lon": 17.248056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsógyenes",
+    "lat": 46.765556,
+    "lon": 17.277778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyenesdiás",
+    "lat": 46.763333,
+    "lon": 17.292778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vonyarcvashegy",
+    "lat": 46.755278,
+    "lon": 17.318333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatongyörök",
+    "lat": 46.751944,
+    "lon": 17.354444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Becehegy",
+    "lat": 46.776111,
+    "lon": 17.372778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonederics",
+    "lat": 46.8025,
+    "lon": 17.385,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dabronc",
+    "lat": 47.025766,
+    "lon": 17.167006,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Türje",
+    "lat": 46.994444,
+    "lon": 17.093611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalabér-Batyk",
+    "lat": 46.983056,
+    "lon": 17.040833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pakod",
+    "lat": 46.959167,
+    "lon": 16.996667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pókaszepetk",
+    "lat": 46.924444,
+    "lon": 16.972222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kemendollár",
+    "lat": 46.905833,
+    "lon": 16.946667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaegerszeg",
+    "lat": 46.833056,
+    "lon": 16.848333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bocfölde",
+    "lat": 46.780278,
+    "lon": 16.853611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárhida",
+    "lat": 46.755833,
+    "lon": 16.851389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bak",
+    "lat": 46.7325,
+    "lon": 16.849167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tófej",
+    "lat": 46.670833,
+    "lon": 16.801944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gutorfölde",
+    "lat": 46.646944,
+    "lon": 16.739722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csömödér-Páka",
+    "lat": 46.608056,
+    "lon": 16.641111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Iklódbördőce",
+    "lat": 46.603056,
+    "lon": 16.604722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lenti",
+    "lat": 46.621389,
+    "lon": 16.528611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rédics",
+    "lat": 46.618056,
+    "lon": 16.471111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalalövő",
+    "lat": 46.845556,
+    "lon": 16.576389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőjánosfa",
+    "lat": 46.841389,
+    "lon": 16.544167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pankasz",
+    "lat": 46.835833,
+    "lon": 16.496111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyrákos",
+    "lat": 46.827222,
+    "lon": 16.455556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Őriszentpéter",
+    "lat": 46.828889,
+    "lon": 16.415278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bajánsenye",
+    "lat": 46.818056,
+    "lon": 16.358056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaegerszeg-Ola",
+    "lat": 46.849167,
+    "lon": 16.844722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Andráshida",
+    "lat": 46.862778,
+    "lon": 16.78,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bagod",
+    "lat": 46.875,
+    "lon": 16.746111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaszentgyörgy",
+    "lat": 46.872222,
+    "lon": 16.7125,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalacséb-Salomvár",
+    "lat": 46.858056,
+    "lon": 16.662222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaszentiván",
+    "lat": 46.8875,
+    "lon": 16.909444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsónemesapáti",
+    "lat": 46.854167,
+    "lon": 16.936389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Búcsúszentlászló",
+    "lat": 46.793056,
+    "lon": 16.932778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalaszentmihály-Pacsa",
+    "lat": 46.7225,
+    "lon": 16.951944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pötréte",
+    "lat": 46.682778,
+    "lon": 16.9575,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőrajk",
+    "lat": 46.667222,
+    "lon": 16.982778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gelse",
+    "lat": 46.600556,
+    "lon": 16.982778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Őrtilos",
+    "lat": 46.297778,
+    "lon": 16.887778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zákány",
+    "lat": 46.251944,
+    "lon": 16.9425,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berzence",
+    "lat": 46.201389,
+    "lon": 17.143611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyudvarhely",
+    "lat": 46.163333,
+    "lon": 17.179722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bélavár",
+    "lat": 46.122778,
+    "lon": 17.207778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vízvár",
+    "lat": 46.101389,
+    "lon": 17.239444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Babócsa",
+    "lat": 46.0375,
+    "lon": 17.335833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Péterhida-Komlósd",
+    "lat": 46.006667,
+    "lon": 17.358056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Barcs",
+    "lat": 45.951944,
+    "lon": 17.446944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Barcs felső",
+    "lat": 45.958333,
+    "lon": 17.486389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Középrigóc",
+    "lat": 45.970556,
+    "lon": 17.525,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Darány",
+    "lat": 45.992222,
+    "lon": 17.598611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisdobsza",
+    "lat": 46.012222,
+    "lon": 17.668056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nemeske",
+    "lat": 46.023333,
+    "lon": 17.705278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Molvány",
+    "lat": 46.035278,
+    "lon": 17.748611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szigetvár",
+    "lat": 46.043333,
+    "lon": 17.801944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagypeterd",
+    "lat": 46.039444,
+    "lon": 17.871667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentdénes",
+    "lat": 46.036667,
+    "lon": 17.926944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Háros",
+    "lat": 47.412222,
+    "lon": 19.035,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagytétény-Diósd",
+    "lat": 47.398333,
+    "lon": 18.974444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Érdliget",
+    "lat": 47.390278,
+    "lon": 18.937778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Érd felső",
+    "lat": 47.381111,
+    "lon": 18.922222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Érd",
+    "lat": 47.369722,
+    "lon": 18.900833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Százhalombatta",
+    "lat": 47.322222,
+    "lon": 18.899167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunai Finomító",
+    "lat": 47.294444,
+    "lon": 18.878889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ercsi",
+    "lat": 47.247222,
+    "lon": 18.875278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Iváncsa",
+    "lat": 47.177778,
+    "lon": 18.811944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztaszabolcs",
+    "lat": 47.139722,
+    "lon": 18.761667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szabadegyháza",
+    "lat": 47.082778,
+    "lon": 18.704167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárosd",
+    "lat": 47.039722,
+    "lon": 18.660278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagylók",
+    "lat": 46.979444,
+    "lon": 18.635833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárbogárd",
+    "lat": 46.896944,
+    "lon": 18.611944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rétszilas",
+    "lat": 46.814167,
+    "lon": 18.601389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sáregres",
+    "lat": 46.7825,
+    "lon": 18.588889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Simontornya",
+    "lat": 46.756582,
+    "lon": 18.540674,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tolnanémedi",
+    "lat": 46.727778,
+    "lon": 18.475833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pincehely",
+    "lat": 46.681389,
+    "lon": 18.43,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Keszőhidegkút-Gyönk",
+    "lat": 46.597778,
+    "lon": 18.426111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szárazd",
+    "lat": 46.575556,
+    "lon": 18.420833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Regöly",
+    "lat": 46.568889,
+    "lon": 18.396111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szakály-Hőgyész",
+    "lat": 46.523611,
+    "lon": 18.389444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dúzs",
+    "lat": 46.493889,
+    "lon": 18.377222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csibrák",
+    "lat": 46.466667,
+    "lon": 18.336389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kurd",
+    "lat": 46.449167,
+    "lon": 18.319167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Döbrököz",
+    "lat": 46.418889,
+    "lon": 18.255,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dombóvár",
+    "lat": 46.37,
+    "lon": 18.149722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dombóvár alsó",
+    "lat": 46.363889,
+    "lon": 18.134167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyberki",
+    "lat": 46.353333,
+    "lon": 18.004167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposszentjakab",
+    "lat": 46.358056,
+    "lon": 17.821944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposvár",
+    "lat": 46.352778,
+    "lon": 17.795,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposújlak",
+    "lat": 46.366667,
+    "lon": 17.715,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposmérő",
+    "lat": 46.365278,
+    "lon": 17.698889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposfő",
+    "lat": 46.364167,
+    "lon": 17.656667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiskorpád",
+    "lat": 46.361389,
+    "lon": 17.606667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jákó-Nagybajom",
+    "lat": 46.344444,
+    "lon": 17.554444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kutas",
+    "lat": 46.326111,
+    "lon": 17.453889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Beleg",
+    "lat": 46.316944,
+    "lon": 17.420556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ötvöskónyi",
+    "lat": 46.292778,
+    "lon": 17.358056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyszob",
+    "lat": 46.289167,
+    "lon": 17.305556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bolhás",
+    "lat": 46.282222,
+    "lon": 17.275278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szenta",
+    "lat": 46.274167,
+    "lon": 17.182222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zrínyitelep",
+    "lat": 46.275278,
+    "lon": 17.138056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csurgó",
+    "lat": 46.261111,
+    "lon": 17.091667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyékényes",
+    "lat": 46.249167,
+    "lon": 16.956389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Adony",
+    "lat": 47.106111,
+    "lon": 18.847778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kulcs",
+    "lat": 47.051111,
+    "lon": 18.8975,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rácalmás",
+    "lat": 47.023333,
+    "lon": 18.908889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunaújváros",
+    "lat": 46.960556,
+    "lon": 18.913889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újvenyim",
+    "lat": 46.936944,
+    "lon": 18.868889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőfalva",
+    "lat": 46.905556,
+    "lon": 18.810278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykarácsony felső",
+    "lat": 46.866047,
+    "lon": 18.783064,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykarácsony",
+    "lat": 46.848729,
+    "lon": 18.765722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alap",
+    "lat": 46.831944,
+    "lon": 18.657778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Cece",
+    "lat": 46.773333,
+    "lon": 18.623333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vajta",
+    "lat": 46.713611,
+    "lon": 18.648056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rétszilas alsó",
+    "lat": 46.829167,
+    "lon": 18.639444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagydorog",
+    "lat": 46.615485,
+    "lon": 18.65002,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tengelic",
+    "lat": 46.516111,
+    "lon": 18.695278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fácánkert",
+    "lat": 46.449041,
+    "lon": 18.735661,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tolna-Mözs",
+    "lat": 46.416389,
+    "lon": 18.750556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szekszárd-Palánk",
+    "lat": 46.380278,
+    "lon": 18.728333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szekszárd",
+    "lat": 46.349444,
+    "lon": 18.7125,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Őcsény",
+    "lat": 46.318889,
+    "lon": 18.7425,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Decs",
+    "lat": 46.283889,
+    "lon": 18.756111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csikóstőttős",
+    "lat": 46.337222,
+    "lon": 18.152778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mágocs-Alsómocsolád",
+    "lat": 46.310278,
+    "lon": 18.222222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szalatnak",
+    "lat": 46.284444,
+    "lon": 18.288611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máza-Szászvár",
+    "lat": 46.279167,
+    "lon": 18.411389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Váralja",
+    "lat": 46.281667,
+    "lon": 18.436111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagymányok",
+    "lat": 46.280278,
+    "lon": 18.459167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hidas-Bonyhád",
+    "lat": 46.269444,
+    "lon": 18.523333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mőcsény",
+    "lat": 46.2575,
+    "lon": 18.591944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bátaszék",
+    "lat": 46.202222,
+    "lon": 18.715556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pörböly",
+    "lat": 46.199167,
+    "lon": 18.826389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baja-Dunafürdő",
+    "lat": 46.193333,
+    "lon": 18.919167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposszekcső",
+    "lat": 46.330556,
+    "lon": 18.143056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vásárosdombó",
+    "lat": 46.310556,
+    "lon": 18.138889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sásd",
+    "lat": 46.257222,
+    "lon": 18.104722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Godisa",
+    "lat": 46.223333,
+    "lon": 18.104722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abaliget",
+    "lat": 46.152778,
+    "lon": 18.073611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hetvehely",
+    "lat": 46.128333,
+    "lon": 18.045,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bükkösd",
+    "lat": 46.113056,
+    "lon": 17.999444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Cserdi-Helesfa",
+    "lat": 46.086667,
+    "lon": 17.987778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentlőrinc",
+    "lat": 46.033333,
+    "lon": 17.990833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bicsérd",
+    "lat": 46.041389,
+    "lon": 18.057778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mecsekalja-Cserkút",
+    "lat": 46.059722,
+    "lon": 18.150278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pécs",
+    "lat": 46.065833,
+    "lon": 18.223611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pécs-Külváros",
+    "lat": 46.071667,
+    "lon": 18.24,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pécsbánya-Rendező",
+    "lat": 46.063333,
+    "lon": 18.270278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pécsudvard",
+    "lat": 46.01,
+    "lon": 18.275556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szőkéd",
+    "lat": 45.9675,
+    "lon": 18.29,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Áta",
+    "lat": 45.936389,
+    "lon": 18.306944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kistótfalu",
+    "lat": 45.909722,
+    "lon": 18.315278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vokány",
+    "lat": 45.899722,
+    "lon": 18.334722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Palkonya",
+    "lat": 45.891667,
+    "lon": 18.393889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Villánykövesd",
+    "lat": 45.879722,
+    "lon": 18.425833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Villány",
+    "lat": 45.8775,
+    "lon": 18.451389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarbóly",
+    "lat": 45.834167,
+    "lon": 18.491944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Királyegyháza-Rigópuszta",
+    "lat": 45.989167,
+    "lon": 17.971667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sumony",
+    "lat": 45.960833,
+    "lon": 17.913333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Okorág-Kárászpuszta",
+    "lat": 45.933611,
+    "lon": 17.864444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kákics",
+    "lat": 45.904167,
+    "lon": 17.8525,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bóly",
+    "lat": 45.9375,
+    "lon": 18.538333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mohács",
+    "lat": 46.0025,
+    "lon": 18.683333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sellye",
+    "lat": 45.873333,
+    "lon": 17.858889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Toponár",
+    "lat": 46.398333,
+    "lon": 17.840833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyaszaló",
+    "lat": 46.453611,
+    "lon": 17.840278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mernye",
+    "lat": 46.509444,
+    "lon": 17.832222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőmocsolád",
+    "lat": 46.556389,
+    "lon": 17.8225,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisbárapáti",
+    "lat": 46.615,
+    "lon": 17.866667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bonnya",
+    "lat": 46.611389,
+    "lon": 17.909167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Andocs",
+    "lat": 46.646944,
+    "lon": 17.8925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Karád",
+    "lat": 46.681111,
+    "lon": 17.874722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogymeggyes",
+    "lat": 46.720556,
+    "lon": 17.920556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kapoly",
+    "lat": 46.713611,
+    "lon": 17.977778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tab",
+    "lat": 46.734167,
+    "lon": 18.041111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bábonymegyer",
+    "lat": 46.746111,
+    "lon": 18.110833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Daránypuszta",
+    "lat": 46.764722,
+    "lon": 18.143889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Som-Nagyberény",
+    "lat": 46.803056,
+    "lon": 18.149444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ádánd",
+    "lat": 46.854444,
+    "lon": 18.141667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Siójut",
+    "lat": 46.879444,
+    "lon": 18.126667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kapostüskevár",
+    "lat": 46.367778,
+    "lon": 17.774167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaposfüred",
+    "lat": 46.415,
+    "lon": 17.759444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Várda",
+    "lat": 46.4625,
+    "lon": 17.721667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyjád",
+    "lat": 46.490833,
+    "lon": 17.694444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Osztopán",
+    "lat": 46.515556,
+    "lon": 17.656944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pamuk",
+    "lat": 46.553127,
+    "lon": 17.636412,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyvár",
+    "lat": 46.580556,
+    "lon": 17.634722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Öreglak",
+    "lat": 46.608607,
+    "lon": 17.632733,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tatárvár",
+    "lat": 46.636667,
+    "lon": 17.621111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lengyeltóti",
+    "lat": 46.660556,
+    "lon": 17.613611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztaberény",
+    "lat": 46.686111,
+    "lon": 17.594722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budapest-Keleti",
+    "lat": 47.500278,
+    "lon": 19.084167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ferencváros",
+    "lat": 47.468611,
+    "lon": 19.088056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budapest-Nyugati",
+    "lat": 47.510833,
+    "lon": 19.0575,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kőbánya felső",
+    "lat": 47.491944,
+    "lon": 19.133889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákos",
+    "lat": 47.488889,
+    "lon": 19.174722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákosrendező",
+    "lat": 47.525556,
+    "lon": 19.089444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zugló",
+    "lat": 47.511389,
+    "lon": 19.101389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Angyalföld",
+    "lat": 47.549722,
+    "lon": 19.09,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Istvántelek",
+    "lat": 47.550278,
+    "lon": 19.106389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákospalota-Újpest",
+    "lat": 47.565833,
+    "lon": 19.111944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kőbánya alsó",
+    "lat": 47.483056,
+    "lon": 19.127222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kőbánya-Kispest",
+    "lat": 47.463889,
+    "lon": 19.149444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pestszentlőrinc",
+    "lat": 47.454722,
+    "lon": 19.182778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kispest",
+    "lat": 47.448135,
+    "lon": 19.157552,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újpest",
+    "lat": 47.558889,
+    "lon": 19.079722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újpalota",
+    "lat": 47.5316,
+    "lon": 19.126206,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pestszentimre felső",
+    "lat": 47.413611,
+    "lon": 19.173333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunakeszi",
+    "lat": 47.626111,
+    "lon": 19.136111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunakeszi-Gyártelep",
+    "lat": 47.643611,
+    "lon": 19.135,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsógöd",
+    "lat": 47.676944,
+    "lon": 19.134444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Göd",
+    "lat": 47.687778,
+    "lon": 19.1375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőgöd",
+    "lat": 47.705556,
+    "lon": 19.143333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sződ-Sződliget",
+    "lat": 47.728056,
+    "lon": 19.154722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vác",
+    "lat": 47.782778,
+    "lon": 19.133056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Verőce",
+    "lat": 47.823889,
+    "lon": 19.029444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kismaros",
+    "lat": 47.8275,
+    "lon": 19.010278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagymaros-Visegrád",
+    "lat": 47.791389,
+    "lon": 18.959167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagymaros",
+    "lat": 47.780278,
+    "lon": 18.952222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zebegény",
+    "lat": 47.801389,
+    "lon": 18.908889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szob",
+    "lat": 47.821111,
+    "lon": 18.861944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alagimajor",
+    "lat": 47.601944,
+    "lon": 19.153889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fót",
+    "lat": 47.611389,
+    "lon": 19.181667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fótújfalu",
+    "lat": 47.615,
+    "lon": 19.192778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csomád",
+    "lat": 47.635556,
+    "lon": 19.222778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Veresegyház",
+    "lat": 47.649167,
+    "lon": 19.288611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Erdőkertes",
+    "lat": 47.662222,
+    "lon": 19.295833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Őrbottyán",
+    "lat": 47.685833,
+    "lon": 19.283611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Váchartyán",
+    "lat": 47.725833,
+    "lon": 19.248889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarkút-Verőce",
+    "lat": 47.826111,
+    "lon": 19.044444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szokolya",
+    "lat": 47.871111,
+    "lon": 19.030556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berkenye",
+    "lat": 47.885278,
+    "lon": 19.071944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nógrád",
+    "lat": 47.901944,
+    "lon": 19.0475,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Diósjenő",
+    "lat": 47.94,
+    "lon": 19.049444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Borsosberény",
+    "lat": 47.971389,
+    "lon": 19.093056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyoroszi",
+    "lat": 47.993611,
+    "lon": 19.101111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Drégelyvár",
+    "lat": 48.001944,
+    "lon": 19.079444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Drégely",
+    "lat": 48.042222,
+    "lon": 19.056111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Drégelypalánk",
+    "lat": 48.055,
+    "lon": 19.046111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ipolyvece",
+    "lat": 48.056944,
+    "lon": 19.106389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dejtár",
+    "lat": 48.045556,
+    "lon": 19.196389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ipolyszög",
+    "lat": 48.054444,
+    "lon": 19.221944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Iklad-Domony",
+    "lat": 47.658056,
+    "lon": 19.444444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Iklad-Domony felső",
+    "lat": 47.667778,
+    "lon": 19.428056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galgamácsa",
+    "lat": 47.693889,
+    "lon": 19.3925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vácrátót",
+    "lat": 47.732778,
+    "lon": 19.217778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csörög",
+    "lat": 47.735833,
+    "lon": 19.196389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galgagyörk",
+    "lat": 47.735278,
+    "lon": 19.372222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Püspökhatvan",
+    "lat": 47.768611,
+    "lon": 19.366944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Acsa-Erdőkürt",
+    "lat": 47.801111,
+    "lon": 19.386111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galgaguta",
+    "lat": 47.848611,
+    "lon": 19.385556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nógrádkövesd",
+    "lat": 47.879444,
+    "lon": 19.371111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarnándor",
+    "lat": 47.970833,
+    "lon": 19.356667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mohora",
+    "lat": 47.995556,
+    "lon": 19.347778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szügy",
+    "lat": 48.036389,
+    "lon": 19.333056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balassagyarmat",
+    "lat": 48.071111,
+    "lon": 19.293611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Akadémiaújtelep",
+    "lat": 47.485724,
+    "lon": 19.22294,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákosliget",
+    "lat": 47.486111,
+    "lon": 19.257778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákoscsaba-Újtelep",
+    "lat": 47.4875,
+    "lon": 19.271944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákoscsaba",
+    "lat": 47.492222,
+    "lon": 19.284722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pécel",
+    "lat": 47.493889,
+    "lon": 19.338889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Isaszeg",
+    "lat": 47.535,
+    "lon": 19.390278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gödöllő",
+    "lat": 47.592222,
+    "lon": 19.358611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máriabesnyő",
+    "lat": 47.595556,
+    "lon": 19.389722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bag",
+    "lat": 47.641111,
+    "lon": 19.471667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aszód",
+    "lat": 47.647778,
+    "lon": 19.491944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hévízgyörk",
+    "lat": 47.638611,
+    "lon": 19.526667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galgahévíz",
+    "lat": 47.6325,
+    "lon": 19.558333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tura",
+    "lat": 47.626389,
+    "lon": 19.5975,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hatvan",
+    "lat": 47.663611,
+    "lon": 19.671389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vámosgyörk",
+    "lat": 47.686111,
+    "lon": 19.927778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Adács",
+    "lat": 47.696389,
+    "lon": 19.975278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Karácsond",
+    "lat": 47.718056,
+    "lon": 20.048611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ludas",
+    "lat": 47.723889,
+    "lon": 20.095556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyút",
+    "lat": 47.726667,
+    "lon": 20.161389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kál-Kápolna",
+    "lat": 47.734167,
+    "lon": 20.254167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Füzesabony",
+    "lat": 47.751389,
+    "lon": 20.415278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szihalom",
+    "lat": 47.766944,
+    "lon": 20.491944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőkövesd",
+    "lat": 47.797222,
+    "lon": 20.5675,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőkövesd felső",
+    "lat": 47.807222,
+    "lon": 20.591389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőkeresztes-Mezőnyárád",
+    "lat": 47.845556,
+    "lon": 20.670278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csincse",
+    "lat": 47.890833,
+    "lon": 20.764167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Emőd",
+    "lat": 47.930556,
+    "lon": 20.822778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyékládháza",
+    "lat": 47.9925,
+    "lon": 20.840556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Miskolc-Tiszai",
+    "lat": 48.098611,
+    "lon": 20.811389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőzsolca",
+    "lat": 48.083611,
+    "lon": 20.866111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hernádnémeti-Bőcs",
+    "lat": 48.051389,
+    "lon": 20.985,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszalúc",
+    "lat": 48.039722,
+    "lon": 21.0575,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Taktaharkány",
+    "lat": 48.091667,
+    "lon": 21.128611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Taktaszada",
+    "lat": 48.1125,
+    "lon": 21.149444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szerencs",
+    "lat": 48.155556,
+    "lon": 21.214444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőzombor",
+    "lat": 48.156944,
+    "lon": 21.267778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tarcal",
+    "lat": 48.125,
+    "lon": 21.34,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tokaj",
+    "lat": 48.112778,
+    "lon": 21.406667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rakamaz",
+    "lat": 48.12,
+    "lon": 21.475,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Görögszállás",
+    "lat": 48.04,
+    "lon": 21.555,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírtelek",
+    "lat": 48.005,
+    "lon": 21.615556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákoshegy",
+    "lat": 47.468611,
+    "lon": 19.245556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztaszentistván",
+    "lat": 47.439869,
+    "lon": 19.470254,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ecser",
+    "lat": 47.439444,
+    "lon": 19.318056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maglód",
+    "lat": 47.438889,
+    "lon": 19.340833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maglódi nyaraló",
+    "lat": 47.434167,
+    "lon": 19.363611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyömrő",
+    "lat": 47.429722,
+    "lon": 19.393333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mende",
+    "lat": 47.426944,
+    "lon": 19.439722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szőlősnyaraló",
+    "lat": 47.450278,
+    "lon": 19.561111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sülysáp",
+    "lat": 47.451944,
+    "lon": 19.5275,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tápiószecső",
+    "lat": 47.443056,
+    "lon": 19.614722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentmártonkáta",
+    "lat": 47.431944,
+    "lon": 19.680556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykáta",
+    "lat": 47.409722,
+    "lon": 19.737778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Farmos",
+    "lat": 47.355278,
+    "lon": 19.8375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tápiószele",
+    "lat": 47.346389,
+    "lon": 19.873611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tápiógyörgye",
+    "lat": 47.325,
+    "lon": 19.95,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újszász",
+    "lat": 47.285833,
+    "lon": 20.066944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szurdokpüspöki",
+    "lat": 47.851944,
+    "lon": 19.690278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lőrinci",
+    "lat": 47.739444,
+    "lon": 19.673611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Selyp",
+    "lat": 47.759167,
+    "lon": 19.670833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Apc-Zagyvaszántó",
+    "lat": 47.791389,
+    "lon": 19.668056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pásztó",
+    "lat": 47.918889,
+    "lon": 19.688889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mátraszőlős-Hasznos",
+    "lat": 47.938506,
+    "lon": 19.706122,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tar",
+    "lat": 47.956111,
+    "lon": 19.746389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mátraverebély",
+    "lat": 47.968333,
+    "lon": 19.778611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagybátony",
+    "lat": 47.981111,
+    "lon": 19.82,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisterenye",
+    "lat": 48.009444,
+    "lon": 19.831944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisterenye-Bányatelep",
+    "lat": 48.021389,
+    "lon": 19.831944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Salgótarján külső",
+    "lat": 48.089444,
+    "lon": 19.790833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zagyvapálfalva",
+    "lat": 48.068889,
+    "lon": 19.785,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Salgótarján",
+    "lat": 48.105556,
+    "lon": 19.807222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somoskőújfalu",
+    "lat": 48.154722,
+    "lon": 19.815556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászfényszaru",
+    "lat": 47.593056,
+    "lon": 19.754444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztamonostor",
+    "lat": 47.564444,
+    "lon": 19.794167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászberény",
+    "lat": 47.494444,
+    "lon": 19.893333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Meggyespele",
+    "lat": 47.441944,
+    "lon": 19.938889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Portelek",
+    "lat": 47.418056,
+    "lon": 19.958889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászboldogháza-Jánoshida",
+    "lat": 47.366944,
+    "lon": 20.001389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászárokszállás",
+    "lat": 47.635556,
+    "lon": 19.971111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászdózsa",
+    "lat": 47.563056,
+    "lon": 20.028056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászapáti",
+    "lat": 47.513611,
+    "lon": 20.155,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászkisér",
+    "lat": 47.456111,
+    "lon": 20.203333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászladány",
+    "lat": 47.373333,
+    "lon": 20.159167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szászberek",
+    "lat": 47.320556,
+    "lon": 20.090833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyöngyöshalász",
+    "lat": 47.743056,
+    "lon": 19.932222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyöngyös",
+    "lat": 47.783056,
+    "lon": 19.937222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Erdőtelek",
+    "lat": 47.683333,
+    "lon": 20.3025,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Heves",
+    "lat": 47.609444,
+    "lon": 20.306111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hevesvezekény",
+    "lat": 47.562222,
+    "lon": 20.365833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tarnaszentmiklós",
+    "lat": 47.546944,
+    "lon": 20.390833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisköre",
+    "lat": 47.495556,
+    "lon": 20.481667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abádszalók",
+    "lat": 47.455278,
+    "lon": 20.553056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kunhegyes",
+    "lat": 47.376667,
+    "lon": 20.641111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kenderes",
+    "lat": 47.254444,
+    "lon": 20.686111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maklár",
+    "lat": 47.808056,
+    "lon": 20.404722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Andornaktálya",
+    "lat": 47.852621,
+    "lon": 20.402136,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Eger",
+    "lat": 47.891667,
+    "lon": 20.381667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egervár",
+    "lat": 47.908056,
+    "lon": 20.380556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Eger-Felnémet",
+    "lat": 47.936667,
+    "lon": 20.370556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szarvaskő",
+    "lat": 47.988611,
+    "lon": 20.3325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mónosbél",
+    "lat": 48.031944,
+    "lon": 20.33,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bélapátfalva",
+    "lat": 48.055556,
+    "lon": 20.340556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bélapátfalvi Cementgyár",
+    "lat": 48.058056,
+    "lon": 20.355,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szilvásvárad",
+    "lat": 48.11345,
+    "lon": 20.37919,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Miskolc-Gömöri",
+    "lat": 48.106667,
+    "lon": 20.800278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sajókeresztúr",
+    "lat": 48.168008,
+    "lon": 20.774014,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sajóecseg",
+    "lat": 48.186111,
+    "lon": 20.766667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sajószentpéter",
+    "lat": 48.222222,
+    "lon": 20.708056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kazincbarcika",
+    "lat": 48.264444,
+    "lon": 20.6275,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sajókaza",
+    "lat": 48.272778,
+    "lon": 20.581944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vadna",
+    "lat": 48.276389,
+    "lon": 20.555278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dubicsány",
+    "lat": 48.280833,
+    "lon": 20.504722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Putnok",
+    "lat": 48.286667,
+    "lon": 20.4375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bánréve",
+    "lat": 48.299722,
+    "lon": 20.351944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ózd alsó",
+    "lat": 48.227778,
+    "lon": 20.306111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ózd",
+    "lat": 48.2225,
+    "lon": 20.294722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsóboldva",
+    "lat": 48.212778,
+    "lon": 20.792222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Boldva",
+    "lat": 48.223333,
+    "lon": 20.790278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Borsodszirák",
+    "lat": 48.259167,
+    "lon": 20.770556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Edelény alsó",
+    "lat": 48.279167,
+    "lon": 20.760833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Edelény",
+    "lat": 48.299722,
+    "lon": 20.749444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szendrőlád",
+    "lat": 48.334444,
+    "lon": 20.731944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szendrő",
+    "lat": 48.400725,
+    "lon": 20.721346,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szendrő felső",
+    "lat": 48.409907,
+    "lon": 20.720148,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szalonna",
+    "lat": 48.449444,
+    "lon": 20.722222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Perkupa",
+    "lat": 48.471389,
+    "lon": 20.691111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szemeretelep",
+    "lat": 47.443056,
+    "lon": 19.214167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jósvafő-Aggtelek",
+    "lat": 48.489722,
+    "lon": 20.693889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bódvaszilas",
+    "lat": 48.5375,
+    "lon": 20.738056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Komjáti",
+    "lat": 48.5475,
+    "lon": 20.759722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tornanádaska",
+    "lat": 48.558333,
+    "lon": 20.787222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Onga",
+    "lat": 48.121111,
+    "lon": 20.906667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szikszó-Vásártér",
+    "lat": 48.193056,
+    "lon": 20.934722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szikszó",
+    "lat": 48.201667,
+    "lon": 20.941667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aszaló",
+    "lat": 48.220278,
+    "lon": 20.961667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Halmaj",
+    "lat": 48.246667,
+    "lon": 20.991667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csobád",
+    "lat": 48.277222,
+    "lon": 21.033889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ináncs",
+    "lat": 48.291111,
+    "lon": 21.057778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Forró-Encs",
+    "lat": 48.3275,
+    "lon": 21.117778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Méra",
+    "lat": 48.363056,
+    "lon": 21.140278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Novajidrány",
+    "lat": 48.404444,
+    "lon": 21.170556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hernádszurdok",
+    "lat": 48.487222,
+    "lon": 21.213889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hidasnémeti",
+    "lat": 48.508333,
+    "lon": 21.229722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mád",
+    "lat": 48.19,
+    "lon": 21.268889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rátka",
+    "lat": 48.215,
+    "lon": 21.230278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tállya",
+    "lat": 48.226944,
+    "lon": 21.225278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Golop",
+    "lat": 48.242778,
+    "lon": 21.204167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abaújszántó",
+    "lat": 48.286944,
+    "lon": 21.181667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abaújszántói fürdő",
+    "lat": 48.268333,
+    "lon": 21.179722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bodrogkeresztúr",
+    "lat": 48.175556,
+    "lon": 21.354167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szegi",
+    "lat": 48.201944,
+    "lon": 21.387778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Erdőbénye",
+    "lat": 48.218056,
+    "lon": 21.401944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Olaszliszka-Tolcsva",
+    "lat": 48.258333,
+    "lon": 21.448056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bodrogolaszi",
+    "lat": 48.286944,
+    "lon": 21.512778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárospatak",
+    "lat": 48.325833,
+    "lon": 21.566111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sátoraljaújhely",
+    "lat": 48.385833,
+    "lon": 21.657778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ferihegy",
+    "lat": 47.437222,
+    "lon": 19.223889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vecsés",
+    "lat": 47.40855,
+    "lon": 19.25652,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vecsés-Kertekalja",
+    "lat": 47.403333,
+    "lon": 19.271389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Üllő",
+    "lat": 47.390833,
+    "lon": 19.348889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Monor",
+    "lat": 47.34545,
+    "lon": 19.43701,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pilis",
+    "lat": 47.279722,
+    "lon": 19.536389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Albertirsa",
+    "lat": 47.240278,
+    "lon": 19.606389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ceglédbercel-Cserő",
+    "lat": 47.210278,
+    "lon": 19.686944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Cegléd",
+    "lat": 47.182778,
+    "lon": 19.806111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abony",
+    "lat": 47.173056,
+    "lon": 20.016389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szolnok",
+    "lat": 47.179167,
+    "lon": 20.175833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szajol",
+    "lat": 47.170556,
+    "lon": 20.295278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Törökszentmiklós",
+    "lat": 47.170278,
+    "lon": 20.413611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fegyvernek-Örményes",
+    "lat": 47.194444,
+    "lon": 20.5575,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisújszállás",
+    "lat": 47.223889,
+    "lon": 20.751111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Karcag",
+    "lat": 47.303333,
+    "lon": 20.928056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Püspökladány",
+    "lat": 47.3275,
+    "lon": 21.128889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kaba",
+    "lat": 47.368889,
+    "lon": 21.259444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúszoboszló",
+    "lat": 47.429444,
+    "lon": 21.406944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ebes",
+    "lat": 47.462778,
+    "lon": 21.488889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Debrecen",
+    "lat": 47.520278,
+    "lon": 21.628611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Debrecen-Csapókert",
+    "lat": 47.540556,
+    "lon": 21.648056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Apafa",
+    "lat": 47.580278,
+    "lon": 21.655833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bocskaikert",
+    "lat": 47.6425,
+    "lon": 21.666389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúhadház",
+    "lat": 47.686944,
+    "lon": 21.679167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Téglás",
+    "lat": 47.714722,
+    "lon": 21.684722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újfehértó",
+    "lat": 47.814444,
+    "lon": 21.706389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyíregyháza",
+    "lat": 47.946667,
+    "lon": 21.705556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sóstó",
+    "lat": 47.998051,
+    "lon": 21.729047,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sóstóhegy",
+    "lat": 48.012222,
+    "lon": 21.742778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kemecse",
+    "lat": 48.065556,
+    "lon": 21.801667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírbogdány",
+    "lat": 48.082222,
+    "lon": 21.855278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kék",
+    "lat": 48.093333,
+    "lon": 21.883889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Demecser",
+    "lat": 48.111667,
+    "lon": 21.926667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gégény",
+    "lat": 48.128333,
+    "lon": 21.951944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pátroha",
+    "lat": 48.158611,
+    "lon": 21.996667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ajak",
+    "lat": 48.1865,
+    "lon": 22.048972,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisvárda",
+    "lat": 48.208333,
+    "lon": 22.078333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisvárda-Hármasút",
+    "lat": 48.228333,
+    "lon": 22.091944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fényeslitke",
+    "lat": 48.267222,
+    "lon": 22.107222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Komoró",
+    "lat": 48.305278,
+    "lon": 22.118056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tuzsér",
+    "lat": 48.342222,
+    "lon": 22.131667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszabezdéd",
+    "lat": 48.371389,
+    "lon": 22.145,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Záhony",
+    "lat": 48.402222,
+    "lon": 22.183611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hosszúhát",
+    "lat": 47.235556,
+    "lon": 21.101944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szerep",
+    "lat": 47.234444,
+    "lon": 21.145833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sárrétudvari",
+    "lat": 47.231667,
+    "lon": 21.180833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Biharnagybajom",
+    "lat": 47.208889,
+    "lon": 21.221944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Füzesgyarmat",
+    "lat": 47.113056,
+    "lon": 21.194444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Füzesgyarmatfürdő",
+    "lat": 47.093787,
+    "lon": 21.201582,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Báránd",
+    "lat": 47.299722,
+    "lon": 21.235278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sáp",
+    "lat": 47.259722,
+    "lon": 21.360556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berettyóújfalu",
+    "lat": 47.211944,
+    "lon": 21.535556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőpeterd",
+    "lat": 47.176111,
+    "lon": 21.625278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Biharkeresztes",
+    "lat": 47.135556,
+    "lon": 21.721389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tócóvölgy",
+    "lat": 47.529444,
+    "lon": 21.588889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kismacs",
+    "lat": 47.551111,
+    "lon": 21.542778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Látókép",
+    "lat": 47.55787,
+    "lon": 21.524373,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyhát",
+    "lat": 47.581389,
+    "lon": 21.445,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balmazújváros",
+    "lat": 47.613889,
+    "lon": 21.348056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kónya",
+    "lat": 47.600833,
+    "lon": 21.2375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hortobágy",
+    "lat": 47.586111,
+    "lon": 21.154722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hortobágyi Halastó",
+    "lat": 47.604167,
+    "lon": 21.074167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ohat-Pusztakócs",
+    "lat": 47.623333,
+    "lon": 20.951111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egyek",
+    "lat": 47.616944,
+    "lon": 20.883611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszafüred",
+    "lat": 47.627778,
+    "lon": 20.756111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Poroszló",
+    "lat": 47.657778,
+    "lon": 20.654444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kétútköz",
+    "lat": 47.694167,
+    "lon": 20.565,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egerfarmos",
+    "lat": 47.711667,
+    "lon": 20.5225,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőtárkány",
+    "lat": 47.725,
+    "lon": 20.480278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Józsa",
+    "lat": 47.600833,
+    "lon": 21.584444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúszentgyörgy",
+    "lat": 47.608056,
+    "lon": 21.578333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zelemér",
+    "lat": 47.627778,
+    "lon": 21.578333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúböszörmény",
+    "lat": 47.668056,
+    "lon": 21.524167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúvid",
+    "lat": 47.749444,
+    "lon": 21.508056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúdorog",
+    "lat": 47.805556,
+    "lon": 21.493056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúnánás",
+    "lat": 47.831944,
+    "lon": 21.426667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúnánás-Vásártér",
+    "lat": 47.843056,
+    "lon": 21.407222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tedej",
+    "lat": 47.903611,
+    "lon": 21.404444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszavasvári",
+    "lat": 47.945278,
+    "lon": 21.374722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Egyházerdő",
+    "lat": 47.9725,
+    "lon": 21.365,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszalök",
+    "lat": 48.013056,
+    "lon": 21.369167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajnalos",
+    "lat": 47.998889,
+    "lon": 21.414167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisfástanya",
+    "lat": 47.989167,
+    "lon": 21.47,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszaeszlár",
+    "lat": 48.010556,
+    "lon": 21.491944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bashalom",
+    "lat": 48.026111,
+    "lon": 21.514722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sáránd",
+    "lat": 47.415556,
+    "lon": 21.625,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Derecske",
+    "lat": 47.365,
+    "lon": 21.584167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Derecske-Vásártér",
+    "lat": 47.352222,
+    "lon": 21.58,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Konyár",
+    "lat": 47.323611,
+    "lon": 21.666111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Konyári Sóstófürdő",
+    "lat": 47.324167,
+    "lon": 21.744444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pocsaj-Esztár",
+    "lat": 47.288333,
+    "lon": 21.793056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kismarja",
+    "lat": 47.243889,
+    "lon": 21.813889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykereki",
+    "lat": 47.191667,
+    "lon": 21.8,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Debrecen-Szabadságtelep",
+    "lat": 47.527778,
+    "lon": 21.658611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kondoroskert",
+    "lat": 47.525556,
+    "lon": 21.713889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagycsere",
+    "lat": 47.523889,
+    "lon": 21.763056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Haláp",
+    "lat": 47.521667,
+    "lon": 21.818333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vámospércs",
+    "lat": 47.518056,
+    "lon": 21.893889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentannapuszta",
+    "lat": 47.52,
+    "lon": 21.965833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírábrány",
+    "lat": 47.523889,
+    "lon": 22.016944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dombostanya",
+    "lat": 47.602778,
+    "lon": 21.706389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdúsámson",
+    "lat": 47.608056,
+    "lon": 21.755278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tamásipuszta",
+    "lat": 47.632778,
+    "lon": 21.796111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aradványpuszta",
+    "lat": 47.662778,
+    "lon": 21.8425,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyíradony",
+    "lat": 47.699444,
+    "lon": 21.903333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírmihálydi",
+    "lat": 47.7375,
+    "lon": 21.958889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírgelse",
+    "lat": 47.750833,
+    "lon": 21.987778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírbogát",
+    "lat": 47.793056,
+    "lon": 22.066389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykálló",
+    "lat": 47.871111,
+    "lon": 21.825833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kállósemjén",
+    "lat": 47.854722,
+    "lon": 21.935,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máriapócs",
+    "lat": 47.852778,
+    "lon": 22.019167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírbátor",
+    "lat": 47.8425,
+    "lon": 22.131111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírcsászári",
+    "lat": 47.865556,
+    "lon": 22.179167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hodász",
+    "lat": 47.896111,
+    "lon": 22.213611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírmeggyes",
+    "lat": 47.9225,
+    "lon": 22.256667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mátészalka",
+    "lat": 47.951389,
+    "lon": 22.313333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kocsord",
+    "lat": 47.941944,
+    "lon": 22.375833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kocsord alsó",
+    "lat": 47.946389,
+    "lon": 22.400556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyíregyháza külső",
+    "lat": 47.943056,
+    "lon": 21.740278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Oros",
+    "lat": 47.945833,
+    "lon": 21.806389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Napkor",
+    "lat": 47.948889,
+    "lon": 21.873056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Apagy",
+    "lat": 47.954444,
+    "lon": 21.940556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Levelek-Magy",
+    "lat": 47.948056,
+    "lon": 21.993611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ófehértó",
+    "lat": 47.940556,
+    "lon": 22.041389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ligettanya",
+    "lat": 47.951667,
+    "lon": 22.071389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baktalórántháza",
+    "lat": 47.988611,
+    "lon": 22.083333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vaja-Rohod",
+    "lat": 48.006389,
+    "lon": 22.164167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákóczitanya",
+    "lat": 48.022222,
+    "lon": 22.178333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírmada",
+    "lat": 48.059167,
+    "lon": 22.203056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tunyogmatolcs",
+    "lat": 47.966111,
+    "lon": 22.464722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tunyogmatolcs alsó",
+    "lat": 47.97,
+    "lon": 22.4725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fehérgyarmat",
+    "lat": 47.979167,
+    "lon": 22.524444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Penyige",
+    "lat": 47.995278,
+    "lon": 22.566944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyszekeres",
+    "lat": 47.976111,
+    "lon": 22.6125,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisszekeres",
+    "lat": 47.965833,
+    "lon": 22.629444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánkmajtis",
+    "lat": 47.941944,
+    "lon": 22.657222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gacsály",
+    "lat": 47.926111,
+    "lon": 22.745,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zajta",
+    "lat": 47.9025,
+    "lon": 22.796111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Eperjeske alsó",
+    "lat": 48.360556,
+    "lon": 22.19,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mándok",
+    "lat": 48.326944,
+    "lon": 22.196389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tornyospálca",
+    "lat": 48.268333,
+    "lon": 22.201944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aranyosapáti",
+    "lat": 48.211111,
+    "lon": 22.254167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyüre",
+    "lat": 48.171389,
+    "lon": 22.269167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisvarsány",
+    "lat": 48.140278,
+    "lon": 22.300556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vásárosnamény",
+    "lat": 48.126667,
+    "lon": 22.306111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vitka",
+    "lat": 48.095556,
+    "lon": 22.308056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagydobos",
+    "lat": 48.054167,
+    "lon": 22.311111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ópályi",
+    "lat": 47.997778,
+    "lon": 22.318333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyírcsaholy",
+    "lat": 47.908056,
+    "lon": 22.348333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyecsed",
+    "lat": 47.864722,
+    "lon": 22.385556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiborszállás",
+    "lat": 47.815278,
+    "lon": 22.402778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kecskemét alsó",
+    "lat": 46.895833,
+    "lon": 19.692222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánoshalma",
+    "lat": 46.293056,
+    "lon": 19.330278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mélykút",
+    "lat": 46.213056,
+    "lon": 19.370556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bácsalmás",
+    "lat": 46.118056,
+    "lon": 19.346389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Almás",
+    "lat": 46.116389,
+    "lon": 19.328611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bácsbokod-Bácsborsód",
+    "lat": 46.115833,
+    "lon": 19.16,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baja",
+    "lat": 46.187014,
+    "lon": 18.957602,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiskunmajsa",
+    "lat": 46.501667,
+    "lon": 19.728056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászszentlászló",
+    "lat": 46.565833,
+    "lon": 19.753611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Galambos",
+    "lat": 46.625,
+    "lon": 19.801111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pestszentimre",
+    "lat": 47.402222,
+    "lon": 19.188611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyál felső",
+    "lat": 47.390278,
+    "lon": 19.204722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyál",
+    "lat": 47.376667,
+    "lon": 19.219444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ócsa",
+    "lat": 47.301389,
+    "lon": 19.232222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Inárcs-Kakucs",
+    "lat": 47.247222,
+    "lon": 19.317778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dabas",
+    "lat": 47.194722,
+    "lon": 19.328889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyón",
+    "lat": 47.178333,
+    "lon": 19.355556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hernád",
+    "lat": 47.161389,
+    "lon": 19.4025,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Örkény",
+    "lat": 47.132778,
+    "lon": 19.447222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Táborfalva",
+    "lat": 47.098545,
+    "lon": 19.479318,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőlajos",
+    "lat": 47.068834,
+    "lon": 19.498415,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lajosmizse",
+    "lat": 47.028333,
+    "lon": 19.542778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lajosmizse alsó",
+    "lat": 47.0225,
+    "lon": 19.550278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Klábertelep",
+    "lat": 47.005556,
+    "lon": 19.551667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Méntelek",
+    "lat": 46.978611,
+    "lon": 19.570833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hetényegyháza",
+    "lat": 46.930833,
+    "lon": 19.595,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kecskemét-Máriaváros",
+    "lat": 46.899444,
+    "lon": 19.677778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyársapát",
+    "lat": 47.100278,
+    "lon": 19.7925,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagykőrös",
+    "lat": 47.038333,
+    "lon": 19.76,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Katonatelep",
+    "lat": 46.963056,
+    "lon": 19.718889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kecskemét",
+    "lat": 46.913889,
+    "lon": 19.700833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Városföld",
+    "lat": 46.816667,
+    "lon": 19.753333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiskunfélegyháza",
+    "lat": 46.7067,
+    "lon": 19.83474,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Petőfiszállás",
+    "lat": 46.617374,
+    "lon": 19.865229,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csengele",
+    "lat": 46.538321,
+    "lon": 19.909008,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kistelek",
+    "lat": 46.466944,
+    "lon": 19.966944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balástya",
+    "lat": 46.413333,
+    "lon": 20.001389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szatymaz",
+    "lat": 46.345621,
+    "lon": 20.04374,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiskundorozsma",
+    "lat": 46.271667,
+    "lon": 20.090556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szeged",
+    "lat": 46.239722,
+    "lon": 20.143056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsóúrrét",
+    "lat": 46.901667,
+    "lon": 19.771944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyárlőrinc",
+    "lat": 46.87,
+    "lon": 19.851389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Világoshegy",
+    "lat": 46.855278,
+    "lon": 19.940278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szikra",
+    "lat": 46.858333,
+    "lon": 19.975,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lakitelek",
+    "lat": 46.873056,
+    "lon": 20.003611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gátér",
+    "lat": 46.685,
+    "lon": 19.9625,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kónyaszék",
+    "lat": 46.699931,
+    "lon": 20.074299,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csongrád",
+    "lat": 46.704444,
+    "lon": 20.140556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hékéd",
+    "lat": 46.675,
+    "lon": 20.266667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fábiánsebestyén",
+    "lat": 46.670278,
+    "lon": 20.456667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gádoros",
+    "lat": 46.656711,
+    "lon": 20.588157,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Justhmajor",
+    "lat": 46.62,
+    "lon": 20.615833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentetornya",
+    "lat": 46.590964,
+    "lon": 20.628334,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyopárosfürdő",
+    "lat": 46.567784,
+    "lon": 20.630662,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentmihálytelek",
+    "lat": 46.2229,
+    "lon": 20.0808,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Röszke",
+    "lat": 46.19261,
+    "lon": 20.03055,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tószeg",
+    "lat": 47.098056,
+    "lon": 20.138333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszavárkony",
+    "lat": 47.059444,
+    "lon": 20.143056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszajenő-Vezseny",
+    "lat": 47.036319,
+    "lon": 20.142415,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újbög",
+    "lat": 46.962222,
+    "lon": 20.093889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszakécske",
+    "lat": 46.937512,
+    "lon": 20.082016,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kerekdomb",
+    "lat": 46.906944,
+    "lon": 20.052778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszaalpár",
+    "lat": 46.818611,
+    "lon": 19.982778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszaalpár alsó",
+    "lat": 46.790897,
+    "lon": 19.951409,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszatenyő",
+    "lat": 47.134167,
+    "lon": 20.3725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztapó",
+    "lat": 47.091667,
+    "lon": 20.458333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kétpó",
+    "lat": 47.076944,
+    "lon": 20.487778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőtúr",
+    "lat": 47.0125,
+    "lon": 20.622778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagylapos",
+    "lat": 46.974167,
+    "lon": 20.750556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyoma",
+    "lat": 46.925833,
+    "lon": 20.821667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csárdaszállás",
+    "lat": 46.861111,
+    "lon": 20.932778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőberény",
+    "lat": 46.814722,
+    "lon": 21.013056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Murony",
+    "lat": 46.756944,
+    "lon": 21.038056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Békéscsaba",
+    "lat": 46.669722,
+    "lon": 21.081667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kétegyháza",
+    "lat": 46.5325,
+    "lon": 21.171944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lőkösháza",
+    "lat": 46.432222,
+    "lon": 21.2375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kengyel",
+    "lat": 47.089722,
+    "lon": 20.339722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bagimajor",
+    "lat": 47.061111,
+    "lon": 20.316667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Martfű",
+    "lat": 47.019444,
+    "lon": 20.291667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszaföldvár",
+    "lat": 46.975556,
+    "lon": 20.276389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Homok",
+    "lat": 46.9475,
+    "lon": 20.270278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kungyalu",
+    "lat": 46.910833,
+    "lon": 20.2675,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kunszentmárton",
+    "lat": 46.848333,
+    "lon": 20.293333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagytőke",
+    "lat": 46.763333,
+    "lon": 20.291667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szentes",
+    "lat": 46.657778,
+    "lon": 20.2725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szegvár",
+    "lat": 46.588611,
+    "lon": 20.249444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mindszent",
+    "lat": 46.524167,
+    "lon": 20.194167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mártély",
+    "lat": 46.473333,
+    "lon": 20.236111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztabánréve",
+    "lat": 46.939898,
+    "lon": 20.556809,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szarvas",
+    "lat": 46.860833,
+    "lon": 20.566667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csabacsűd",
+    "lat": 46.823056,
+    "lon": 20.663333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisszénás",
+    "lat": 46.751389,
+    "lon": 20.721389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kiscsákó",
+    "lat": 46.719167,
+    "lon": 20.717778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyszénás",
+    "lat": 46.672778,
+    "lon": 20.674167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kardoskút",
+    "lat": 46.498056,
+    "lon": 20.6975,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tótkomlós",
+    "lat": 46.409167,
+    "lon": 20.726944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagyér",
+    "lat": 46.365278,
+    "lon": 20.738333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pitvaros",
+    "lat": 46.326175,
+    "lon": 20.746446,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dévaványa",
+    "lat": 47.033889,
+    "lon": 20.943333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Körösladány",
+    "lat": 46.97,
+    "lon": 21.085833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szeghalom",
+    "lat": 47.015278,
+    "lon": 21.148333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vésztő",
+    "lat": 46.938889,
+    "lon": 21.263611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szeged-Rókus",
+    "lat": 46.266111,
+    "lon": 20.125278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hódmezővásárhelyi Népkert",
+    "lat": 46.403333,
+    "lon": 20.312778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hódmezővásárhely",
+    "lat": 46.413333,
+    "lon": 20.34,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kútvölgy",
+    "lat": 46.459444,
+    "lon": 20.451944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Székkutas",
+    "lat": 46.503889,
+    "lon": 20.541111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orosháza",
+    "lat": 46.566111,
+    "lon": 20.664722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orosházi tanyák",
+    "lat": 46.596944,
+    "lon": 20.760556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csorvás",
+    "lat": 46.623611,
+    "lon": 20.840833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csorvás alsó",
+    "lat": 46.634722,
+    "lon": 20.888333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Telekgerendás",
+    "lat": 46.656111,
+    "lon": 20.963889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fürjes",
+    "lat": 46.67214,
+    "lon": 21.02306,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fényes",
+    "lat": 46.659444,
+    "lon": 21.15,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bicere",
+    "lat": 46.66,
+    "lon": 21.179444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyula",
+    "lat": 46.656389,
+    "lon": 21.273333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "József Szanatórium",
+    "lat": 46.704722,
+    "lon": 21.3325,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sarkadi Cukorgyár",
+    "lat": 46.73,
+    "lon": 21.383611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sarkad",
+    "lat": 46.736944,
+    "lon": 21.402222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kötegyán",
+    "lat": 46.758333,
+    "lon": 21.479722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Méhkerék",
+    "lat": 46.774444,
+    "lon": 21.455556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sarkadkeresztúr",
+    "lat": 46.823611,
+    "lon": 21.4175,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Okány",
+    "lat": 46.8925,
+    "lon": 21.339167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőhegyes",
+    "lat": 46.310833,
+    "lon": 20.815556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Végegyháza",
+    "lat": 46.384444,
+    "lon": 20.878611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőkovácsháza",
+    "lat": 46.408333,
+    "lon": 20.9,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mezőkovácsháza felső",
+    "lat": 46.415556,
+    "lon": 20.918056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarbánhegyes",
+    "lat": 46.451389,
+    "lon": 20.97,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Medgyesegyháza",
+    "lat": 46.495278,
+    "lon": 21.029167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bánkút",
+    "lat": 46.505278,
+    "lon": 21.091944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Törökbálint",
+    "lat": 47.45,
+    "lon": 18.908611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bicske alsó",
+    "lat": 47.486389,
+    "lon": 18.642778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Aquincum",
+    "lat": 47.566218,
+    "lon": 19.048273,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Piliscsév",
+    "lat": 47.673889,
+    "lon": 18.791389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tát",
+    "lat": 47.741201,
+    "lon": 18.64783,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Süttő felső",
+    "lat": 47.756667,
+    "lon": 18.437222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budatétény",
+    "lat": 47.405,
+    "lon": 19.016389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Seregélyes-Szőlőhegy",
+    "lat": 47.119444,
+    "lon": 18.612222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gödöllő-Állami telepek",
+    "lat": 47.564444,
+    "lon": 19.375556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dunakeszi alsó",
+    "lat": 47.607778,
+    "lon": 19.128889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vác-Alsóváros",
+    "lat": 47.773056,
+    "lon": 19.149722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szob alsó",
+    "lat": 47.816667,
+    "lon": 18.8725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Várhegyalja",
+    "lat": 47.737778,
+    "lon": 18.366667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákospalota-Kertváros",
+    "lat": 47.578333,
+    "lon": 19.122778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vicziántelep",
+    "lat": 47.675833,
+    "lon": 19.286111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Máriaudvar",
+    "lat": 47.751944,
+    "lon": 19.165,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rudnaykert",
+    "lat": 47.7175,
+    "lon": 19.257778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maroshegy",
+    "lat": 47.158333,
+    "lon": 18.406667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bánhida",
+    "lat": 47.573703,
+    "lon": 18.371737,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vasútmúzeum",
+    "lat": 47.543889,
+    "lon": 19.099444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Magyarkút",
+    "lat": 47.850278,
+    "lon": 19.045,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Váckisújfalu",
+    "lat": 47.705,
+    "lon": 19.340278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Becske alsó",
+    "lat": 47.897222,
+    "lon": 19.364722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hosszúberek-Péteri",
+    "lat": 47.370556,
+    "lon": 19.389722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Monorierdő",
+    "lat": 47.308889,
+    "lon": 19.499167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ceglédbercel",
+    "lat": 47.215833,
+    "lon": 19.658611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budai út",
+    "lat": 47.208333,
+    "lon": 19.731389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Büdöskútpuszta",
+    "lat": 48.373056,
+    "lon": 20.726111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bánrévei Vízmű",
+    "lat": 48.282778,
+    "lon": 20.368333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rákoskert",
+    "lat": 47.456389,
+    "lon": 19.296111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szirmabesenyő",
+    "lat": 48.146944,
+    "lon": 20.783056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kitérőgyár",
+    "lat": 47.766944,
+    "lon": 19.935278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tápiószentmárton",
+    "lat": 47.373333,
+    "lon": 19.797778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zagyvarékas",
+    "lat": 47.244229,
+    "lon": 20.097435,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Abonyi út",
+    "lat": 47.206667,
+    "lon": 20.124722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jászkisér felső",
+    "lat": 47.438056,
+    "lon": 20.202222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szellőhát",
+    "lat": 47.425556,
+    "lon": 20.188889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szilvásvárad-Szalajkavölgy",
+    "lat": 48.0956,
+    "lon": 20.38272,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vásárosnamény külső",
+    "lat": 48.084444,
+    "lon": 22.255556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újváros",
+    "lat": 46.660556,
+    "lon": 20.536111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Városi park",
+    "lat": 46.697778,
+    "lon": 19.864722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Belsőkamaráspuszta",
+    "lat": 46.341944,
+    "lon": 20.848889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kazincbarcika alsó",
+    "lat": 48.255278,
+    "lon": 20.649167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyárjas",
+    "lat": 46.857778,
+    "lon": 19.923611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pogonyipuszta",
+    "lat": 48.296389,
+    "lon": 20.381667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sióvölgy",
+    "lat": 46.911103,
+    "lon": 18.076964,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Répáspuszta",
+    "lat": 46.430278,
+    "lon": 17.847222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Virányos",
+    "lat": 48.066667,
+    "lon": 21.527222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Füzesbokor",
+    "lat": 47.988611,
+    "lon": 21.6475,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisköre-Tiszahíd",
+    "lat": 47.480835,
+    "lon": 20.507698,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rozsály",
+    "lat": 47.912778,
+    "lon": 22.7825,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisvác",
+    "lat": 47.795278,
+    "lon": 19.113611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Újkenéz",
+    "lat": 48.251111,
+    "lon": 22.221667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sáferkút",
+    "lat": 48.010278,
+    "lon": 19.071389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Püspökladány-Vásártér",
+    "lat": 47.319167,
+    "lon": 21.096111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mórágy",
+    "lat": 46.236021,
+    "lon": 18.627255,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Végegyháza alsó",
+    "lat": 46.3675,
+    "lon": 20.866944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orosháza felső",
+    "lat": 46.553611,
+    "lon": 20.655278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ambrózfalva",
+    "lat": 46.353056,
+    "lon": 20.740556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsónyék",
+    "lat": 46.199444,
+    "lon": 18.738056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Halászlak",
+    "lat": 46.911879,
+    "lon": 20.56228,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sirató",
+    "lat": 46.840556,
+    "lon": 20.61,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csabacsűd felső",
+    "lat": 46.829167,
+    "lon": 20.649167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Orosháza-Üveggyár",
+    "lat": 46.579979,
+    "lon": 20.683644,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyulai városerdő",
+    "lat": 46.69482,
+    "lon": 21.32281,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kórógyszentgyörgy",
+    "lat": 46.564377,
+    "lon": 20.224998,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kunszállás",
+    "lat": 46.784444,
+    "lon": 19.767222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Selymes",
+    "lat": 46.655321,
+    "lon": 19.8534,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Petőfiszállási tanyák",
+    "lat": 46.587805,
+    "lon": 19.874509,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisteleki szőlők",
+    "lat": 46.514199,
+    "lon": 19.92868,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kapitányság",
+    "lat": 46.435336,
+    "lon": 19.987564,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Őszeszék",
+    "lat": 46.39025,
+    "lon": 20.016017,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vilmaszállás",
+    "lat": 46.366389,
+    "lon": 20.030833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánosszállás",
+    "lat": 46.334359,
+    "lon": 20.051199,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőpakony",
+    "lat": 47.343056,
+    "lon": 19.230556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Felsőméntelek",
+    "lat": 46.986944,
+    "lon": 19.558611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Alsóméntelek",
+    "lat": 46.961558,
+    "lon": 19.579121,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagynyír",
+    "lat": 46.935,
+    "lon": 19.591944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Úrihegy",
+    "lat": 46.917778,
+    "lon": 19.621389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Miklóstelep",
+    "lat": 46.913412,
+    "lon": 19.630913,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszajenő alsó",
+    "lat": 47.016944,
+    "lon": 20.134444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Óbög",
+    "lat": 46.987222,
+    "lon": 20.111111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Árpádszállás",
+    "lat": 46.866389,
+    "lon": 19.989444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tőserdő",
+    "lat": 46.851111,
+    "lon": 19.980278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tiszaalpár felső",
+    "lat": 46.836256,
+    "lon": 19.976753,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Borsihalom",
+    "lat": 46.773056,
+    "lon": 19.92,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Petőfiváros",
+    "lat": 46.725556,
+    "lon": 19.848611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kisfái",
+    "lat": 46.888303,
+    "lon": 19.807366,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyárlőrinci szőlők",
+    "lat": 46.8775,
+    "lon": 19.828333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nyárlőrinc alsó",
+    "lat": 46.863889,
+    "lon": 19.878889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csongrádi úti tanyák",
+    "lat": 46.690278,
+    "lon": 19.921667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kettőshalom",
+    "lat": 46.689167,
+    "lon": 20.0225,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csongrád alsó",
+    "lat": 46.711389,
+    "lon": 20.126389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dónát",
+    "lat": 46.66988,
+    "lon": 20.368168,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pusztatemplom",
+    "lat": 46.676667,
+    "lon": 20.407222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Előhát",
+    "lat": 47.364722,
+    "lon": 20.653611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Polgárdi-Tekerespuszta",
+    "lat": 47.017778,
+    "lon": 18.297778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szatina-Kishajmás",
+    "lat": 46.202778,
+    "lon": 18.083611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Márok",
+    "lat": 45.886944,
+    "lon": 18.499167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nagynyárád",
+    "lat": 45.953333,
+    "lon": 18.564722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szászvár",
+    "lat": 46.2875,
+    "lon": 18.369722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Cikó",
+    "lat": 46.262778,
+    "lon": 18.554444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gyöngyfa-Magyarmecske",
+    "lat": 45.983889,
+    "lon": 17.958889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bakonygyirót",
+    "lat": 47.416389,
+    "lon": 17.811944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vinye",
+    "lat": 47.360317,
+    "lon": 17.819635,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nemesgörzsöny",
+    "lat": 47.381667,
+    "lon": 17.400556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rábahíd",
+    "lat": 47.44,
+    "lon": 17.335833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Öskü",
+    "lat": 47.162222,
+    "lon": 18.076389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Márkó",
+    "lat": 47.1275,
+    "lon": 17.813889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nemeskocs",
+    "lat": 47.203333,
+    "lon": 17.188889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalagyömörő",
+    "lat": 47.011111,
+    "lon": 17.220833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rigács",
+    "lat": 47.061667,
+    "lon": 17.199167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kemenespálfa",
+    "lat": 47.139722,
+    "lon": 17.183056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lentiszombathely",
+    "lat": 46.611389,
+    "lon": 16.5725,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ortaháza",
+    "lat": 46.626667,
+    "lon": 16.685833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rádiháza",
+    "lat": 46.654722,
+    "lon": 16.765833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baktüttös",
+    "lat": 46.690833,
+    "lon": 16.826389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Budafa",
+    "lat": 46.851667,
+    "lon": 16.624722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zalapatakalja",
+    "lat": 46.845556,
+    "lon": 16.603889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Belecska",
+    "lat": 46.64,
+    "lon": 18.411389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szabadságliget",
+    "lat": 47.626123,
+    "lon": 18.893481,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Almár",
+    "lat": 47.956111,
+    "lon": 20.356944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Raposka",
+    "lat": 46.851389,
+    "lon": 17.412778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ivacs",
+    "lat": 47.641944,
+    "lon": 19.273889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szorgalmatos",
+    "lat": 47.986667,
+    "lon": 21.366389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fótfürdő",
+    "lat": 47.6225,
+    "lon": 19.200556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fenyveshegy",
+    "lat": 47.818333,
+    "lon": 19.068056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hűvösvölgy",
+    "lat": 47.541202,
+    "lon": 18.96351,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hárshegy",
+    "lat": 47.535318,
+    "lon": 18.961433,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Szépjuhászné",
+    "lat": 47.528277,
+    "lon": 18.955246,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jánoshegy",
+    "lat": 47.51433,
+    "lon": 18.95047,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Virágvölgy",
+    "lat": 47.505965,
+    "lon": 18.95876,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csillebérc",
+    "lat": 47.498196,
+    "lon": 18.961694,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Normafa",
+    "lat": 47.5,
+    "lon": 18.970558,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Széchenyihegy",
+    "lat": 47.49413,
+    "lon": 18.977049,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfőkajár felső",
+    "lat": 47.031389,
+    "lon": 18.215278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Piroska",
+    "lat": 47.148333,
+    "lon": 20.129722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Barosstelep",
+    "lat": 47.398889,
+    "lon": 18.989167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somodor",
+    "lat": 46.4725,
+    "lon": 17.836667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Középmező",
+    "lat": 45.995833,
+    "lon": 18.668889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jobbágyi",
+    "lat": 47.828889,
+    "lon": 19.6875,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Csisztafürdő",
+    "lat": 46.681411,
+    "lon": 17.561797,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pálmajor",
+    "lat": 46.662831,
+    "lon": 17.457526,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyszentpál felső",
+    "lat": 46.649758,
+    "lon": 17.471404,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Somogyszentpál",
+    "lat": 46.638611,
+    "lon": 17.478611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Imremajor",
+    "lat": 46.680556,
+    "lon": 17.499722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Balatonfenyves GV",
+    "lat": 46.7125,
+    "lon": 17.479167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kuty",
+    "lat": 48.663056,
+    "lon": 17.047778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bratislava hl. st.",
+    "lat": 48.158056,
+    "lon": 17.105556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nové Zámky",
+    "lat": 47.994167,
+    "lon": 18.173889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Štúrovo",
+    "lat": 47.799167,
+    "lon": 18.678889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kosice",
+    "lat": 48.721667,
+    "lon": 21.2675,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bratislava-Petrzalka",
+    "lat": 48.120833,
+    "lon": 17.098889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rusovce",
+    "lat": 48.046667,
+    "lon": 17.150833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bratislava-N. M.",
+    "lat": 48.171667,
+    "lon": 17.146667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Subotica",
+    "lat": 46.101944,
+    "lon": 19.671111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Horgoš",
+    "lat": 46.15,
+    "lon": 19.954444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bački Vinogradi",
+    "lat": 46.127686,
+    "lon": 19.857892,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hajdukovo",
+    "lat": 46.0825,
+    "lon": 19.765833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Palić",
+    "lat": 46.103333,
+    "lon": 19.760556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Subotica Javna Skladišta",
+    "lat": 46.094252,
+    "lon": 19.697982,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Beli Manastir",
+    "lat": 45.765556,
+    "lon": 18.596111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sesvetski Kraljevec",
+    "lat": 45.810833,
+    "lon": 16.168889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sesvete",
+    "lat": 45.824722,
+    "lon": 16.11,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Culinec",
+    "lat": 45.820833,
+    "lon": 16.063611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Trnava (Cro)",
+    "lat": 45.818333,
+    "lon": 16.049444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maksimir",
+    "lat": 45.814167,
+    "lon": 16.023611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "SESVETSKA SOPNICA",
+    "lat": 45.824542,
+    "lon": 16.085704,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zagreb Glavni Kol.",
+    "lat": 45.804444,
+    "lon": 15.978889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dugo Selo",
+    "lat": 45.801389,
+    "lon": 16.234722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mucna Reka",
+    "lat": 46.123056,
+    "lon": 16.760556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sokolovac",
+    "lat": 46.101111,
+    "lon": 16.711944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lepavina",
+    "lat": 46.098056,
+    "lon": 16.685,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Carevdar",
+    "lat": 46.065556,
+    "lon": 16.647222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vojakovacki Klostar",
+    "lat": 46.049167,
+    "lon": 16.621111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Majurec",
+    "lat": 46.026667,
+    "lon": 16.590278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Krizevci",
+    "lat": 46.006389,
+    "lon": 16.543333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Repinec",
+    "lat": 45.949722,
+    "lon": 16.505278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gradec",
+    "lat": 45.914444,
+    "lon": 16.484722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Vrbovec",
+    "lat": 45.873611,
+    "lon": 16.410278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bozjakovina",
+    "lat": 45.822222,
+    "lon": 16.307222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Koprivnica",
+    "lat": 46.165556,
+    "lon": 16.816944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Knin",
+    "lat": 44.036667,
+    "lon": 16.198333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Perkovic",
+    "lat": 43.675556,
+    "lon": 16.117778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kastel Stari",
+    "lat": 43.5675,
+    "lon": 16.344722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Split",
+    "lat": 43.504722,
+    "lon": 16.443056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Split Predgrade",
+    "lat": 43.522222,
+    "lon": 16.455278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zidani Most",
+    "lat": 46.085556,
+    "lon": 15.170556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Trbovlje",
+    "lat": 46.126389,
+    "lon": 15.036667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zagorje",
+    "lat": 46.120833,
+    "lon": 14.991111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Litija",
+    "lat": 46.058056,
+    "lon": 14.825278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ljubljana",
+    "lat": 46.058056,
+    "lon": 14.510278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rimske Toplice",
+    "lat": 46.123611,
+    "lon": 15.203056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lasko",
+    "lat": 46.154444,
+    "lon": 15.232222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Celje",
+    "lat": 46.228611,
+    "lon": 15.267778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Poljcane",
+    "lat": 46.313611,
+    "lon": 15.576667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pragersko",
+    "lat": 46.395556,
+    "lon": 15.661944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ptuj",
+    "lat": 46.4225,
+    "lon": 15.878611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Maribor",
+    "lat": 46.561944,
+    "lon": 15.6575,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ormoz",
+    "lat": 46.403333,
+    "lon": 16.156111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ivanjkovci",
+    "lat": 46.458611,
+    "lon": 16.156389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ljutomer Mesto",
+    "lat": 46.520833,
+    "lon": 16.199722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lipovci",
+    "lat": 46.623611,
+    "lon": 16.211389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Murska Sobota",
+    "lat": 46.659444,
+    "lon": 16.171667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mackovci",
+    "lat": 46.783333,
+    "lon": 16.164722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hodoš",
+    "lat": 46.820278,
+    "lon": 16.329444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Postojna",
+    "lat": 45.773056,
+    "lon": 14.221389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Divaca",
+    "lat": 45.681944,
+    "lon": 13.964722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Koper",
+    "lat": 45.539444,
+    "lon": 13.738333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Büchen",
+    "lat": 53.475,
+    "lon": 10.623333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hamburg-Bergedorf",
+    "lat": 53.489722,
+    "lon": 10.206111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hamburg Hbf",
+    "lat": 53.552778,
+    "lon": 10.006944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Hamburg-Altona",
+    "lat": 53.552778,
+    "lon": 9.935278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berlin-Spandau",
+    "lat": 52.534722,
+    "lon": 13.196944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bad Schandau",
+    "lat": 50.919167,
+    "lon": 14.1375,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dresden Hbf",
+    "lat": 51.040556,
+    "lon": 13.731944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Dresden-Neustadt",
+    "lat": 51.065833,
+    "lon": 13.740833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Rosenheim",
+    "lat": 47.85,
+    "lon": 12.119167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "München Hbf",
+    "lat": 48.140278,
+    "lon": 11.558333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Passau Hbf",
+    "lat": 48.573611,
+    "lon": 13.450833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wittenberge",
+    "lat": 53.003056,
+    "lon": 11.762778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ludwigslust",
+    "lat": 53.334722,
+    "lon": 11.494444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berlin Hbf (Tief)",
+    "lat": 52.525556,
+    "lon": 13.369444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Berlin Südkreuz",
+    "lat": 52.475,
+    "lon": 13.365278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Drassburg",
+    "lat": 47.747778,
+    "lon": 16.495,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Müllendorf",
+    "lat": 47.833889,
+    "lon": 16.46,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wien Hbf",
+    "lat": 48.185,
+    "lon": 16.377222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "St.Pölten Hbf",
+    "lat": 48.208333,
+    "lon": 15.624722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Linz Hbf",
+    "lat": 48.290278,
+    "lon": 14.292222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wels Hbf",
+    "lat": 48.166111,
+    "lon": 14.026667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Attnang-Puchheim",
+    "lat": 48.012778,
+    "lon": 13.720833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Salzburg Hbf",
+    "lat": 47.813056,
+    "lon": 13.045833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wörgl",
+    "lat": 47.491667,
+    "lon": 12.060556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Innsbruck Hbf",
+    "lat": 47.263333,
+    "lon": 11.401111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ötztal",
+    "lat": 47.238611,
+    "lon": 10.859167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Landeck - Zams",
+    "lat": 47.148333,
+    "lon": 10.578333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "St.Anton am Arlberg",
+    "lat": 47.127222,
+    "lon": 10.267222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bludenz",
+    "lat": 47.154722,
+    "lon": 9.814444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Feldkirch",
+    "lat": 47.241111,
+    "lon": 9.604167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Tullnerfeld",
+    "lat": 48.295278,
+    "lon": 15.996667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kufstein",
+    "lat": 47.583056,
+    "lon": 12.165556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wien Grillgasse",
+    "lat": 48.1675,
+    "lon": 16.406667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Kledering",
+    "lat": 48.133056,
+    "lon": 16.439444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lanzendorf-Rannersdf",
+    "lat": 48.113333,
+    "lon": 16.4475,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Himberg",
+    "lat": 48.081944,
+    "lon": 16.445,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gramatneusiedl",
+    "lat": 48.035278,
+    "lon": 16.490833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Götzendorf",
+    "lat": 48.025833,
+    "lon": 16.586389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bruck/Leitha",
+    "lat": 48.019167,
+    "lon": 16.78,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Parndorf Ort",
+    "lat": 47.992222,
+    "lon": 16.851111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Parndorf",
+    "lat": 47.986944,
+    "lon": 16.871389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zurndorf",
+    "lat": 47.968056,
+    "lon": 17.024167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Nickelsdorf",
+    "lat": 47.942778,
+    "lon": 17.086111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Neusiedl am See",
+    "lat": 47.955556,
+    "lon": 16.823333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wien Meidling",
+    "lat": 48.174444,
+    "lon": 16.333056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Graz Hbf",
+    "lat": 47.072222,
+    "lon": 15.416389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Leibnitz",
+    "lat": 46.78,
+    "lon": 15.547222,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Spielfeld-Strass",
+    "lat": 46.709444,
+    "lon": 15.629167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ebreichsdorf",
+    "lat": 47.961111,
+    "lon": 16.408889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pottendorf-Landegg",
+    "lat": 47.905278,
+    "lon": 16.396111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Ebenfurth",
+    "lat": 47.877778,
+    "lon": 16.361944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sopron (ÖBB)",
+    "lat": 47.677778,
+    "lon": 16.586667,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Deutschkreutz",
+    "lat": 47.603889,
+    "lon": 16.620278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Graz Liebenau Murpark",
+    "lat": 47.04,
+    "lon": 15.462778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Graz Don Bosco",
+    "lat": 47.058333,
+    "lon": 15.419167,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Graz Ostbf",
+    "lat": 47.053333,
+    "lon": 15.448333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Raaba",
+    "lat": 47.030278,
+    "lon": 15.495833,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Lassnitzhöhe",
+    "lat": 47.078889,
+    "lon": 15.588333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gleisdorf",
+    "lat": 47.1,
+    "lon": 15.707778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Studenzen-Fladnitz",
+    "lat": 46.999167,
+    "lon": 15.774722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Feldbach",
+    "lat": 46.958611,
+    "lon": 15.889722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Fehring",
+    "lat": 46.949444,
+    "lon": 16.013333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Jennersdorf",
+    "lat": 46.935,
+    "lon": 16.139722,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Bad Neusiedl Am See",
+    "lat": 47.942778,
+    "lon": 16.844444,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Weiden am See",
+    "lat": 47.925833,
+    "lon": 16.863889,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Gols",
+    "lat": 47.891667,
+    "lon": 16.905,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Mönchhof-Halbturn",
+    "lat": 47.874722,
+    "lon": 16.946944,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Frauenkirchen",
+    "lat": 47.840556,
+    "lon": 16.916111,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "St. Andrä am Zicksee",
+    "lat": 47.782778,
+    "lon": 16.928056,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wallern im Burgenland",
+    "lat": 47.733333,
+    "lon": 16.930556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Pamhagen-Pomogy",
+    "lat": 47.704167,
+    "lon": 16.903333,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Neufeld A.D.Leitha",
+    "lat": 47.868333,
+    "lon": 16.381389,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Wulkaprodersdorf",
+    "lat": 47.789167,
+    "lon": 16.490556,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Baumgarten",
+    "lat": 47.727778,
+    "lon": 16.517778,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Zürich HB",
+    "lat": 47.378056,
+    "lon": 8.540278,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Buchs Sg",
+    "lat": 47.168333,
+    "lon": 9.478611,
+    "vehicleMode": "RAIL"
+  },
+  {
+    "name": "Sargans",
+    "lat": 47.044722,
+    "lon": 9.446389,
+    "vehicleMode": "RAIL"
+  }
+]

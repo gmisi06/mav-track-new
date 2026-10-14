@@ -1,0 +1,7 @@
+export enum RealtimeState {
+  SCHEDULED = 'SCHEDULED',
+  UPDATED = 'UPDATED',
+  CANCELED = 'CANCELED',
+  ADDED = 'ADDED',
+  MODIFIED = 'MODIFIED',
+}
