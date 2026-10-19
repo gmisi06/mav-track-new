@@ -47,7 +47,45 @@ export const VEHICLE_POSITIONS_QUERY = `
     }
 `;
 
-export const TRIP_DETAILS_QUERY = (tripId: string, serviceDay: string) => `
+// A GTFS-rt VehiclePositions feedhez kellő mezők (azonosítók a statikus GTFS-hez).
+export const GTFS_VEHICLE_POSITIONS_QUERY = `
+    query {
+        vehiclePositions (
+            swLat: 45.5,
+            swLon: 16.1,
+            neLat: 48.7,
+            neLon: 22.8,
+            modes: [RAIL, RAIL_REPLACEMENT_BUS]
+        )
+        {
+            vehicleId
+            label
+            lat
+            lon
+            heading
+            lastUpdated
+            speed
+            stopRelationship {
+                status
+                stop {
+                    gtfsId
+                    name
+                }
+            }
+            trip {
+                gtfsId
+                tripShortName
+                tripHeadsign
+                serviceDate
+                route {
+                    gtfsId
+                }
+            }
+        }
+    }
+`;
+
+export const TRIP_DETAILS_QUERY =(tripId: string, serviceDay: string) => `
     query {
         trip (
             id: "${tripId}",

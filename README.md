@@ -6,6 +6,13 @@ A `mav-track` (NestJS) és `mav-track-client` (Vite + React) egyesítése egyetl
 - `src/app/api/vehicles`, `src/app/api/trips/[id]` – a régi NestJS végpontok Route Handlerként
 - `src/server` – EMMA kliens, jármű/járat szolgáltatások
 
+## GTFS Realtime feed
+
+- `GET /gtfs-rt/VehiclePositions` – GTFS-rt `FeedMessage` (VehiclePositions), bináris protobuf (`application/x-protobuf`)
+- `GET /gtfs-rt/VehiclePositions?format=text` vagy `GET /gtfs-rt/VehiclePositions.txt` – ugyanez protobuf text formatban (hibakereséshez)
+
+A feed 10 másodpercenként frissül: a Vercel CDN `s-maxage=10`-zel cache-eli, a szerverless példány pedig 10 mp-es memória-cache-sel kérdezi az EMMA-t. Az azonosítók (`trip_id`, `route_id`, `stop_id`) feed-prefix (`1:`) nélkül szerepelnek, ahogy a MÁV statikus GTFS-ében.
+
 ## Vercel telepítés
 
 1. Töltsd fel a mappát egy git repóba (GitHub/GitLab/Bitbucket).

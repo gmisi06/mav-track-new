@@ -1,4 +1,5 @@
 import {
+  GTFS_VEHICLE_POSITIONS_QUERY,
   TRIP_DETAILS_QUERY,
   TRIP_POLYLINE_QUERY,
   VEHICLE_POSITIONS_QUERY,
@@ -48,6 +49,15 @@ export async function getVehiclePositionsFromEmma(): Promise<
 > {
   const data = await sendQuery<{ vehiclePositions: VehiclePositionEmma[] }>(
     VEHICLE_POSITIONS_QUERY,
+  );
+  return data.vehiclePositions;
+}
+
+export async function getGtfsVehiclePositionsFromEmma(): Promise<
+  VehiclePositionEmma[]
+> {
+  const data = await sendQuery<{ vehiclePositions: VehiclePositionEmma[] }>(
+    GTFS_VEHICLE_POSITIONS_QUERY,
   );
   return data.vehiclePositions;
 }
