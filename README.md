@@ -2,7 +2,7 @@
 
 A `mav-track` (NestJS) és `mav-track-client` (Vite + React) egyesítése egyetlen Next.js (App Router) projektben. Adatbázis nincs.
 
-- `src/client` – a régi React kliens, változatlan kinézettel (böngészőben renderel, Leaflet miatt)
+- `src/client` – a régi React kliens (böngészőben renderel, MapLibre GL miatt)
 - `src/app/api/vehicles`, `src/app/api/trips/[id]` – a régi NestJS végpontok Route Handlerként
 - `src/server` – EMMA kliens, jármű/járat szolgáltatások
 
@@ -12,6 +12,15 @@ A `mav-track` (NestJS) és `mav-track-client` (Vite + React) egyesítése egyetl
 - `GET /gtfs-rt/VehiclePositions?format=text` vagy `GET /gtfs-rt/VehiclePositions.txt` – ugyanez protobuf text formatban (hibakereséshez)
 
 A feed 10 másodpercenként frissül: a Vercel CDN `s-maxage=10`-zel cache-eli, a szerverless példány pedig 10 mp-es memória-cache-sel kérdezi az EMMA-t. Az azonosítók (`trip_id`, `route_id`, `stop_id`) feed-prefix (`1:`) nélkül szerepelnek, ahogy a MÁV statikus GTFS-ében.
+
+## Térkép
+
+A térkép [MapLibre GL JS](https://maplibre.org/) (`@vis.gl/react-maplibre`) alapú, vektoros csempékkel. Az alapértelmezett stílus az [OpenFreeMap](https://openfreemap.org/) `liberty` stílusa (ingyenes, API-kulcs nélkül). Másik stílus a `NEXT_PUBLIC_MAP_STYLE_URL` környezeti változóval adható meg (buildeléskor kerül a kliensbe).
+
+- A járművek, a megállók és a kiválasztott járat vonala GeoJSON forrásként, WebGL rétegekben jelenik meg (nem DOM-markerekként).
+- A jármű-ikonokat (késés szerinti szín, irány-háromszög) a `vehicleIcons.ts` generálja SVG-ből, igény szerint.
+- A térkép forgatása és döntése ki van kapcsolva, a feliratok a helyi nevet mutatják.
+- A MapLibre 6 WebGL2-t igényel.
 
 ## Vercel telepítés
 

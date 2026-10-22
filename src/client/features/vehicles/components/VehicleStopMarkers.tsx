@@ -1,65 +1,34 @@
-import { Marker, Tooltip } from "react-leaflet";
-import { useMap } from "react-leaflet";
-import { useCallback, useEffect, useState } from "react";
-import { divIcon } from "leaflet";
+import { Layer, Source } from "@vis.gl/react-maplibre";
+import type { FeatureCollection, Point } from "geojson";
+import type { CircleLayerSpecification } from "maplibre-gl";
 import stops from "../data/train_stops.json";
-import styles from "./Vehicle.module.css";
+import { LAYER_IDS, STOPS_MIN_ZOOM } from "../mapConfig";
 
-interface Stop {
-  name: string;
-  lat: number;
-  lon: number;
-}
+const stopsFeatureCollection: FeatureCollection<Point> = {
+  type: "FeatureCollection",
+  features: stops.map((stop) => ({
+    type: "Feature",
+    geometry: { type: "Point", coordinates: [stop.lon, stop.lat] },
+    properties: { name: stop.name },
+  })),
+};
+
+const stopPaint: CircleLayerSpecification["paint"] = {
+  "circle-radius": 5,
+  "circle-color": "#ffffff",
+  "circle-stroke-color": "#737373",
+  "circle-stroke-width": 4,
+};
 
 export default function VehicleStopMarkers() {
-  const map = useMap();
-  const [visibleStops, setVisibleStops] = useState<Stop[]>([]);
-
-  const updateVisibleStops = useCallback(() => {
-    const bounds = map.getBounds();
-    const currentZoom = map.getZoom();
-
-    if (currentZoom >= 12) {
-      const filtered = stops.filter((stop) =>
-        bounds.contains([stop.lat, stop.lon])
-      );
-      setVisibleStops(filtered);
-    } else {
-      setVisibleStops([]);
-    }
-  }, [map]);
-
-  useEffect(() => {
-    updateVisibleStops();
-    map.on("moveend", updateVisibleStops);
-    map.on("zoomend", updateVisibleStops);
-
-    return () => {
-      map.off("moveend", updateVisibleStops);
-      map.off("zoomend", updateVisibleStops);
-    };
-  }, [updateVisibleStops]);
-
   return (
-    <>
-      {visibleStops.map((stop) => (
-        <Marker
-          key={stop.name}
-          position={[stop.lat, stop.lon]}
-          zIndexOffset={100}
-          icon={divIcon({
-            className: "",
-            html: `
-                  <div
-                    class=${styles.vehicleStopMarker}
-                  ></div>
-                  `,
-            iconSize: [30, 30],
-          })}
-        >
-          <Tooltip>{stop.name}</Tooltip>
-        </Marker>
-      ))}
-    </>
+    <Source id="train-stops" type="geojson" data={stopsFeatureCollection}>
+      <Layer
+        id={LAYER_IDS.stops}
+        type="circle"
+        minzoom={STOPS_MIN_ZOOM}
+        paint={stopPaint}
+      />
+    </Source>
   );
 }

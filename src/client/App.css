@@ -30,7 +30,8 @@ body {
   font-family: SourceSans3, sans-serif !important;
 }
 
-.leaflet-container {
+.vehicle-map {
+  position: relative;
   height: 100vh;
   flex-grow: 1;
   transition: width 0.3s ease;
@@ -53,15 +54,31 @@ body {
   background-color: red;
 }
 
-.leaflet-tooltip.tooltip {
-  opacity: 1 !important;
+/* A tooltip ne fogja el az egeret, különben a kurzor alá kerülve villogna. */
+.maplibregl-popup.tooltip {
+  pointer-events: none;
+}
+
+.maplibregl-popup.tooltip .maplibregl-popup-content {
   background-color: white;
   color: black;
   border-radius: 0;
   padding: 6px 10px;
   font-size: 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  border: none;
+}
+
+.maplibregl-popup.vehicle-popup .maplibregl-popup-content {
+  border-radius: 12px;
+  padding: 13px 24px 13px 20px;
+  font-size: 1rem;
+  line-height: 1.4;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.maplibregl-popup.vehicle-popup .maplibregl-popup-close-button {
+  font-size: 18px;
+  padding: 0 6px;
 }
 
 .sidebar {
