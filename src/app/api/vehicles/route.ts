@@ -1,11 +1,23 @@
-import { getVehiclePositions } from '@/server/vehicles/vehicles.service';
+import {
+  getVehicleDataAgeSeconds,
+  getVehiclePositions,
+} from '@/server/vehicles/vehicles.service';
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 30;
 
+// A Vercel CDN 10 mp-ig cache-eli a választ, hiba esetén további 30 mp-ig elavult adatot is kiszolgálhat.
+const CACHE_CONTROL = 'public, max-age=0, s-maxage=10, stale-while-revalidate=30';
+
 export async function GET() {
   try {
-    return Response.json(await getVehiclePositions());
+    const vehicles = await getVehiclePositions();
+    return Response.json(vehicles, {
+      headers: {
+        'Cache-Control': CACHE_CONTROL,
+        'X-Data-Age': String(getVehicleDataAgeSeconds() ?? 0),
+      },
+    });
   } catch (error) {
     console.error(error);
     return Response.json(

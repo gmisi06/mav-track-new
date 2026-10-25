@@ -2,7 +2,8 @@ import { getVehiclePositionsFromEmma } from '../emma/emma.service';
 import { transformEmmaVehiclePositions } from './vehicles.mapper';
 import { VehiclePositionEmma } from '@/server/types/VehiclePositionEmma.type';
 
-const CACHE_TTL_MS = 3 * 60 * 1000;
+// Egyezik a GTFS-rt feed és a CDN (s-maxage=10) frissítési idejével.
+const CACHE_TTL_MS = 10 * 1000;
 
 // Az adatok a (meleg) szerverless példány memóriájában cache-elődnek.
 let vehicleCache = new Map<string, VehiclePositionEmma>();
@@ -35,7 +36,24 @@ export async function getVehiclePositions(): Promise<VehiclePositionEmma[]> {
   inflight ??= refresh().finally(() => {
     inflight = null;
   });
-  return inflight;
+
+  try {
+    return await inflight;
+  } catch (error) {
+    // Az EMMA hibája esetén a legutóbbi adatot szolgáljuk ki, ahelyett hogy hibát adnánk.
+    if (vehicleCache.size > 0) {
+      console.warn('EMMA nem elérhető, a korábbi adatot adjuk vissza', error);
+      return Array.from(vehicleCache.values());
+    }
+    throw error;
+  }
+}
+
+/** A jármű-adatok életkora másodpercben (cache nélkül null). */
+export function getVehicleDataAgeSeconds(): number | null {
+  return lastVehicleFetch
+    ? Math.round((Date.now() - lastVehicleFetch) / 1000)
+    : null;
 }
 
 export function getVehicleByTripId(tripId: string): VehiclePositionEmma {

@@ -8,6 +8,12 @@ export function mergeTripWithVehicle(
   const mergedTrip: TripEmma = {
     ...vehiclePosition.trip,
     infoServices: trip.infoServices,
+    wheelchairAccessible: trip.wheelchairAccessible,
+    bikesAllowed: trip.bikesAllowed,
+    occupancy: trip.occupancy,
+    availableComfortLevels: trip.availableComfortLevels,
+    throughCoaches: trip.throughCoaches,
+    pullingTrips: trip.pullingTrips,
     alerts: trip.alerts,
     stoptimes: trip.stoptimes,
     polyline: trip.polyline,

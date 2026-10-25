@@ -4,6 +4,7 @@ import RouteLine from "./components/RouteLine";
 import RouteTime from "./components/RouteTime";
 import RouteStop from "./components/RouteStop";
 import TripAlerts from "./components/TripAlerts";
+import TripFeatures from "./components/TripFeatures";
 import TripHeadSign from "./TripHeadSign";
 import React, { useEffect, useMemo } from "react";
 import { useGetTripQuery } from "./api/tripsApiSlice";
@@ -18,10 +19,11 @@ const TripInformation = () => {
     (state: RootState) => state.selectedTripId.tripId
   );
 
-  const { data: selectedTrip } = useGetTripQuery(selectedTripId!, {
+  const { data: selectedTrip, isError } = useGetTripQuery(selectedTripId!, {
     skip: !selectedTripId,
     refetchOnMountOrArgChange: true,
     pollingInterval: 60_000,
+    skipPollingIfUnfocused: true,
   });
 
   const processedStoptimes = useMemo(() => {
@@ -54,7 +56,11 @@ const TripInformation = () => {
   if (!selectedTripId || !selectedTrip)
     return (
       <div className={styles.content}>
-        <span className={styles.notSelected}>Válasszon egy járatot!</span>
+        <span className={styles.notSelected}>
+          {selectedTripId && isError
+            ? "A járat adatai nem érhetők el."
+            : "Válasszon egy járatot!"}
+        </span>
       </div>
     );
 
@@ -76,6 +82,7 @@ const TripInformation = () => {
         {selectedTrip.alerts && selectedTrip.alerts.length !== 0 && (
           <TripAlerts alerts={selectedTrip.alerts} />
         )}
+        <TripFeatures trip={selectedTrip} />
         {selectedTrip.delay > 0 && (
           <div className={styles.delay}>
             <b>Késés: </b>

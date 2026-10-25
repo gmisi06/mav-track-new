@@ -6,6 +6,7 @@ import { useGetVehiclesQuery } from "../api/vehiclesApiSlice";
 import { useDispatch } from "react-redux";
 import { setVehicles } from "../store/vehiclesSlice";
 import MapOverlay from "./MapOverlay";
+import styles from "./Vehicle.module.css";
 import { HEADING_ICON_ID, vehicleIconExpression } from "./vehicleIcons";
 import { LAYER_IDS } from "../mapConfig";
 
@@ -34,7 +35,9 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     isLoading,
     isError,
   } = useGetVehiclesQuery(null, {
-    pollingInterval: 60_000,
+    // A szerver 10 mp-ig cache-el, ennél gyakrabban felesleges kérdezni.
+    pollingInterval: 15_000,
+    skipPollingIfUnfocused: true,
   });
 
   useEffect(() => {
@@ -48,17 +51,24 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     [vehicles]
   );
 
-  if (!isMapLoaded || isLoading || isError)
+  // Hiba csak akkor takarja el a térképet, ha még nincs egyetlen adatunk sem.
+  if (!isMapLoaded || isLoading || (isError && !vehicles))
     return (
       <MapOverlay>
         {isError
-          ? "Hiba történt az járművek lekérése közben..."
+          ? "Hiba történt a járművek lekérése közben..."
           : "Térkép betöltése..."}
       </MapOverlay>
     );
 
   return (
-    <Source id="vehicles" type="geojson" data={featureCollection}>
+    <>
+      {isError && (
+        <div className={styles.mapNotice} role="status">
+          Az adatok frissítése nem sikerült, a korábbi állapotot látja.
+        </div>
+      )}
+      <Source id="vehicles" type="geojson" data={featureCollection}>
       <Layer
         id={LAYER_IDS.vehicleHeadings}
         type="symbol"
@@ -66,7 +76,8 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
         layout={headingLayout}
       />
       <Layer id={LAYER_IDS.vehicles} type="symbol" layout={vehicleLayout} />
-    </Source>
+      </Source>
+    </>
   );
 };
 

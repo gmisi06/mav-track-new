@@ -13,6 +13,17 @@ A `mav-track` (NestJS) és `mav-track-client` (Vite + React) egyesítése egyetl
 
 A feed 10 másodpercenként frissül: a Vercel CDN `s-maxage=10`-zel cache-eli, a szerverless példány pedig 10 mp-es memória-cache-sel kérdezi az EMMA-t. Az azonosítók (`trip_id`, `route_id`, `stop_id`) feed-prefix (`1:`) nélkül szerepelnek, ahogy a MÁV statikus GTFS-ében.
 
+## Adatfrissítés és hibatűrés
+
+- `/api/vehicles` és a GTFS-rt feed ugyanúgy 10 mp-es memória-cache-sel és `s-maxage=10, stale-while-revalidate` CDN-fejlécekkel működik; a kliens 15 mp-enként kérdez (háttérben lévő fülön nem).
+- Ha az EMMA nem elérhető, a szerver a legutóbbi adatot szolgálja ki (a `/api/vehicles` `X-Data-Age` fejléce másodpercben jelzi a korát); a kliens ilyenkor sem dobja el a térképet.
+- Az EMMA válaszait [zod](https://zod.dev/) sémák ellenőrzik (`src/server/emma/emma.schemas.ts`): a hibás járművek kimaradnak, egy váratlan formátum pedig hibaként jelenik meg a naplóban.
+- Az EMMA kérésenként 10 mp-es időkorláttal fut. Rövid idő alatt sok kérés (pl. tömeges járat-lekérdezés) 403-as válaszhoz vezethet.
+
+## Tesztek
+
+`npm test` (Vitest) – idő-, jármű-, járat- és séma-logika, valamint a járat-szolgáltatások megjelenítési segédfüggvényei.
+
 ## Térkép
 
 A térkép [MapLibre GL JS](https://maplibre.org/) (`@vis.gl/react-maplibre`) alapú, vektoros csempékkel. Az alapértelmezett stílus az [OpenFreeMap](https://openfreemap.org/) `liberty` stílusa (ingyenes, API-kulcs nélkül). Másik stílus a `NEXT_PUBLIC_MAP_STYLE_URL` környezeti változóval adható meg (buildeléskor kerül a kliensbe).
