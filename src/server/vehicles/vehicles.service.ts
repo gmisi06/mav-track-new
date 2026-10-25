@@ -2,8 +2,8 @@ import { getVehiclePositionsFromEmma } from '../emma/emma.service';
 import { transformEmmaVehiclePositions } from './vehicles.mapper';
 import { VehiclePositionEmma } from '@/server/types/VehiclePositionEmma.type';
 
-// Egyezik a GTFS-rt feed és a CDN (s-maxage=10) frissítési idejével.
-const CACHE_TTL_MS = 10 * 1000;
+// Egyezik a CDN (s-maxage=30) és a kliens (30 mp-es polling) frissítési idejével.
+const CACHE_TTL_MS = 30 * 1000;
 
 // Az adatok a (meleg) szerverless példány memóriájában cache-elődnek.
 let vehicleCache = new Map<string, VehiclePositionEmma>();

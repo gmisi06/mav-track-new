@@ -15,7 +15,7 @@ A feed 10 másodpercenként frissül: a Vercel CDN `s-maxage=10`-zel cache-eli, 
 
 ## Adatfrissítés és hibatűrés
 
-- `/api/vehicles` és a GTFS-rt feed ugyanúgy 10 mp-es memória-cache-sel és `s-maxage=10, stale-while-revalidate` CDN-fejlécekkel működik; a kliens 15 mp-enként kérdez (háttérben lévő fülön nem).
+- `/api/vehicles`: 30 mp-es memória-cache és `s-maxage=30, stale-while-revalidate` CDN-fejléc; a kliens 30 mp-enként kérdez (háttérben lévő fülön nem). A GTFS-rt feed ettől függetlenül 10 mp-es cache-sel működik.
 - Ha az EMMA nem elérhető, a szerver a legutóbbi adatot szolgálja ki (a `/api/vehicles` `X-Data-Age` fejléce másodpercben jelzi a korát); a kliens ilyenkor sem dobja el a térképet.
 - Az EMMA válaszait [zod](https://zod.dev/) sémák ellenőrzik (`src/server/emma/emma.schemas.ts`): a hibás járművek kimaradnak, egy váratlan formátum pedig hibaként jelenik meg a naplóban.
 - Az EMMA kérésenként 10 mp-es időkorláttal fut. Rövid idő alatt sok kérés (pl. tömeges járat-lekérdezés) 403-as válaszhoz vezethet.

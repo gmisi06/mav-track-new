@@ -36,8 +36,8 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     isLoading,
     isError,
   } = useGetVehiclesQuery(null, {
-    // A szerver 10 mp-ig cache-el, ennél gyakrabban felesleges kérdezni.
-    pollingInterval: 15_000,
+    // A szerver 30 mp-ig cache-el, ennél gyakrabban felesleges kérdezni.
+    pollingInterval: 30_000,
     skipPollingIfUnfocused: true,
   });
 

@@ -6,8 +6,8 @@ import {
 export const dynamic = 'force-dynamic';
 export const maxDuration = 30;
 
-// A Vercel CDN 10 mp-ig cache-eli a választ, hiba esetén további 30 mp-ig elavult adatot is kiszolgálhat.
-const CACHE_CONTROL = 'public, max-age=0, s-maxage=10, stale-while-revalidate=30';
+// A Vercel CDN 30 mp-ig cache-eli a választ, hiba esetén további 30 mp-ig elavult adatot is kiszolgálhat.
+const CACHE_CONTROL = 'public, max-age=0, s-maxage=30, stale-while-revalidate=30';
 
 export async function GET() {
   try {
