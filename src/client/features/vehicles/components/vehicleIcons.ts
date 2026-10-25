@@ -17,9 +17,9 @@ export const headingIconId = (scheme: IconScheme) =>
 
 const DARK_SUFFIX = "-dark";
 
-// Sötét térképen a sötétkék körvonal és háromszög elvész, ezért ott világos.
-const ICON_OUTLINE = { light: "#003A7E", dark: "#FFFFFF" };
-const HEADING_COLOR = { light: "#003A7E", dark: "#9EC5FF" };
+// A jármű körvonala és az irányt mutató háromszög azonos színű.
+// Sötét térképen a sötétkék elveszne, ezért ott világoskék.
+const OUTLINE_COLOR = { light: "#003A7E", dark: "#9EC5FF" };
 
 const DELAY_ICON_COLORS: Record<string, string> = {
   "vehicle-delay-0": "#00FF00",
@@ -76,9 +76,9 @@ export const registerVehicleIcons = (map: MapLibreMap) => {
     const baseId = scheme === "dark" ? id.slice(0, -DARK_SUFFIX.length) : id;
     const svg =
       baseId === HEADING_ICON_ID
-        ? headingSvg(HEADING_COLOR[scheme])
+        ? headingSvg(OUTLINE_COLOR[scheme])
         : baseId in DELAY_ICON_COLORS
-        ? trainSvg(DELAY_ICON_COLORS[baseId], ICON_OUTLINE[scheme])
+        ? trainSvg(DELAY_ICON_COLORS[baseId], OUTLINE_COLOR[scheme])
         : null;
     if (!svg) return;
 
