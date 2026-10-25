@@ -7,6 +7,7 @@ import stops from "../data/train_stops.json";
 import { LAYER_IDS, STOPS_MIN_ZOOM } from "../mapConfig";
 import { getLastPassedIndex } from "../../trips/vehicleProgress";
 import { useGetTripQuery } from "../../trips/api/tripsApiSlice";
+import { useColorScheme, type ColorScheme } from "../../../shared/hooks/useColorScheme";
 import type { RootState } from "../../../store/store";
 
 type NamedPoint = {
@@ -27,15 +28,27 @@ const toFeatureCollection = (points: NamedPoint[]): FeatureCollection<Point> => 
 
 const allStopsFeatureCollection = toFeatureCollection(stops);
 
-const stopPaint: CircleLayerSpecification["paint"] = {
-  "circle-radius": 5,
-  // Az elhagyott megállók sötétszürkék, mint a járat panelen.
-  "circle-color": ["case", ["get", "passed"], "#4d4d4d", "#ffffff"],
-  "circle-stroke-color": "#737373",
-  "circle-stroke-width": 4,
+// Ugyanazok az értékek, mint a járat panel pöttyeinél (index.css).
+const STOP_COLORS = {
+  light: { fill: "#ffffff", ring: "#737373", passed: "#4d4d4d" },
+  dark: { fill: "#14181f", ring: "#9aa4b2", passed: "#9aa4b2" },
 };
 
+const stopPaint = (scheme: ColorScheme): CircleLayerSpecification["paint"] => ({
+  "circle-radius": 5,
+  // Az elhagyott megállók kitöltöttek, mint a járat panelen.
+  "circle-color": [
+    "case",
+    ["get", "passed"],
+    STOP_COLORS[scheme].passed,
+    STOP_COLORS[scheme].fill,
+  ],
+  "circle-stroke-color": STOP_COLORS[scheme].ring,
+  "circle-stroke-width": 4,
+});
+
 export default function VehicleStopMarkers() {
+  const scheme = useColorScheme();
   const selectedTripId = useSelector(
     (state: RootState) => state.selectedTripId.tripId
   );
@@ -64,7 +77,7 @@ export default function VehicleStopMarkers() {
         id={LAYER_IDS.stops}
         type="circle"
         minzoom={selectedTripId == null ? STOPS_MIN_ZOOM : 0}
-        paint={stopPaint}
+        paint={stopPaint(scheme)}
       />
     </Source>
   );

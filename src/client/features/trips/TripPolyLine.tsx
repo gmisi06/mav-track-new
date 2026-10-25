@@ -1,10 +1,11 @@
 import polyline from "@mapbox/polyline";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Layer, Source, useMap } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, LineString } from "geojson";
 import type { LineLayerSpecification } from "maplibre-gl";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../store/store";
+import { useColorScheme } from "../../shared/hooks/useColorScheme";
 import { FOCUS_ZOOM, LAYER_IDS } from "../vehicles/mapConfig";
 
 /** Az útvonalat úgy illesztjük a látható térképre, hogy a panel ne takarja ki. */
@@ -28,15 +29,18 @@ const lineLayout: LineLayerSpecification["layout"] = {
   "line-join": "round",
   "line-cap": "round",
 };
-const linePaint: LineLayerSpecification["paint"] = {
-  "line-color": "blue",
-  "line-width": 4,
-};
+// A sötét térképen a "blue" elvesz, ott világosabb kék kell.
+const LINE_COLOR = { light: "blue", dark: "#4d94ff" };
 
 // A forrás és a réteg mindig a térképen van (üres adattal, ha nincs járat),
 // így a rétegsorrend nem függ attól, mikor választanak ki egy járatot.
 const TripPolyLine = () => {
   const { current: map } = useMap();
+  const scheme = useColorScheme();
+  const linePaint = useMemo<LineLayerSpecification["paint"]>(
+    () => ({ "line-color": LINE_COLOR[scheme], "line-width": 4 }),
+    [scheme]
+  );
   const [delayedLine, setDelayedLine] = useState<LineString | null>(null);
 
   const tripPolyline = useSelector(

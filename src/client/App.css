@@ -60,12 +60,68 @@ body {
 }
 
 .maplibregl-popup.tooltip .maplibregl-popup-content {
-  background-color: white;
-  color: black;
   border-radius: 0;
   padding: 6px 10px;
   font-size: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.maplibregl-popup .maplibregl-popup-content {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.maplibregl-popup .maplibregl-popup-close-button {
+  color: var(--text);
+}
+
+.maplibregl-popup .maplibregl-popup-close-button:hover {
+  background-color: var(--surface);
+}
+
+.maplibregl-popup.maplibregl-popup-anchor-top .maplibregl-popup-tip,
+.maplibregl-popup.maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+.maplibregl-popup.maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+  border-bottom-color: var(--bg);
+}
+
+.maplibregl-popup.maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+.maplibregl-popup.maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+.maplibregl-popup.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+  border-top-color: var(--bg);
+}
+
+.maplibregl-popup.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--bg);
+}
+
+.maplibregl-popup.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* A térképvezérlők ikonjai világos hátteret feltételeznek. */
+  .maplibregl-ctrl.maplibregl-ctrl-group {
+    background-color: var(--surface);
+  }
+
+  .maplibregl-ctrl-group button + button {
+    border-top-color: var(--border);
+  }
+
+  .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+    filter: invert(1);
+  }
+
+  .maplibregl-ctrl.maplibregl-ctrl-attrib.maplibregl-compact,
+  .maplibregl-ctrl.maplibregl-ctrl-attrib {
+    background-color: rgba(20, 24, 31, 0.8);
+    color: var(--text);
+  }
+
+  .maplibregl-ctrl-attrib a {
+    color: var(--accent);
+  }
 }
 
 .maplibregl-popup.vehicle-popup .maplibregl-popup-content {
@@ -73,7 +129,7 @@ body {
   padding: 13px 24px 13px 20px;
   font-size: 1rem;
   line-height: 1.4;
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 14px var(--shadow);
 }
 
 .maplibregl-popup.vehicle-popup .maplibregl-popup-close-button {
@@ -90,8 +146,9 @@ body {
   height: 100vh;
   width: 600px;
   min-width: 300px;
-  background: white;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: -2px 0 10px var(--shadow);
   /* padding: 20px; */
   box-sizing: border-box;
   transition: all 0.4s ease;
@@ -145,7 +202,7 @@ body {
 }
 
 button.back {
-  color: #0057be;
+  color: var(--accent);
   background-color: transparent;
   border: none;
   font-weight: bold;
@@ -176,7 +233,7 @@ button.back {
 
 .alerts {
   margin: 20px 0;
-  background-color: #f4f2f5;
+  background-color: var(--surface);
   box-sizing: border-box;
   padding: 10px;
 }
@@ -195,7 +252,7 @@ table th {
 table th {
   font-weight: normal;
   font-style: italic;
-  color: #7a8796;
+  color: var(--text-muted);
   padding: 0 0 10px;
 }
 
@@ -208,8 +265,10 @@ table th {
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  background: #fff;
-  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: 0 -2px 12px var(--shadow);
+  border-top: 1px solid var(--surface);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   z-index: 100;
@@ -234,14 +293,14 @@ table th {
 }
 
 .bottom-sheet-header:focus-visible .drag-handle {
-  background-color: #0057be;
+  background-color: var(--accent);
 }
 
 .drag-handle {
   width: 40px;
   height: 5px;
   border-radius: 5px;
-  background-color: #aaa;
+  background-color: var(--text-muted);
 }
 
 .bottom-sheet-content {
@@ -261,13 +320,15 @@ table th {
 input {
   border-style: solid;
   border-radius: 5px;
-  border-color: #7a8796;
+  border-color: var(--border);
   border-width: 2px;
   outline: none;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 input:focus {
-  border-color: #0057be;
+  border-color: var(--accent);
 }
 
 .list-item {
@@ -275,9 +336,10 @@ input:focus {
   margin: 10px 0;
   border-style: solid;
   border-radius: 5px;
-  border-color: #7a8796;
+  border-color: var(--border);
   border-width: 1px;
-  background-color: white;
+  background-color: var(--bg);
+  color: var(--text);
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
@@ -290,7 +352,7 @@ input:focus {
 
 .list-item:hover,
 .list-item:focus {
-  border-color: #0057be;
-  background-color: #f4f2f5;
+  border-color: var(--accent);
+  background-color: var(--surface);
   cursor: pointer;
 }

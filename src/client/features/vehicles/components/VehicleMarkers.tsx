@@ -8,7 +8,8 @@ import type { RootState } from "../../../store/store";
 import { setVehicles } from "../store/vehiclesSlice";
 import MapOverlay from "./MapOverlay";
 import styles from "./Vehicle.module.css";
-import { HEADING_ICON_ID, vehicleIconExpression } from "./vehicleIcons";
+import { headingIconId, vehicleIconExpression } from "./vehicleIcons";
+import { useColorScheme } from "../../../shared/hooks/useColorScheme";
 import { LAYER_IDS } from "../mapConfig";
 
 type VehicleMarkersParams = {
@@ -30,6 +31,15 @@ const toFeatureCollection = (vehicles: any[]): FeatureCollection<Point> => ({
 
 const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
   const dispatch = useDispatch();
+  const scheme = useColorScheme();
+  const headingLayout = useMemo(
+    () => ({ ...headingLayoutBase, "icon-image": headingIconId(scheme) }),
+    [scheme]
+  );
+  const vehicleLayout = useMemo(
+    () => ({ ...vehicleLayoutBase, "icon-image": vehicleIconExpression(scheme) }),
+    [scheme]
+  );
 
   const {
     data: vehicles,
@@ -94,16 +104,14 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
   );
 };
 
-const headingLayout: SymbolLayerSpecification["layout"] = {
-  "icon-image": HEADING_ICON_ID,
+const headingLayoutBase: SymbolLayerSpecification["layout"] = {
   "icon-rotate": ["get", "heading"],
   "icon-rotation-alignment": "map",
   "icon-allow-overlap": true,
   "icon-ignore-placement": true,
 };
 
-const vehicleLayout: SymbolLayerSpecification["layout"] = {
-  "icon-image": vehicleIconExpression,
+const vehicleLayoutBase: SymbolLayerSpecification["layout"] = {
   "icon-allow-overlap": true,
   "icon-ignore-placement": true,
 };

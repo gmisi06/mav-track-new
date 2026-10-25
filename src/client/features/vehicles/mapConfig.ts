@@ -3,6 +3,11 @@ export const MAP_STYLE_URL =
   process.env.NEXT_PUBLIC_MAP_STYLE_URL ??
   "https://tiles.openfreemap.org/styles/liberty";
 
+// Sötét módban az OpenFreeMap sötét stílusa; felülírható a NEXT_PUBLIC_MAP_STYLE_URL_DARK változóval.
+export const MAP_STYLE_URL_DARK =
+  process.env.NEXT_PUBLIC_MAP_STYLE_URL_DARK ??
+  "https://tiles.openfreemap.org/styles/dark";
+
 // A MapLibre 512 px-es csempékkel számol, ezért ugyanaz a méretarány eggyel
 // kisebb zoomszint, mint a korábbi (256 px-es) Leaflet térképen.
 export const INITIAL_VIEW = {

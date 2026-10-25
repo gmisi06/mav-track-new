@@ -21,9 +21,8 @@ const RouteLine = ({ isVehicle = false }: { isVehicle?: boolean }) => {
             width="48"
             height="48"
             rx="50%"
-            fill="#003A7E"
+            style={{ fill: "var(--vehicle-badge)", stroke: "var(--vehicle-badge)" }}
             fillOpacity="0.99"
-            stroke="#003A7E"
             strokeWidth="3"
           />
 

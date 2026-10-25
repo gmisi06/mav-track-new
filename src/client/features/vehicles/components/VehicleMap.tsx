@@ -25,6 +25,7 @@ import {
   LAYER_IDS,
   MAP_LOCALE,
   MAP_STYLE_URL,
+  MAP_STYLE_URL_DARK,
   MIN_ZOOM,
 } from "../mapConfig";
 import {
@@ -33,6 +34,7 @@ import {
 } from "../../trips/store/selectedTripIdSlice";
 import { clearPolyline } from "../../../store/slices/polylineSlice";
 import { useStack } from "../../../StackContext";
+import { useColorScheme } from "../../../shared/hooks/useColorScheme";
 import type { RootState } from "../../../store/store";
 
 // A MapLibre 6 bundlerrel nem találja meg magától a worker fájlt; így a
@@ -60,6 +62,7 @@ const VehicleMap = () => {
 
   const isPanelOpen = useSelector((state: RootState) => state.panel.open);
 
+  const scheme = useColorScheme();
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   // A kijelölés forrása a store: a keresésből és a térképről kijelölt járat is ide kerül.
   const popupTripId = useSelector(
@@ -140,7 +143,7 @@ const VehicleMap = () => {
       <Map
         initialViewState={INITIAL_VIEW}
         minZoom={MIN_ZOOM}
-        mapStyle={MAP_STYLE_URL}
+        mapStyle={scheme === "dark" ? MAP_STYLE_URL_DARK : MAP_STYLE_URL}
         locale={MAP_LOCALE}
         dragRotate={false}
         pitchWithRotate={false}
@@ -153,6 +156,10 @@ const VehicleMap = () => {
           registerVehicleIcons(e.target);
           localizeLabels(e.target);
           setIsMapLoaded(true);
+        }}
+        // Stílusváltáskor (világos/sötét) az új stílus feliratait is magyarítjuk.
+        onStyleData={(e) => {
+          if (e.target.isStyleLoaded()) localizeLabels(e.target);
         }}
         onClick={handleClick}
         onMouseMove={handleMouseMove}

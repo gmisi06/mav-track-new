@@ -5,7 +5,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 4px;
-  background-color: #0057be;
+  background-color: var(--route-line);
   z-index: -1;
 }
 
@@ -28,14 +28,14 @@
   transform: translateX(-50%);
   width: 4px;
   height: 25px;
-  background-color: #0057be;
+  background-color: var(--route-line);
   z-index: -1;
 }
 
 .routeStop {
   border-radius: 50%;
-  background-color: #ffffff;
-  border: 4px solid #737373;
+  background-color: var(--stop-fill);
+  border: 4px solid var(--stop-ring);
   height: 10px;
   display: block;
   margin: 0 auto;
@@ -43,15 +43,15 @@
 }
 
 .routeStop.passed {
-  background-color: #4d4d4d;
+  background-color: var(--stop-passed);
 }
 
 .delayedTime {
-  color: #d92923;
+  color: var(--danger);
 }
 
 .onTime {
-  color: #028602;
+  color: var(--success);
 }
 
 .routeShortNameContainer {
