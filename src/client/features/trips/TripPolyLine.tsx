@@ -5,7 +5,6 @@ import type { FeatureCollection, LineString } from "geojson";
 import type { LineLayerSpecification } from "maplibre-gl";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../store/store";
-import { useColorScheme } from "../../shared/hooks/useColorScheme";
 import { FOCUS_ZOOM, LAYER_IDS } from "../vehicles/mapConfig";
 
 /** Az útvonalat úgy illesztjük a látható térképre, hogy a panel ne takarja ki. */
@@ -26,14 +25,6 @@ function fitPadding() {
 const EMPTY_LINE: FeatureCollection = { type: "FeatureCollection", features: [] };
 
 const LINE_COLOR = "#274f96";
-// A sötét térképen a sötétkék vonal elveszne, ezért ott világos szegélyt kap.
-const CASING_COLOR = "#ffffff";
-
-const casingPaint: LineLayerSpecification["paint"] = {
-  "line-color": CASING_COLOR,
-  "line-width": 8,
-  "line-opacity": 0.9,
-};
 
 const lineLayout: LineLayerSpecification["layout"] = {
   "line-join": "round",
@@ -44,7 +35,6 @@ const lineLayout: LineLayerSpecification["layout"] = {
 // így a rétegsorrend nem függ attól, mikor választanak ki egy járatot.
 const TripPolyLine = () => {
   const { current: map } = useMap();
-  const scheme = useColorScheme();
   const linePaint: LineLayerSpecification["paint"] = {
     "line-color": LINE_COLOR,
     "line-width": 4,
@@ -98,14 +88,6 @@ const TripPolyLine = () => {
 
   return (
     <Source id="trip-line" type="geojson" data={delayedLine ?? EMPTY_LINE}>
-      {scheme === "dark" && (
-        <Layer
-          id={LAYER_IDS.tripLineCasing}
-          type="line"
-          layout={lineLayout}
-          paint={casingPaint}
-        />
-      )}
       <Layer
         id={LAYER_IDS.tripLine}
         type="line"
