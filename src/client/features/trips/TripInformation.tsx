@@ -30,18 +30,26 @@ const TripInformation = () => {
     if (!selectedTrip || !selectedTrip.stoptimes || !selectedTrip.nextStop)
       return [];
 
+    const vehicleIndex = selectedTrip.stoptimes.findIndex(
+      (_: any, index: number, arr: any[]) =>
+        index < arr.length - 1 &&
+        arr[index + 1].stop.id === selectedTrip.nextStop.id
+    );
+
     return selectedTrip.stoptimes.map(
       (stoptime: any, index: any, arr: any[]) => {
         const isFirst = index === 0;
         const isLast = index === arr.length - 1;
-        const isVehicle =
-          !isLast && arr[index + 1].stop.id === selectedTrip.nextStop.id;
+        const isVehicle = index === vehicleIndex;
+        // Amelyik megállót a vonat már elhagyta (a vonat jelzése után van a következő).
+        const isPassed = vehicleIndex >= 0 && index <= vehicleIndex;
 
         return {
           ...stoptime,
           isFirst,
           isLast,
           isVehicle,
+          isPassed,
         };
       }
     );
@@ -133,6 +141,7 @@ const TripInformation = () => {
                       <RouteStop
                         first={stoptime.isFirst}
                         last={stoptime.isLast}
+                        passed={stoptime.isPassed}
                       />
                     </td>
                     <td>

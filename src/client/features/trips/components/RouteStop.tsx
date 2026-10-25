@@ -5,9 +5,12 @@ import clsx from "clsx";
 const RouteStop = ({
   first = false,
   last = false,
+  passed = false,
 }: {
   first: boolean;
   last: boolean;
+  /** A vonat már elhagyta a megállót. */
+  passed?: boolean;
 }) => {
   return (
     <div className={styles.routeStopContainer}>
@@ -17,7 +20,7 @@ const RouteStop = ({
           first ? styles.first : last ? styles.last : styles.notFirstOrLast
         )}
       />
-      <div className={styles.routeStop} />
+      <div className={clsx(styles.routeStop, passed && styles.passed)} />
     </div>
   );
 };
