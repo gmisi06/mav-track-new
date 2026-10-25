@@ -1,9 +1,4 @@
-import {
-  accessibilityFeature,
-  bikeFeature,
-  occupancyLabel,
-  reservationRows,
-} from "../tripFeatures";
+import { occupancyLabel, reservationRows } from "../tripFeatures";
 import styles from "./TripFeatures.module.css";
 
 type Coach = {
@@ -37,17 +32,12 @@ const CoachList = ({ title, coaches }: { title: string; coaches: Coach[] }) => (
 );
 
 const TripFeatures = ({ trip }: { trip: any }) => {
-  const badges = [
-    accessibilityFeature(trip.wheelchairAccessible),
-    bikeFeature(trip.bikesAllowed),
-  ].filter((feature) => feature !== null);
   const occupancy = occupancyLabel(trip.occupancy?.occupancyStatus);
   const reservations = reservationRows(trip.availableComfortLevels);
   const throughCoaches: Coach[] = trip.throughCoaches ?? [];
   const pullingTrips: Coach[] = trip.pullingTrips ?? [];
 
   if (
-    !badges.length &&
     !occupancy &&
     !reservations.length &&
     !throughCoaches.length &&
@@ -57,18 +47,11 @@ const TripFeatures = ({ trip }: { trip: any }) => {
 
   return (
     <div className={styles.container}>
-      {(badges.length > 0 || occupancy) && (
+      {occupancy && (
         <div className={styles.badges}>
-          {badges.map((feature) => (
-            <span key={feature.key} className={styles.badge}>
-              <span aria-hidden="true">{feature.icon}</span> {feature.label}
-            </span>
-          ))}
-          {occupancy && (
-            <span className={styles.badge}>
-              <span aria-hidden="true">👥</span> Kihasználtság: {occupancy}
-            </span>
-          )}
+          <span className={styles.badge}>
+            <span aria-hidden="true">👥</span> Kihasználtság: {occupancy}
+          </span>
         </div>
       )}
       {reservations.length > 0 && (
@@ -95,10 +78,10 @@ const TripFeatures = ({ trip }: { trip: any }) => {
         </div>
       )}
       {throughCoaches.length > 0 && (
-        <CoachList title="Átmenő kocsik" coaches={throughCoaches} />
+        <CoachList title="Közvetlen kocsi" coaches={throughCoaches} />
       )}
       {pullingTrips.length > 0 && (
-        <CoachList title="Vontatott vonatok" coaches={pullingTrips} />
+        <CoachList title="Továbbító vonat" coaches={pullingTrips} />
       )}
     </div>
   );

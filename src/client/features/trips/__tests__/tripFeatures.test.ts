@@ -1,24 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import {
-  accessibilityFeature,
-  bikeFeature,
-  occupancyLabel,
-  reservationRows,
-} from '../tripFeatures';
+import { occupancyLabel, reservationRows } from '../tripFeatures';
 
 describe('tripFeatures', () => {
   it('ismeretlen vagy hiányzó adatnál nem mutat semmit', () => {
-    expect(accessibilityFeature('NO_INFORMATION')).toBeNull();
-    expect(accessibilityFeature(undefined)).toBeNull();
-    expect(bikeFeature('NO_INFORMATION')).toBeNull();
     expect(occupancyLabel('NO_DATA_AVAILABLE')).toBeNull();
     expect(occupancyLabel(undefined)).toBeNull();
-  });
-
-  it('megkülönbözteti az engedélyezett és tiltott állapotot', () => {
-    expect(bikeFeature('ALLOWED')?.label).toMatch(/szállítható/);
-    expect(bikeFeature('NOT_ALLOWED')?.label).toMatch(/nem/);
-    expect(accessibilityFeature('NOT_POSSIBLE')?.label).toMatch(/Nem/);
   });
 
   it('a kihasználtságot magyarul adja', () => {
