@@ -3,9 +3,11 @@ import { Layer, Source } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, Point } from "geojson";
 import type { SymbolLayerSpecification } from "maplibre-gl";
 import { useGetVehiclesQuery } from "../api/vehiclesApiSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import type { RootState } from "../../../store/store";
 import { setVehicles } from "../store/vehiclesSlice";
 import MapOverlay from "./MapOverlay";
+import styles from "./Vehicle.module.css";
 import { HEADING_ICON_ID, vehicleIconExpression } from "./vehicleIcons";
 import { LAYER_IDS } from "../mapConfig";
 
@@ -34,7 +36,9 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     isLoading,
     isError,
   } = useGetVehiclesQuery(null, {
-    pollingInterval: 60_000,
+    // A szerver 30 mp-ig cache-el, ennél gyakrabban felesleges kérdezni.
+    pollingInterval: 30_000,
+    skipPollingIfUnfocused: true,
   });
 
   useEffect(() => {
@@ -43,22 +47,41 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     }
   }, [vehicles]);
 
-  const featureCollection = useMemo(
-    () => toFeatureCollection(vehicles ?? []),
-    [vehicles]
+  const selectedTripId = useSelector(
+    (state: RootState) => state.selectedTripId.tripId
   );
 
-  if (!isMapLoaded || isLoading || isError)
+  // Kijelölt járatnál csak az a vonat látszik a térképen.
+  const featureCollection = useMemo(
+    () =>
+      toFeatureCollection(
+        selectedTripId == null
+          ? vehicles ?? []
+          : (vehicles ?? []).filter(
+              (vehicle: any) => vehicle.trip.id === selectedTripId
+            )
+      ),
+    [vehicles, selectedTripId]
+  );
+
+  // Hiba csak akkor takarja el a térképet, ha még nincs egyetlen adatunk sem.
+  if (!isMapLoaded || isLoading || (isError && !vehicles))
     return (
       <MapOverlay>
         {isError
-          ? "Hiba történt az járművek lekérése közben..."
+          ? "Hiba történt a járművek lekérése közben..."
           : "Térkép betöltése..."}
       </MapOverlay>
     );
 
   return (
-    <Source id="vehicles" type="geojson" data={featureCollection}>
+    <>
+      {isError && (
+        <div className={styles.mapNotice} role="status">
+          Az adatok frissítése nem sikerült, a korábbi állapotot látja.
+        </div>
+      )}
+      <Source id="vehicles" type="geojson" data={featureCollection}>
       <Layer
         id={LAYER_IDS.vehicleHeadings}
         type="symbol"
@@ -66,7 +89,8 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
         layout={headingLayout}
       />
       <Layer id={LAYER_IDS.vehicles} type="symbol" layout={vehicleLayout} />
-    </Source>
+      </Source>
+    </>
   );
 };
 

@@ -4,9 +4,11 @@ import RouteLine from "./components/RouteLine";
 import RouteTime from "./components/RouteTime";
 import RouteStop from "./components/RouteStop";
 import TripAlerts from "./components/TripAlerts";
+import TripFeatures from "./components/TripFeatures";
 import TripHeadSign from "./TripHeadSign";
 import React, { useEffect, useMemo } from "react";
 import { useGetTripQuery } from "./api/tripsApiSlice";
+import { getLastPassedIndex } from "./vehicleProgress";
 import { setPolyline } from "../../store/slices/polylineSlice";
 import styles from "./TripInformation.module.css";
 import tripHeadSignStyles from "./TripHeadSign.module.css";
@@ -18,28 +20,36 @@ const TripInformation = () => {
     (state: RootState) => state.selectedTripId.tripId
   );
 
-  const { data: selectedTrip } = useGetTripQuery(selectedTripId!, {
+  const { data: selectedTrip, isError } = useGetTripQuery(selectedTripId!, {
     skip: !selectedTripId,
     refetchOnMountOrArgChange: true,
     pollingInterval: 60_000,
+    skipPollingIfUnfocused: true,
   });
 
   const processedStoptimes = useMemo(() => {
     if (!selectedTrip || !selectedTrip.stoptimes || !selectedTrip.nextStop)
       return [];
 
+    const vehicleIndex = getLastPassedIndex(
+      selectedTrip.stoptimes,
+      selectedTrip.nextStop
+    );
+
     return selectedTrip.stoptimes.map(
       (stoptime: any, index: any, arr: any[]) => {
         const isFirst = index === 0;
         const isLast = index === arr.length - 1;
-        const isVehicle =
-          !isLast && arr[index + 1].stop.id === selectedTrip.nextStop.id;
+        const isVehicle = index === vehicleIndex;
+        // Amelyik megállót a vonat már elhagyta (a vonat jelzése után van a következő).
+        const isPassed = vehicleIndex >= 0 && index <= vehicleIndex;
 
         return {
           ...stoptime,
           isFirst,
           isLast,
           isVehicle,
+          isPassed,
         };
       }
     );
@@ -54,7 +64,11 @@ const TripInformation = () => {
   if (!selectedTripId || !selectedTrip)
     return (
       <div className={styles.content}>
-        <span className={styles.notSelected}>Válasszon egy járatot!</span>
+        <span className={styles.notSelected}>
+          {selectedTripId && isError
+            ? "A járat adatai nem érhetők el."
+            : "Válasszon egy járatot!"}
+        </span>
       </div>
     );
 
@@ -76,6 +90,7 @@ const TripInformation = () => {
         {selectedTrip.alerts && selectedTrip.alerts.length !== 0 && (
           <TripAlerts alerts={selectedTrip.alerts} />
         )}
+        <TripFeatures trip={selectedTrip} />
         {selectedTrip.delay > 0 && (
           <div className={styles.delay}>
             <b>Késés: </b>
@@ -126,6 +141,7 @@ const TripInformation = () => {
                       <RouteStop
                         first={stoptime.isFirst}
                         last={stoptime.isLast}
+                        passed={stoptime.isPassed}
                       />
                     </td>
                     <td>

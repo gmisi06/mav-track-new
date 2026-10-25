@@ -201,25 +201,40 @@ table th {
 
 .bottom-sheet {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  height: 60vh;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
   background: #fff;
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  touch-action: none;
   z-index: 100;
+  /* A függőleges húzást a lap kezeli, nem a böngésző. */
+  touch-action: none;
+}
+
+.bottom-sheet.full {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .bottom-sheet-header {
+  flex-shrink: 0;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: grab;
   touch-action: none;
+  outline: none;
+}
+
+.bottom-sheet-header:focus-visible .drag-handle {
+  background-color: #0057be;
 }
 
 .drag-handle {
@@ -230,9 +245,17 @@ table th {
 }
 
 .bottom-sheet-content {
-  padding: 0 1rem;
+  flex: 1;
+  min-height: 0;
+  padding: 0 1rem env(safe-area-inset-bottom);
+  overflow-y: hidden;
+  overscroll-behavior: contain;
+}
+
+/* Csak teljesen felhúzva görgethető a tartalom. */
+.bottom-sheet-content.scrollable {
   overflow-y: auto;
-  max-height: calc(60vh - 50px);
+  touch-action: pan-y;
 }
 
 input {

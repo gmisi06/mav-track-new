@@ -42,6 +42,10 @@
   aspect-ratio: 1;
 }
 
+.routeStop.passed {
+  background-color: #4d4d4d;
+}
+
 .delayedTime {
   color: #d92923;
 }

@@ -92,6 +92,45 @@ export const TRIP_DETAILS_QUERY =(tripId: string, serviceDay: string) => `
             serviceDay: "${serviceDay}"
         ) 
         {
+            wheelchairAccessible
+            bikesAllowed
+            occupancy {
+                occupancyStatus
+            }
+            availableComfortLevels {
+                placeReservation
+                fromStopIndex
+                tillStopIndex
+                comfortLevel {
+                    name
+                    mandatoryPlaceReservation
+                    fontCode
+                }
+            }
+            throughCoaches {
+                attachedFromStop {
+                    name
+                }
+                attachedTillStop {
+                    name
+                }
+                trip {
+                    tripShortName
+                    tripHeadsign
+                }
+            }
+            pullingTrips {
+                attachedFromStop {
+                    name
+                }
+                attachedTillStop {
+                    name
+                }
+                trip {
+                    tripShortName
+                    tripHeadsign
+                }
+            }
             infoServices {
                 name
                 fontCode

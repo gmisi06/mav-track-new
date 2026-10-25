@@ -30,10 +30,22 @@ export async function getTripDetails(tripId: string) {
     return mergeTripWithVehicle(trip.data, vehiclePosition);
   }
 
-  const freshTrip = await getTripDetailsFromEmma(tripId);
-  freshTrip.polyline = await getTripPolylineFromEmma(tripId);
+  try {
+    const [freshTrip, polyline] = await Promise.all([
+      getTripDetailsFromEmma(tripId),
+      getTripPolylineFromEmma(tripId),
+    ]);
+    freshTrip.polyline = polyline;
 
-  tripsCache.set(tripId, { data: freshTrip, lastUpdated: now });
+    tripsCache.set(tripId, { data: freshTrip, lastUpdated: now });
 
-  return mergeTripWithVehicle(freshTrip, vehiclePosition);
+    return mergeTripWithVehicle(freshTrip, vehiclePosition);
+  } catch (error) {
+    // Elavult részletek még mindig jobbak, mint a hiba (a késés és a pozíció friss marad).
+    if (trip) {
+      console.warn(`Járat (${tripId}) frissítése sikertelen, cache-t adunk`, error);
+      return mergeTripWithVehicle(trip.data, vehiclePosition);
+    }
+    throw error;
+  }
 }

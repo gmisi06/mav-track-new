@@ -121,7 +121,17 @@ export async function getVehiclePositionsFeed(): Promise<VehiclePositionsFeed> {
   inflight ??= refresh().finally(() => {
     inflight = null;
   });
-  return inflight;
+
+  try {
+    return await inflight;
+  } catch (error) {
+    // Az EMMA hibája esetén a legutóbbi feedet adjuk vissza (a header.timestamp jelzi a korát).
+    if (cachedFeed) {
+      console.warn('EMMA nem elérhető, a korábbi feedet adjuk vissza', error);
+      return cachedFeed;
+    }
+    throw error;
+  }
 }
 
 /** Bináris protobuf kódolás – ezt várják a GTFS-rt kliensek. */
