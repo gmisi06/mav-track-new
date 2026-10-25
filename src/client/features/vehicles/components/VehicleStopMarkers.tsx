@@ -31,12 +31,12 @@ const allStopsFeatureCollection = toFeatureCollection(stops);
 // Ugyanazok az értékek, mint a járat panel pöttyeinél (index.css).
 const STOP_COLORS = {
   light: { fill: "#ffffff", ring: "#737373", passed: "#4d4d4d" },
-  dark: { fill: "#14181f", ring: "#9aa4b2", passed: "#9aa4b2" },
+  dark: { fill: "#d8d8d8", ring: "#9aa4b2", passed: "#373737" },
 };
 
 const stopPaint = (scheme: ColorScheme): CircleLayerSpecification["paint"] => ({
   "circle-radius": 5,
-  // Az elhagyott megállók kitöltöttek, mint a járat panelen.
+  // Az elhagyott megállók sötétebbek, mint a járat panelen.
   "circle-color": [
     "case",
     ["get", "passed"],
