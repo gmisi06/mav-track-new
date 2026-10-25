@@ -5,17 +5,23 @@ import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import stops from "../data/train_stops.json";
 import { LAYER_IDS, STOPS_MIN_ZOOM } from "../mapConfig";
+import { getLastPassedIndex } from "../../trips/vehicleProgress";
 import { useGetTripQuery } from "../../trips/api/tripsApiSlice";
 import type { RootState } from "../../../store/store";
 
-type NamedPoint = { name: string; lat: number; lon: number };
+type NamedPoint = {
+  name: string;
+  lat: number;
+  lon: number;
+  passed?: boolean;
+};
 
 const toFeatureCollection = (points: NamedPoint[]): FeatureCollection<Point> => ({
   type: "FeatureCollection",
   features: points.map((stop) => ({
     type: "Feature",
     geometry: { type: "Point", coordinates: [stop.lon, stop.lat] },
-    properties: { name: stop.name },
+    properties: { name: stop.name, passed: stop.passed === true },
   })),
 });
 
@@ -23,7 +29,8 @@ const allStopsFeatureCollection = toFeatureCollection(stops);
 
 const stopPaint: CircleLayerSpecification["paint"] = {
   "circle-radius": 5,
-  "circle-color": "#ffffff",
+  // Az elhagyott megállók sötétszürkék, mint a járat panelen.
+  "circle-color": ["case", ["get", "passed"], "#4d4d4d", "#ffffff"],
   "circle-stroke-color": "#737373",
   "circle-stroke-width": 4,
 };
@@ -40,10 +47,14 @@ export default function VehicleStopMarkers() {
   // Kijelölt járatnál csak az általa érintett megállók látszanak, bármilyen nagyításnál.
   const data = useMemo(() => {
     if (selectedTripId == null) return allStopsFeatureCollection;
+    const lastPassed = getLastPassedIndex(trip?.stoptimes, trip?.nextStop);
     return toFeatureCollection(
       (trip?.stoptimes ?? [])
-        .map((stoptime: any) => stoptime.stop)
-        .filter((stop: any) => stop?.lat != null && stop?.lon != null)
+        .map((stoptime: any, index: number) => ({
+          ...stoptime.stop,
+          passed: index <= lastPassed,
+        }))
+        .filter((stop: any) => stop.lat != null && stop.lon != null)
     );
   }, [selectedTripId, trip]);
 

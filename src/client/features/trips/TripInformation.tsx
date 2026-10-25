@@ -8,6 +8,7 @@ import TripFeatures from "./components/TripFeatures";
 import TripHeadSign from "./TripHeadSign";
 import React, { useEffect, useMemo } from "react";
 import { useGetTripQuery } from "./api/tripsApiSlice";
+import { getLastPassedIndex } from "./vehicleProgress";
 import { setPolyline } from "../../store/slices/polylineSlice";
 import styles from "./TripInformation.module.css";
 import tripHeadSignStyles from "./TripHeadSign.module.css";
@@ -30,10 +31,9 @@ const TripInformation = () => {
     if (!selectedTrip || !selectedTrip.stoptimes || !selectedTrip.nextStop)
       return [];
 
-    const vehicleIndex = selectedTrip.stoptimes.findIndex(
-      (_: any, index: number, arr: any[]) =>
-        index < arr.length - 1 &&
-        arr[index + 1].stop.id === selectedTrip.nextStop.id
+    const vehicleIndex = getLastPassedIndex(
+      selectedTrip.stoptimes,
+      selectedTrip.nextStop
     );
 
     return selectedTrip.stoptimes.map(
