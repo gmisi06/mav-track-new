@@ -18,8 +18,8 @@ export const headingIconId = (scheme: IconScheme) =>
 const DARK_SUFFIX = "-dark";
 
 // A jármű körvonala és az irányt mutató háromszög azonos színű.
-// Sötét térképen a sötétkék elveszne, ezért ott világoskék.
-const OUTLINE_COLOR = { light: "#003A7E", dark: "#9EC5FF" };
+// Sötét módban sötétszürke (#373737).
+const OUTLINE_COLOR = { light: "#003A7E", dark: "#373737" };
 
 const DELAY_ICON_COLORS: Record<string, string> = {
   "vehicle-delay-0": "#00FF00",
