@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import SideBar from "./shared/components/SideBar";
 import VehicleMap from "./features/vehicles/components/VehicleMap";
@@ -8,29 +7,15 @@ import { StackProvider } from "./StackContext";
 import TripSearch from "./features/trips/TripSearch";
 import StackPane from "./shared/components/StackPane";
 import { setPanelOpen } from "./store/slices/panelSlice";
+import { useIsMobile } from "./shared/hooks/useIsMobile";
+import type { RootState } from "./store/store";
 
 function App() {
   const dispatch = useDispatch();
-  const [showSideBar, setShowSideBar] = useState(false);
-  const [isMobile, setIsMobile] = useState(
-    window.matchMedia("(max-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 768px)");
-
-    const handleResize = () => {
-      setIsMobile(mediaQuery.matches);
-    };
-
-    mediaQuery.addEventListener("change", handleResize);
-    return () => mediaQuery.removeEventListener("change", handleResize);
-  }, []);
-
-  // Mobilon az alsó lap jelzi a saját állapotát, desktopon az oldalsáv.
-  useEffect(() => {
-    if (!isMobile) dispatch(setPanelOpen(showSideBar));
-  }, [dispatch, isMobile, showSideBar]);
+  const isMobile = useIsMobile();
+  // Desktopon az oldalsáv állapota a store-ban van, hogy a térkép is megnyithassa.
+  const showSideBar = useSelector((state: RootState) => state.panel.open);
+  const setShowSideBar = (open: boolean) => dispatch(setPanelOpen(open));
 
   return (
     <main className="main">

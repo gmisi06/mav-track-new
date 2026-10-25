@@ -35,6 +35,8 @@ import {
 } from "../../trips/store/selectedTripIdSlice";
 import { clearPolyline } from "../../../store/slices/polylineSlice";
 import { useStack } from "../../../StackContext";
+import { useIsMobile } from "../../../shared/hooks/useIsMobile";
+import { setPanelOpen } from "../../../store/slices/panelSlice";
 import { useColorScheme } from "../../../shared/hooks/useColorScheme";
 import type { RootState } from "../../../store/store";
 
@@ -64,6 +66,7 @@ const VehicleMap = () => {
   const isPanelOpen = useSelector((state: RootState) => state.panel.open);
 
   const scheme = useColorScheme();
+  const isMobile = useIsMobile();
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   // A kijelölés forrása a store: a keresésből és a térképről kijelölt járat is ide kerül.
   const popupTripId = useSelector(
@@ -93,7 +96,18 @@ const VehicleMap = () => {
       id: `trip-${vehicle.trip.id}`,
       component: <TripInformation />,
     });
-    e.target.flyTo({ center: [vehicle.lon, vehicle.lat], duration: 500 });
+    // Desktopon a járat panel egyből megnyílik, mobilon az alsó lapot kézzel kell felhúzni.
+    let padding = { top: 0, bottom: 0, left: 0, right: 0 };
+    if (!isMobile) {
+      dispatch(setPanelOpen(true));
+      const sidebar = document.querySelector<HTMLElement>(".sidebar");
+      padding = { ...padding, right: sidebar?.offsetWidth ?? 0 };
+    }
+    e.target.flyTo({
+      center: [vehicle.lon, vehicle.lat],
+      padding,
+      duration: 500,
+    });
   };
 
   const handleClick = (e: MapLayerMouseEvent) => {
@@ -184,8 +198,8 @@ const VehicleMap = () => {
         )}
         <VehicleMarkers isMapLoaded={isMapLoaded} />
 
-        {/* Nyitott panelnél a járat adatai ott látszanak, a buborék csak zárt panelnél kell. */}
-        {popupVehicle && !isPanelOpen && (
+        {/* Csak mobilon: ott a járat adatai az alsó lapon vannak, amit kézzel kell felhúzni. */}
+        {popupVehicle && isMobile && !isPanelOpen && (
           <VehiclePopup vehicle={popupVehicle} onClose={closeVehiclePopup} />
         )}
         {hoveredVehicle && (
