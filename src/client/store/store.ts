@@ -4,6 +4,7 @@ import selectedTripId from "../features/trips/store/selectedTripIdSlice";
 import vehicles from "../features/vehicles/store/vehiclesSlice";
 import myPosition from "../features/vehicles/store/myPositionSlice";
 import polyline from "./slices/polylineSlice";
+import panel from "./slices/panelSlice";
 import { vehiclesApiSlice } from "../features/vehicles/api/vehiclesApiSlice";
 
 export const store = configureStore({
@@ -11,6 +12,7 @@ export const store = configureStore({
     selectedTripId: selectedTripId,
     vehicles: vehicles,
     polyline: polyline,
+    panel: panel,
     myPosition: myPosition,
     [tripsApiSlice.reducerPath]: tripsApiSlice.reducer,
     [vehiclesApiSlice.reducerPath]: vehiclesApiSlice.reducer,

@@ -58,6 +58,8 @@ const VehicleMap = () => {
     (state: RootState) => state.vehicles.vehicles
   );
 
+  const isPanelOpen = useSelector((state: RootState) => state.panel.open);
+
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   // A kijelölés forrása a store: a keresésből és a térképről kijelölt járat is ide kerül.
   const popupTripId = useSelector(
@@ -173,7 +175,8 @@ const VehicleMap = () => {
         )}
         <VehicleMarkers isMapLoaded={isMapLoaded} />
 
-        {popupVehicle && (
+        {/* Nyitott panelnél a járat adatai ott látszanak, a buborék csak zárt panelnél kell. */}
+        {popupVehicle && !isPanelOpen && (
           <VehiclePopup vehicle={popupVehicle} onClose={closeVehiclePopup} />
         )}
         {hoveredVehicle && (

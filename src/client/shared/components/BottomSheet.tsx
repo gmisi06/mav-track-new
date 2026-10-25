@@ -1,6 +1,8 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, useMotionValue, animate } from "framer-motion";
 import { useDrag } from "@use-gesture/react";
+import { useDispatch } from "react-redux";
+import { setPanelOpen } from "../../store/slices/panelSlice";
 
 export default function BottomSheet({
   children,
@@ -11,6 +13,7 @@ export default function BottomSheet({
   const closedY = sheetHeight - 50;
 
   const y = useMotionValue(closedY);
+  const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
   const isDragging = useRef(false);
 
@@ -21,6 +24,7 @@ export default function BottomSheet({
       damping: 30,
     });
     setIsOpen(open);
+    dispatch(setPanelOpen(open));
   };
 
   const bind = useDrag(
@@ -45,6 +49,9 @@ export default function BottomSheet({
       rubberband: true,
     }
   );
+
+  // Az alsó lap eltűnésekor (pl. desktop nézetre váltáskor) ne maradjon "nyitott" állapot.
+  useEffect(() => () => void dispatch(setPanelOpen(false)), [dispatch]);
 
   return (
     <motion.div className="bottom-sheet" style={{ y }}>
