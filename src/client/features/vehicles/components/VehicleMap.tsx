@@ -15,7 +15,6 @@ import TripPolyLine from "../../trips/TripPolyLine";
 import MapFlyToController from "../MapFlyToController";
 import VehicleMarkers from "./VehicleMarkers";
 import ThemeToggle from "./ThemeToggle";
-import VehiclePopup from "./VehiclePopup";
 import TripHeadSign from "../../trips/TripHeadSign";
 import TripInformation from "../../trips/TripInformation";
 import { registerVehicleIcons } from "./vehicleIcons";
@@ -29,11 +28,7 @@ import {
   MAP_STYLE_URL_DARK,
   MIN_ZOOM,
 } from "../mapConfig";
-import {
-  clearSelectedTripId,
-  setSelectedTripId,
-} from "../../trips/store/selectedTripIdSlice";
-import { clearPolyline } from "../../../store/slices/polylineSlice";
+import { setSelectedTripId } from "../../trips/store/selectedTripIdSlice";
 import { useStack } from "../../../StackContext";
 import { useIsMobile } from "../../../shared/hooks/useIsMobile";
 import { setPanelOpen } from "../../../store/slices/panelSlice";
@@ -58,38 +53,27 @@ const INTERACTIVE_LAYER_IDS = [LAYER_IDS.vehicles, LAYER_IDS.stops];
 
 const VehicleMap = () => {
   const dispatch = useDispatch();
-  const { push, pop } = useStack();
+  const { push } = useStack();
   const vehicles: any[] = useSelector(
     (state: RootState) => state.vehicles.vehicles
   );
-
-  const isPanelOpen = useSelector((state: RootState) => state.panel.open);
 
   const scheme = useColorScheme();
   const isMobile = useIsMobile();
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   // A kijelölés forrása a store: a keresésből és a térképről kijelölt járat is ide kerül.
-  const popupTripId = useSelector(
+  const selectedTripId = useSelector(
     (state: RootState) => state.selectedTripId.tripId
   );
   const [hovered, setHovered] = useState<HoveredFeature | null>(null);
 
-  const popupVehicle = vehicles.find(
-    (vehicle) => vehicle.trip.id === popupTripId
-  );
   const hoveredVehicle =
-    hovered?.layer === LAYER_IDS.vehicles && hovered.tripId !== popupTripId
+    hovered?.layer === LAYER_IDS.vehicles && hovered.tripId !== selectedTripId
       ? vehicles.find((vehicle) => vehicle.trip.id === hovered.tripId)
       : undefined;
 
-  const closeVehiclePopup = () => {
-    pop();
-    dispatch(clearSelectedTripId());
-    dispatch(clearPolyline());
-  };
-
-  const openVehiclePopup = (vehicle: any, e: MapLayerMouseEvent) => {
-    if (vehicle.trip.id === popupTripId) return;
+  const selectVehicle = (vehicle: any, e: MapLayerMouseEvent) => {
+    if (vehicle.trip.id === selectedTripId) return;
 
     dispatch(setSelectedTripId(vehicle.trip.id));
     push({
@@ -117,10 +101,10 @@ const VehicleMap = () => {
       const vehicle = vehicles.find(
         (vehicle) => vehicle.trip.id === feature.properties.tripId
       );
-      if (vehicle) openVehiclePopup(vehicle, e);
+      if (vehicle) selectVehicle(vehicle, e);
       return;
     }
-    // A kijelölést csak a felugró ablak X gombja vagy a "Vissza" szünteti meg,
+    // A kijelölést csak a panel "Vissza" gombja szünteti meg,
     // a térkép üres részére kattintás nem.
   };
 
@@ -198,10 +182,6 @@ const VehicleMap = () => {
         )}
         <VehicleMarkers isMapLoaded={isMapLoaded} />
 
-        {/* Csak mobilon: ott a járat adatai az alsó lapon vannak, amit kézzel kell felhúzni. */}
-        {popupVehicle && isMobile && !isPanelOpen && (
-          <VehiclePopup vehicle={popupVehicle} onClose={closeVehiclePopup} />
-        )}
         {hoveredVehicle && (
           <Popup
             longitude={hoveredVehicle.lon}
