@@ -21,6 +21,7 @@ export const STOPS_MIN_ZOOM = 11;
 
 export const LAYER_IDS = {
   tripLine: "trip-line",
+  tripLineCasing: "trip-line-casing",
   stops: "train-stops",
   vehicleHeadings: "vehicle-headings",
   vehicles: "vehicles",

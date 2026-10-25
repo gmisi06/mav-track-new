@@ -14,6 +14,7 @@ import TrainStopMarkers from "./VehicleStopMarkers";
 import TripPolyLine from "../../trips/TripPolyLine";
 import MapFlyToController from "../MapFlyToController";
 import VehicleMarkers from "./VehicleMarkers";
+import ThemeToggle from "./ThemeToggle";
 import VehiclePopup from "./VehiclePopup";
 import TripHeadSign from "../../trips/TripHeadSign";
 import TripInformation from "../../trips/TripInformation";
@@ -172,6 +173,7 @@ const VehicleMap = () => {
           fitBoundsOptions={{ maxZoom: FOCUS_ZOOM, duration: 500 }}
           positionOptions={{ enableHighAccuracy: true }}
         />
+        <ThemeToggle />
         {/* A rétegek egyszerre, a betöltés után jönnek létre, így a sorrendjük
             (alulról felfelé: járatvonal, megállók, járművek) a JSX sorrendje. */}
         {isMapLoaded && (

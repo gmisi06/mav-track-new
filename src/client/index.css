@@ -1,10 +1,12 @@
 /*
- * Színek: a világos téma az alap, a sötét a rendszer beállítását követi.
+ * Színek: a világos téma az alap. A <html data-theme> attribútumot a layout
+ * szkriptje (első festés előtt) és a téma-kapcsoló állítja: "light" vagy "dark",
+ * a "rendszer" választás a böngésző beállítására oldódik fel.
  * Sötét módban minden szöveg/háttér pár legalább 4,5:1, a grafikus elemek
  * (vonal, pöttyök) legalább 3:1 kontrasztarányú a háttérhez képest.
  */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --bg: #ffffff;
   --surface: #f4f2f5;
@@ -26,27 +28,27 @@
   --vehicle-badge: #003a7e;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14181f;
-    --surface: #222a35;
-    --text: #e8ecf1;
-    --text-muted: #9aa7b6;
-    --border: #66727f;
-    --accent: #6ea8ff;
-    --danger: #ff7a74;
-    --success: #4ade80;
-    --overlay: rgba(20, 24, 31, 0.6);
-    --shadow: rgba(0, 0, 0, 0.6);
-    --notice-bg: #4a3a0a;
-    --notice-text: #ffe08a;
+:root[data-theme="dark"] {
+  color-scheme: dark;
 
-    --route-line: #4d94ff;
-    --stop-fill: #14181f;
-    --stop-ring: #9aa4b2;
-    --stop-passed: #9aa4b2;
-    --vehicle-badge: #2f6fd6;
-  }
+  --bg: #14181f;
+  --surface: #222a35;
+  --text: #e8ecf1;
+  --text-muted: #9aa7b6;
+  --border: #66727f;
+  --accent: #6ea8ff;
+  --danger: #ff7a74;
+  --success: #4ade80;
+  --overlay: rgba(20, 24, 31, 0.6);
+  --shadow: rgba(0, 0, 0, 0.6);
+  --notice-bg: #4a3a0a;
+  --notice-text: #ffe08a;
+
+  --route-line: #4d94ff;
+  --stop-fill: #14181f;
+  --stop-ring: #9aa4b2;
+  --stop-passed: #9aa4b2;
+  --vehicle-badge: #2f6fd6;
 }
 
 html {

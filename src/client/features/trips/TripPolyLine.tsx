@@ -1,5 +1,5 @@
 import polyline from "@mapbox/polyline";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Layer, Source, useMap } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, LineString } from "geojson";
 import type { LineLayerSpecification } from "maplibre-gl";
@@ -25,22 +25,30 @@ function fitPadding() {
 
 const EMPTY_LINE: FeatureCollection = { type: "FeatureCollection", features: [] };
 
+const LINE_COLOR = "#274f96";
+// A sötét térképen a sötétkék vonal elveszne, ezért ott világos szegélyt kap.
+const CASING_COLOR = "#ffffff";
+
+const casingPaint: LineLayerSpecification["paint"] = {
+  "line-color": CASING_COLOR,
+  "line-width": 8,
+  "line-opacity": 0.9,
+};
+
 const lineLayout: LineLayerSpecification["layout"] = {
   "line-join": "round",
   "line-cap": "round",
 };
-// A sötét térképen a "blue" elvesz, ott világosabb kék kell.
-const LINE_COLOR = { light: "blue", dark: "#4d94ff" };
 
 // A forrás és a réteg mindig a térképen van (üres adattal, ha nincs járat),
 // így a rétegsorrend nem függ attól, mikor választanak ki egy járatot.
 const TripPolyLine = () => {
   const { current: map } = useMap();
   const scheme = useColorScheme();
-  const linePaint = useMemo<LineLayerSpecification["paint"]>(
-    () => ({ "line-color": LINE_COLOR[scheme], "line-width": 4 }),
-    [scheme]
-  );
+  const linePaint: LineLayerSpecification["paint"] = {
+    "line-color": LINE_COLOR,
+    "line-width": 4,
+  };
   const [delayedLine, setDelayedLine] = useState<LineString | null>(null);
 
   const tripPolyline = useSelector(
@@ -90,6 +98,14 @@ const TripPolyLine = () => {
 
   return (
     <Source id="trip-line" type="geojson" data={delayedLine ?? EMPTY_LINE}>
+      {scheme === "dark" && (
+        <Layer
+          id={LAYER_IDS.tripLineCasing}
+          type="line"
+          layout={lineLayout}
+          paint={casingPaint}
+        />
+      )}
       <Layer
         id={LAYER_IDS.tripLine}
         type="line"

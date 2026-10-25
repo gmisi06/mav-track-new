@@ -99,29 +99,27 @@ body {
   border-left-color: var(--bg);
 }
 
-@media (prefers-color-scheme: dark) {
-  /* A térképvezérlők ikonjai világos hátteret feltételeznek. */
-  .maplibregl-ctrl.maplibregl-ctrl-group {
-    background-color: var(--surface);
-  }
+/* A térképvezérlők ikonjai világos hátteret feltételeznek. */
+:root[data-theme="dark"] .maplibregl-ctrl.maplibregl-ctrl-group {
+  background-color: var(--surface);
+}
 
-  .maplibregl-ctrl-group button + button {
-    border-top-color: var(--border);
-  }
+:root[data-theme="dark"] .maplibregl-ctrl-group button + button {
+  border-top-color: var(--border);
+}
 
-  .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
-    filter: invert(1);
-  }
+:root[data-theme="dark"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+  filter: invert(1);
+}
 
-  .maplibregl-ctrl.maplibregl-ctrl-attrib.maplibregl-compact,
-  .maplibregl-ctrl.maplibregl-ctrl-attrib {
-    background-color: rgba(20, 24, 31, 0.8);
-    color: var(--text);
-  }
+:root[data-theme="dark"] .maplibregl-ctrl.maplibregl-ctrl-attrib.maplibregl-compact,
+:root[data-theme="dark"] .maplibregl-ctrl.maplibregl-ctrl-attrib {
+  background-color: rgba(20, 24, 31, 0.8);
+  color: var(--text);
+}
 
-  .maplibregl-ctrl-attrib a {
-    color: var(--accent);
-  }
+:root[data-theme="dark"] .maplibregl-ctrl-attrib a {
+  color: var(--accent);
 }
 
 .maplibregl-popup.vehicle-popup .maplibregl-popup-content {

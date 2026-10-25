@@ -11,11 +11,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#0057be' },
-    { media: '(prefers-color-scheme: dark)', color: '#14181f' },
-  ],
+  // A sötét témához tartozó színt a kliens állítja át (useColorScheme.ts).
+  themeColor: '#0057be',
 };
+
+// Az első festés előtt beállítja a témát, hogy ne villanjon fel a világos oldal.
+const THEME_SCRIPT = `(function(){try{var p=localStorage.getItem('theme');var d=p==='dark'||(p!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}})()`;
 
 export default function RootLayout({
   children,
@@ -23,7 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="hu">
+    <html lang="hu" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body>
         <div id="root">{children}</div>
       </body>
