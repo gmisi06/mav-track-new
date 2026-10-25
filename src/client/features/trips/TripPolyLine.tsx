@@ -1,11 +1,26 @@
 import polyline from "@mapbox/polyline";
 import { useEffect, useState } from "react";
-import { Layer, Source } from "@vis.gl/react-maplibre";
+import { Layer, Source, useMap } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, LineString } from "geojson";
 import type { LineLayerSpecification } from "maplibre-gl";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../store/store";
-import { LAYER_IDS } from "../vehicles/mapConfig";
+import { FOCUS_ZOOM, LAYER_IDS } from "../vehicles/mapConfig";
+
+/** Az útvonalat úgy illesztjük a látható térképre, hogy a panel ne takarja ki. */
+function fitPadding() {
+  const base = 50;
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    return { top: base, left: base, right: base, bottom: base + 60 };
+  }
+  const sidebar = document.querySelector<HTMLElement>(".sidebar.open");
+  return {
+    top: base,
+    left: base,
+    bottom: base,
+    right: base + (sidebar?.offsetWidth ?? 0),
+  };
+}
 
 const EMPTY_LINE: FeatureCollection = { type: "FeatureCollection", features: [] };
 
@@ -21,6 +36,7 @@ const linePaint: LineLayerSpecification["paint"] = {
 // A forrás és a réteg mindig a térképen van (üres adattal, ha nincs járat),
 // így a rétegsorrend nem függ attól, mikor választanak ki egy járatot.
 const TripPolyLine = () => {
+  const { current: map } = useMap();
   const [delayedLine, setDelayedLine] = useState<LineString | null>(null);
 
   const tripPolyline = useSelector(
@@ -44,6 +60,29 @@ const TripPolyLine = () => {
 
     return () => clearTimeout(timeout);
   }, [tripPolyline]);
+
+  useEffect(() => {
+    const coordinates = delayedLine?.coordinates;
+    if (!map || !coordinates?.length) return;
+
+    const [first, ...rest] = coordinates;
+    const bounds = rest.reduce(
+      (box, [lon, lat]) => ({
+        west: Math.min(box.west, lon),
+        east: Math.max(box.east, lon),
+        south: Math.min(box.south, lat),
+        north: Math.max(box.north, lat),
+      }),
+      { west: first[0], east: first[0], south: first[1], north: first[1] }
+    );
+    map.fitBounds(
+      [
+        [bounds.west, bounds.south],
+        [bounds.east, bounds.north],
+      ],
+      { padding: fitPadding(), duration: 700, maxZoom: FOCUS_ZOOM + 2 }
+    );
+  }, [map, delayedLine]);
 
   return (
     <Source id="trip-line" type="geojson" data={delayedLine ?? EMPTY_LINE}>

@@ -3,7 +3,8 @@ import { Layer, Source } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, Point } from "geojson";
 import type { SymbolLayerSpecification } from "maplibre-gl";
 import { useGetVehiclesQuery } from "../api/vehiclesApiSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import type { RootState } from "../../../store/store";
 import { setVehicles } from "../store/vehiclesSlice";
 import MapOverlay from "./MapOverlay";
 import styles from "./Vehicle.module.css";
@@ -46,9 +47,21 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     }
   }, [vehicles]);
 
+  const selectedTripId = useSelector(
+    (state: RootState) => state.selectedTripId.tripId
+  );
+
+  // Kijelölt járatnál csak az a vonat látszik a térképen.
   const featureCollection = useMemo(
-    () => toFeatureCollection(vehicles ?? []),
-    [vehicles]
+    () =>
+      toFeatureCollection(
+        selectedTripId == null
+          ? vehicles ?? []
+          : (vehicles ?? []).filter(
+              (vehicle: any) => vehicle.trip.id === selectedTripId
+            )
+      ),
+    [vehicles, selectedTripId]
   );
 
   // Hiba csak akkor takarja el a térképet, ha még nincs egyetlen adatunk sem.

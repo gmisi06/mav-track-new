@@ -59,7 +59,10 @@ const VehicleMap = () => {
   );
 
   const [isMapLoaded, setIsMapLoaded] = useState(false);
-  const [popupTripId, setPopupTripId] = useState<string | number | null>(null);
+  // A kijelölés forrása a store: a keresésből és a térképről kijelölt járat is ide kerül.
+  const popupTripId = useSelector(
+    (state: RootState) => state.selectedTripId.tripId
+  );
   const [hovered, setHovered] = useState<HoveredFeature | null>(null);
 
   const popupVehicle = vehicles.find(
@@ -71,7 +74,6 @@ const VehicleMap = () => {
       : undefined;
 
   const closeVehiclePopup = () => {
-    setPopupTripId(null);
     pop();
     dispatch(clearSelectedTripId());
     dispatch(clearPolyline());
@@ -79,9 +81,7 @@ const VehicleMap = () => {
 
   const openVehiclePopup = (vehicle: any, e: MapLayerMouseEvent) => {
     if (vehicle.trip.id === popupTripId) return;
-    if (popupTripId !== null) closeVehiclePopup();
 
-    setPopupTripId(vehicle.trip.id);
     dispatch(setSelectedTripId(vehicle.trip.id));
     push({
       id: `trip-${vehicle.trip.id}`,
@@ -100,15 +100,8 @@ const VehicleMap = () => {
       if (vehicle) openVehiclePopup(vehicle, e);
       return;
     }
-    if (feature?.layer.id === LAYER_IDS.stops) return;
-
-    // üres térképre kattintás
-    if (popupTripId !== null) {
-      closeVehiclePopup();
-    } else {
-      dispatch(clearSelectedTripId());
-      dispatch(clearPolyline());
-    }
+    // A kijelölést csak a felugró ablak X gombja vagy a "Vissza" szünteti meg,
+    // a térkép üres részére kattintás nem.
   };
 
   const handleMouseMove = (e: MapLayerMouseEvent) => {
