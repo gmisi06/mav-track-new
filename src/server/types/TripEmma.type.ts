@@ -24,6 +24,8 @@ export interface TripEmma {
   tripShortName?: string;
   tripHeadsign?: string;
   routeShortName?: string;
+  /** A rövid név ikon-karakter (MNR2007 betűtípussal jelenítendő meg), nem sima szöveg. */
+  routeShortNameIsFont?: boolean;
   directionId?: string;
   blockId?: string;
   shapeId?: string;

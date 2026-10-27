@@ -5,8 +5,10 @@ import { getSecondsSinceMidnight } from '../time';
 export default function decodeRouteShortName(
   encodedRouteShortName: string,
 ): string {
+  if (!encodedRouteShortName) return null;
+  // Lehet HTML-be csomagolt ("<span ...>&#366;</span>") vagy sima szöveg ("1045").
   const match = encodedRouteShortName.match(/>([^<]+)</);
-  return match ? decode(match[1]) : null;
+  return decode((match ? match[1] : encodedRouteShortName).trim());
 }
 
 export function getCurrentTripDelay(stoptimes: Stoptime[]) {
@@ -22,4 +24,9 @@ export function getCurrentTripDelay(stoptimes: Stoptime[]) {
   }
 
   return currentStoptime ? currentStoptime.arrivalDelay : null;
+}
+
+/** A rövid név HTML-be csomagolt (pl. ikon-karakter a MNR2007 betűtípushoz)? */
+export function isRouteShortNameHtml(routeShortName: string | null | undefined) {
+  return !!routeShortName && /<[^>]+>/.test(routeShortName);
 }

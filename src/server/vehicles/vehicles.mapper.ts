@@ -1,5 +1,8 @@
 import { VehiclePositionEmma } from '@/server/types/VehiclePositionEmma.type';
-import decodeRouteShortName, { getCurrentTripDelay } from './vehicles.utils';
+import decodeRouteShortName, {
+  getCurrentTripDelay,
+  isRouteShortNameHtml,
+} from './vehicles.utils';
 
 export function transformEmmaVehiclePositions(
   vehiclesResponse: VehiclePositionEmma[],
@@ -29,6 +32,9 @@ export function transformEmmaVehiclePositions(
         trip: {
           id: vehicleResponse.trip.gtfsId,
           routeShortName: decodeRouteShortName(
+            vehicleResponse.trip.routeShortName,
+          ),
+          routeShortNameIsFont: isRouteShortNameHtml(
             vehicleResponse.trip.routeShortName,
           ),
           tripHeadsign: vehicleResponse.trip.tripHeadsign,

@@ -5,6 +5,7 @@ import type { FeatureCollection, LineString } from "geojson";
 import type { LineLayerSpecification } from "maplibre-gl";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../store/store";
+import { TRIP_LINE_COLOR } from "./tripLineColor";
 import { FOCUS_ZOOM, LAYER_IDS } from "../vehicles/mapConfig";
 
 /** Az útvonalat úgy illesztjük a látható térképre, hogy a panel ne takarja ki. */
@@ -24,8 +25,6 @@ function fitPadding() {
 
 const EMPTY_LINE: FeatureCollection = { type: "FeatureCollection", features: [] };
 
-const LINE_COLOR = "#274f96";
-
 const lineLayout: LineLayerSpecification["layout"] = {
   "line-join": "round",
   "line-cap": "round",
@@ -36,7 +35,7 @@ const lineLayout: LineLayerSpecification["layout"] = {
 const TripPolyLine = () => {
   const { current: map } = useMap();
   const linePaint: LineLayerSpecification["paint"] = {
-    "line-color": LINE_COLOR,
+    "line-color": TRIP_LINE_COLOR,
     "line-width": 4,
   };
   const [delayedLine, setDelayedLine] = useState<LineString | null>(null);

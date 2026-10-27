@@ -1,5 +1,6 @@
 import type { RootState } from "../../store/store";
 import { useDispatch, useSelector } from "react-redux";
+import { TRIP_LINE_COLOR } from "./tripLineColor";
 import RouteLine from "./components/RouteLine";
 import RouteTime from "./components/RouteTime";
 import RouteStop from "./components/RouteStop";
@@ -82,7 +83,15 @@ const TripInformation = () => {
 
   if (selectedTrip) {
     return (
-      <div className={styles.content}>
+      <div
+        className={styles.content}
+        style={
+          {
+            "--route-line": TRIP_LINE_COLOR,
+            "--vehicle-badge": TRIP_LINE_COLOR,
+          } as React.CSSProperties
+        }
+      >
         <TripHeadSign
           trip={selectedTrip}
           className={tripHeadSignStyles.detailed}
@@ -160,7 +169,10 @@ const TripInformation = () => {
                     <td></td>
                     <td className={styles.lineDetails}>
                       {!stoptime.isLast && (
-                        <RouteLine isVehicle={stoptime.isVehicle} />
+                        <RouteLine
+                          isVehicle={stoptime.isVehicle}
+                          isBus={selectedTrip.route?.mode === "COACH"}
+                        />
                       )}
                     </td>
                     <td colSpan={2}>

@@ -1,9 +1,15 @@
+import clsx from "clsx";
 import styles from "./Route.module.css";
 
 const RouteShortName = ({ selectedTrip }: { selectedTrip: any }) => {
   return (
     <div
-      className={"MNR2007 " + styles.routeShortNameContainer}
+      className={clsx(
+        selectedTrip.routeShortNameIsFont
+          ? "MNR2007"
+          : styles.routeShortNameContainerText,
+        styles.routeShortNameContainer
+      )}
       style={{ color: `#${selectedTrip.route.textColor}` }}
     >
       <div className={styles.routeShortNameText}>

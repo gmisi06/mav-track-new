@@ -24,6 +24,7 @@ const toFeatureCollection = (vehicles: any[]): FeatureCollection<Point> => ({
     properties: {
       tripId: vehicle.trip.id,
       delay: vehicle.delay,
+      mode: vehicle.trip.route?.mode,
       heading: vehicle.heading,
     },
   })),

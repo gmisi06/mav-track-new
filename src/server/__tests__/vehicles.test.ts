@@ -7,15 +7,17 @@ import { transformEmmaVehiclePositions } from '../vehicles/vehicles.mapper';
 afterEach(() => vi.useRealTimers());
 
 describe('decodeRouteShortName', () => {
+  it('sima szöveget (pl. 1045) változatlanul visszaad', () => {
+    expect(decodeRouteShortName('1045')).toBe('1045');
+    expect(decodeRouteShortName(undefined as unknown as string)).toBeNull();
+  });
+
   it('kinyeri a HTML-ből a szöveget és dekódolja az entitásokat', () => {
     expect(decodeRouteShortName('<span class="x">&#xE001;</span>')).toBe(
       '',
     );
   });
 
-  it('null-t ad, ha nincs találat', () => {
-    expect(decodeRouteShortName('plain')).toBeNull();
-  });
 });
 
 describe('getCurrentTripDelay', () => {
@@ -64,6 +66,15 @@ describe('transformEmmaVehiclePositions', () => {
       vehicle({ stopRelationship: null }),
     ]);
     expect(result.size).toBe(0);
+  });
+
+  it('jelzi, ha a rövid név HTML-be csomagolt (ikon-betűtípus)', () => {
+    const html = transformEmmaVehiclePositions([vehicle()]).get('1:10');
+    expect(html?.trip.routeShortNameIsFont).toBe(true);
+    const plain = transformEmmaVehiclePositions([
+      vehicle({ trip: { ...vehicle().trip, routeShortName: '1184' } }),
+    ]).get('1:10');
+    expect(plain?.trip.routeShortNameIsFont).toBe(false);
   });
 
   it('járatonként a legfrissebb pozíciót tartja meg', () => {

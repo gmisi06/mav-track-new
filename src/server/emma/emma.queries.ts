@@ -1,3 +1,15 @@
+// Környezeti változókból (vesszővel elválasztva, pl. "COACH,BUS"), GraphQL enum értékek.
+function parseModes(value: string | undefined, fallback: string[]): string {
+  const modes = (value ?? "")
+    .split(",")
+    .map((mode) => mode.trim().toUpperCase())
+    .filter((mode) => /^[A-Z_]+$/.test(mode));
+  return (modes.length ? modes : fallback).join(", ");
+}
+
+const VEHICLE_POSITIONS_MODES = parseModes(process.env.VEHICLE_POSITIONS_MODES, ["COACH"]);
+const GTFS_VEHICLE_POSITIONS_MODES = parseModes(process.env.GTFS_VEHICLE_POSITIONS_MODES, ["BUS"]);
+
 export const VEHICLE_POSITIONS_QUERY = `
     query {
         vehiclePositions (
@@ -5,7 +17,7 @@ export const VEHICLE_POSITIONS_QUERY = `
             swLon: 16.1,
             neLat: 48.7,
             neLon: 22.8,
-            modes: [RAIL, RAIL_REPLACEMENT_BUS]
+            modes: [${VEHICLE_POSITIONS_MODES}]
         )
         {
             vehicleId
@@ -55,7 +67,7 @@ export const GTFS_VEHICLE_POSITIONS_QUERY = `
             swLon: 16.1,
             neLat: 48.7,
             neLon: 22.8,
-            modes: [RAIL, RAIL_REPLACEMENT_BUS]
+            modes: [${GTFS_VEHICLE_POSITIONS_MODES}]
         )
         {
             vehicleId
