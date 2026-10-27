@@ -1,5 +1,6 @@
 import { TripEmma } from '@/server/types/TripEmma.type';
 import { VehiclePositionEmma } from '@/server/types/VehiclePositionEmma.type';
+import { getVehicleType } from '../vehicles/vehicleType';
 
 export function mergeTripWithVehicle(
   trip: TripEmma,
@@ -17,6 +18,7 @@ export function mergeTripWithVehicle(
     alerts: trip.alerts,
     stoptimes: trip.stoptimes,
     polyline: trip.polyline,
+    vehicleType: getVehicleType(vehiclePosition.vehicleId),
     delay: vehiclePosition.delay,
     nextStop: vehiclePosition.stopRelationship.stop,
   };

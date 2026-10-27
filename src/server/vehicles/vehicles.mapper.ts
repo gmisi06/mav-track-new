@@ -19,6 +19,7 @@ export function transformEmmaVehiclePositions(
     .map((vehicleResponse: VehiclePositionEmma) => {
       const vehicle = {
         id,
+        vehicleId: vehicleResponse.vehicleId,
         lat: vehicleResponse.lat,
         lon: vehicleResponse.lon,
         heading: vehicleResponse.heading,

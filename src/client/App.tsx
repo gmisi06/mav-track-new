@@ -5,6 +5,8 @@ import VehicleMap from "./features/vehicles/components/VehicleMap";
 import BottomSheet from "./shared/components/BottomSheet";
 import { StackProvider } from "./StackContext";
 import TripSearch from "./features/trips/TripSearch";
+import TripUrlSync from "./features/trips/TripUrlSync";
+import Toast from "./shared/components/Toast";
 import StackPane from "./shared/components/StackPane";
 import { setPanelOpen } from "./store/slices/panelSlice";
 import { useIsMobile } from "./shared/hooks/useIsMobile";
@@ -20,6 +22,7 @@ function App() {
   return (
     <main className="main">
       <StackProvider initialView={{ id: "search", component: <TripSearch /> }}>
+        <TripUrlSync />
         <VehicleMap />
         {isMobile ? (
           <BottomSheet>
@@ -31,6 +34,7 @@ function App() {
           </SideBar>
         )}
       </StackProvider>
+      <Toast />
     </main>
   );
 }

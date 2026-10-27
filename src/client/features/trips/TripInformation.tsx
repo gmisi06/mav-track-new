@@ -213,6 +213,16 @@ const TripInformation = () => {
             </table>
           </>
         )}
+
+        {selectedTrip.vehicleType && (
+          <>
+            <h2>Információk</h2>
+            <div className={styles.services}>
+              <b>Jármű típusa: </b>
+              {selectedTrip.vehicleType}
+            </div>
+          </>
+        )}
       </div>
     );
   }

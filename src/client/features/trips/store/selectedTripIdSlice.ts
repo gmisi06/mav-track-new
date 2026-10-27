@@ -1,7 +1,7 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit/react";
 
 interface SelectedTripIdState {
-  tripId: number | null;
+  tripId: string | number | null;
 }
 
 const initialState: SelectedTripIdState = {

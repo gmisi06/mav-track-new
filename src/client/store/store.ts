@@ -5,6 +5,7 @@ import vehicles from "../features/vehicles/store/vehiclesSlice";
 import myPosition from "../features/vehicles/store/myPositionSlice";
 import polyline from "./slices/polylineSlice";
 import panel from "./slices/panelSlice";
+import toast from "./slices/toastSlice";
 import { vehiclesApiSlice } from "../features/vehicles/api/vehiclesApiSlice";
 
 export const store = configureStore({
@@ -13,6 +14,7 @@ export const store = configureStore({
     vehicles: vehicles,
     polyline: polyline,
     panel: panel,
+    toast: toast,
     myPosition: myPosition,
     [tripsApiSlice.reducerPath]: tripsApiSlice.reducer,
     [vehiclesApiSlice.reducerPath]: vehiclesApiSlice.reducer,

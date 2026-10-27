@@ -71,6 +71,7 @@ export interface TripEmma {
 
   // Saját adattag
   polyline?: string;
+  vehicleType?: string;
   delay?: number;
   nextStop?: Stop;
 }
