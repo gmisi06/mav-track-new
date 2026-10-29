@@ -38,6 +38,17 @@ async function sendQuery<T>(query: string, schema: ZodType<T>): Promise<T> {
   });
 
   if (!response.ok) {
+    // A tiltó (WAF/CDN) azonosításához: a válasz fejlécei és a body eleje.
+    const body = await response.text().catch(() => '');
+    console.warn(
+      `EMMA HTTP ${response.status}`,
+      JSON.stringify({
+        server: response.headers.get('server'),
+        cfRay: response.headers.get('cf-ray'),
+        retryAfter: response.headers.get('retry-after'),
+        body: body.slice(0, 300),
+      }),
+    );
     throw new Error(`EMMA HTTP ${response.status}`);
   }
 
