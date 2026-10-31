@@ -21,6 +21,16 @@ const REQUEST_TIMEOUT_MS = 10_000;
 const URL =
   'https://mavplusz.hu/otp2-backend/otp/routers/default/index/graphql';
 
+export class EmmaHttpError extends Error {
+  constructor(
+    readonly status: number,
+    readonly body: string,
+  ) {
+    super(`EMMA HTTP ${status}: ${body || '(üres válasz)'}`);
+    this.name = 'EmmaHttpError';
+  }
+}
+
 async function sendQuery<T>(query: string, schema: ZodType<T>): Promise<T> {
   const response = await fetch(URL, {
     method: 'POST',
@@ -49,7 +59,7 @@ async function sendQuery<T>(query: string, schema: ZodType<T>): Promise<T> {
         body: body.slice(0, 300),
       }),
     );
-    throw new Error(`EMMA HTTP ${response.status}`);
+    throw new EmmaHttpError(response.status, body.slice(0, 300));
   }
 
   const json = await response.json();

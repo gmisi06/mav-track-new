@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Layer, Source } from "@vis.gl/react-maplibre";
 import type { FeatureCollection, Point } from "geojson";
 import type { SymbolLayerSpecification } from "maplibre-gl";
@@ -42,15 +42,30 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     [scheme]
   );
 
+  const [isRateLimited, setIsRateLimited] = useState(false);
+
   const {
     data: vehicles,
     isLoading,
     isError,
+    error,
+    isFetching,
   } = useGetVehiclesQuery(null, {
     // A szerver 30 mp-ig cache-el, ennél gyakrabban felesleges kérdezni.
-    pollingInterval: 30_000,
+    // Rate limit esetén ritkábban kérdezünk, hogy tehermentesítsük a MÁV szerverét.
+    pollingInterval: isRateLimited ? 60_000 : 30_000,
     skipPollingIfUnfocused: true,
   });
+
+  // Csak a lezárult kérés eredménye számít, a folyamatban lévő nem billentheti át az állapotot.
+  useEffect(() => {
+    if (isFetching) return;
+    const upstreamStatus = (error as { data?: { upstreamStatus?: number } })
+      ?.data?.upstreamStatus;
+    setIsRateLimited(
+      isError && (upstreamStatus === 403 || upstreamStatus === 429)
+    );
+  }, [isFetching, isError, error]);
 
   useEffect(() => {
     if (vehicles) {
@@ -79,7 +94,9 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
   if (!isMapLoaded || isLoading || (isError && !vehicles))
     return (
       <MapOverlay>
-        {isError
+        {isRateLimited
+          ? "Türelmet kérünk, a MÁV szervere jelenleg korlátozza a lekérdezéseket. Percenként újrapróbáljuk..."
+          : isError
           ? "Hiba történt a járművek lekérése közben..."
           : "Térkép betöltése..."}
       </MapOverlay>
@@ -89,7 +106,9 @@ const VehicleMarkers = ({ isMapLoaded }: VehicleMarkersParams) => {
     <>
       {isError && (
         <div className={styles.mapNotice} role="status">
-          Az adatok frissítése nem sikerült, a korábbi állapotot látja.
+          {isRateLimited
+            ? "Türelmet kérünk, a MÁV szervere korlátozza a lekérdezéseket. Percenként újrapróbáljuk, addig a korábbi állapotot látja."
+            : "Az adatok frissítése nem sikerült, a korábbi állapotot látja."}
         </div>
       )}
       <Source id="vehicles" type="geojson" data={featureCollection}>

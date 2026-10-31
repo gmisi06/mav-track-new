@@ -1,3 +1,4 @@
+import { EmmaHttpError } from '@/server/emma/emma.service';
 import {
   getVehicleDataAgeSeconds,
   getVehiclePositions,
@@ -21,6 +22,19 @@ export async function GET() {
     });
   } catch (error) {
     console.error(error);
+    if (error instanceof EmmaHttpError) {
+      const blocked = error.status === 403 || error.status === 429;
+      return Response.json(
+        {
+          statusCode: 502,
+          message: blocked
+            ? 'A MÁV szervere letiltotta/korlátozta a kérést (túl sok kérés vagy tiltott IP).'
+            : `A MÁV szervere hibát adott (HTTP ${error.status}).`,
+          upstreamStatus: error.status,
+        },
+        { status: 502 },
+      );
+    }
     return Response.json(
       { statusCode: 500, message: 'Internal server error' },
       { status: 500 },
